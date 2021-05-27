@@ -276,4 +276,1145 @@
 [0;39m[33m19:42:14.098[0;39m [http-nio-5002-exec-2] [34mINFO [0;39m [36mo.a.c.c.C.[Tomcat].[localhost].[/][0;39m - [32mInitializing Spring DispatcherServlet 'dispatcherServlet'
 [0;39m[33m19:42:14.098[0;39m [http-nio-5002-exec-2] [34mINFO [0;39m [36mo.s.web.servlet.DispatcherServlet[0;39m - [32mInitializing Servlet 'dispatcherServlet'
 [0;39m[33m19:42:14.098[0;39m [http-nio-5002-exec-2] [34mINFO [0;39m [36mo.s.web.servlet.DispatcherServlet[0;39m - [32mCompleted initialization in 0 ms
+[0;39m[33m19:52:19.521[0;39m [main] [34mINFO [0;39m [36mr.RatingServiceApplication[0;39m - [32mStarting RatingServiceApplication using Java 1.8.0_291 on LAPTOP-F31M9K39 with PID 16408 (D:\Java Projects\movie-microservices\rating-service\target\classes started by lenono in D:\Java Projects\movie-microservices\rating-service)
+[0;39m[33m19:52:19.545[0;39m [main] [34mINFO [0;39m [36mr.RatingServiceApplication[0;39m - [32mNo active profile set, falling back to default profiles: default
+[0;39m[33m19:52:20.815[0;39m [main] [34mINFO [0;39m [36mo.s.d.r.c.RepositoryConfigurationDelegate[0;39m - [32mMultiple Spring Data modules found, entering strict repository configuration mode!
+[0;39m[33m19:52:20.818[0;39m [main] [34mINFO [0;39m [36mo.s.d.r.c.RepositoryConfigurationDelegate[0;39m - [32mBootstrapping Spring Data JDBC repositories in DEFAULT mode.
+[0;39m[33m19:52:20.952[0;39m [main] [34mINFO [0;39m [36mo.s.d.r.c.RepositoryConfigurationExtensionSupport[0;39m - [32mSpring Data JDBC - Could not safely identify store assignment for repository candidate interface ratingService.repositories.RatingRepository. If you want this repository to be a JDBC repository, consider annotating your entities with one of these annotations: org.springframework.data.relational.core.mapping.Table.
+[0;39m[33m19:52:20.954[0;39m [main] [34mINFO [0;39m [36mo.s.d.r.c.RepositoryConfigurationDelegate[0;39m - [32mFinished Spring Data repository scanning in 111 ms. Found 0 JDBC repository interfaces.
+[0;39m[33m19:52:20.964[0;39m [main] [34mINFO [0;39m [36mo.s.d.r.c.RepositoryConfigurationDelegate[0;39m - [32mMultiple Spring Data modules found, entering strict repository configuration mode!
+[0;39m[33m19:52:20.965[0;39m [main] [34mINFO [0;39m [36mo.s.d.r.c.RepositoryConfigurationDelegate[0;39m - [32mBootstrapping Spring Data JPA repositories in DEFAULT mode.
+[0;39m[33m19:52:21.046[0;39m [main] [34mINFO [0;39m [36mo.s.d.r.c.RepositoryConfigurationDelegate[0;39m - [32mFinished Spring Data repository scanning in 74 ms. Found 1 JPA repository interfaces.
+[0;39m[33m19:52:21.465[0;39m [main] [34mINFO [0;39m [36mo.s.cloud.context.scope.GenericScope[0;39m - [32mBeanFactory id=fd63b7b5-b92b-315c-a725-6e14b42855ab
+[0;39m[33m19:52:23.057[0;39m [main] [34mINFO [0;39m [36mo.s.b.w.e.tomcat.TomcatWebServer[0;39m - [32mTomcat initialized with port(s): 5002 (http)
+[0;39m[33m19:52:23.160[0;39m [main] [34mINFO [0;39m [36mo.a.catalina.core.StandardService[0;39m - [32mStarting service [Tomcat]
+[0;39m[33m19:52:23.166[0;39m [main] [34mINFO [0;39m [36mo.a.catalina.core.StandardEngine[0;39m - [32mStarting Servlet engine: [Apache Tomcat/9.0.45]
+[0;39m[33m19:52:23.468[0;39m [main] [34mINFO [0;39m [36mo.a.c.c.C.[Tomcat].[localhost].[/][0;39m - [32mInitializing Spring embedded WebApplicationContext
+[0;39m[33m19:52:23.472[0;39m [main] [34mINFO [0;39m [36mo.s.b.w.s.c.ServletWebServerApplicationContext[0;39m - [32mRoot WebApplicationContext: initialization completed in 3859 ms
+[0;39m[33m19:52:23.929[0;39m [main] [34mINFO [0;39m [36mo.h.jpa.internal.util.LogHelper[0;39m - [32mHHH000204: Processing PersistenceUnitInfo [name: default]
+[0;39m[33m19:52:24.106[0;39m [main] [34mINFO [0;39m [36morg.hibernate.Version[0;39m - [32mHHH000412: Hibernate ORM core version 5.4.30.Final
+[0;39m[33m19:52:24.372[0;39m [main] [34mINFO [0;39m [36mo.h.annotations.common.Version[0;39m - [32mHCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+[0;39m[33m19:52:24.548[0;39m [main] [34mINFO [0;39m [36mcom.zaxxer.hikari.HikariDataSource[0;39m - [32mHikariPool-1 - Starting...
+[0;39m[33m19:52:26.181[0;39m [main] [34mINFO [0;39m [36mcom.zaxxer.hikari.HikariDataSource[0;39m - [32mHikariPool-1 - Start completed.
+[0;39m[33m19:52:26.203[0;39m [main] [34mINFO [0;39m [36morg.hibernate.dialect.Dialect[0;39m - [32mHHH000400: Using dialect: org.hibernate.dialect.Oracle10gDialect
+[0;39m[33m19:52:27.868[0;39m [main] [34mINFO [0;39m [36mo.h.e.t.j.p.i.JtaPlatformInitiator[0;39m - [32mHHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+[0;39m[33m19:52:27.885[0;39m [main] [34mINFO [0;39m [36mo.s.o.j.LocalContainerEntityManagerFactoryBean[0;39m - [32mInitialized JPA EntityManagerFactory for persistence unit 'default'
+[0;39m[33m19:52:28.726[0;39m [main] [31mWARN [0;39m [36mo.s.b.a.o.j.JpaBaseConfiguration$JpaWebConfiguration[0;39m - [32mspring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+[0;39m[33m19:52:28.871[0;39m [main] [34mINFO [0;39m [36mo.s.s.c.ThreadPoolTaskExecutor[0;39m - [32mInitializing ExecutorService 'applicationTaskExecutor'
+[0;39m[33m19:52:30.366[0;39m [main] [34mINFO [0;39m [36mo.s.c.n.e.c.DiscoveryClientOptionalArgsConfiguration[0;39m - [32mEureka HTTP Client uses RestTemplate.
+[0;39m[33m19:52:31.177[0;39m [main] [31mWARN [0;39m [36mo.s.c.l.c.LoadBalancerCacheAutoConfiguration$LoadBalancerCaffeineWarnLogger[0;39m - [32mSpring Cloud LoadBalancer is currently working with the default cache. You can switch to using Caffeine cache, by adding it to the classpath.
+[0;39m[33m19:52:31.219[0;39m [main] [34mINFO [0;39m [36mo.s.c.n.eureka.InstanceInfoFactory[0;39m - [32mSetting initial instance status as: STARTING
+[0;39m[33m19:52:31.629[0;39m [main] [34mINFO [0;39m [36mc.netflix.discovery.DiscoveryClient[0;39m - [32mInitializing Eureka in region us-east-1
+[0;39m[33m19:52:31.641[0;39m [main] [34mINFO [0;39m [36mc.n.d.s.r.aws.ConfigClusterResolver[0;39m - [32mResolving eureka endpoints via configuration
+[0;39m[33m19:52:32.138[0;39m [main] [34mINFO [0;39m [36mc.netflix.discovery.DiscoveryClient[0;39m - [32mDisable delta property : false
+[0;39m[33m19:52:32.139[0;39m [main] [34mINFO [0;39m [36mc.netflix.discovery.DiscoveryClient[0;39m - [32mSingle vip registry refresh property : null
+[0;39m[33m19:52:32.141[0;39m [main] [34mINFO [0;39m [36mc.netflix.discovery.DiscoveryClient[0;39m - [32mForce full registry fetch : false
+[0;39m[33m19:52:32.141[0;39m [main] [34mINFO [0;39m [36mc.netflix.discovery.DiscoveryClient[0;39m - [32mApplication is null : false
+[0;39m[33m19:52:32.142[0;39m [main] [34mINFO [0;39m [36mc.netflix.discovery.DiscoveryClient[0;39m - [32mRegistered Applications size is zero : true
+[0;39m[33m19:52:32.143[0;39m [main] [34mINFO [0;39m [36mc.netflix.discovery.DiscoveryClient[0;39m - [32mApplication version is -1: true
+[0;39m[33m19:52:32.144[0;39m [main] [34mINFO [0;39m [36mc.netflix.discovery.DiscoveryClient[0;39m - [32mGetting all instance registry info from the eureka server
+[0;39m[33m19:52:34.648[0;39m [main] [34mINFO [0;39m [36mc.n.d.s.t.d.RedirectingEurekaHttpClient[0;39m - [32mRequest execution error. endpoint=DefaultEndpoint{ serviceUrl='http://localhost:8761/eureka/}, exception=I/O error on GET request for "http://localhost:8761/eureka/apps/": Connection refused: connect; nested exception is java.net.ConnectException: Connection refused: connect stacktrace=org.springframework.web.client.ResourceAccessException: I/O error on GET request for "http://localhost:8761/eureka/apps/": Connection refused: connect; nested exception is java.net.ConnectException: Connection refused: connect
+	at org.springframework.web.client.RestTemplate.doExecute(RestTemplate.java:785)
+	at org.springframework.web.client.RestTemplate.execute(RestTemplate.java:711)
+	at org.springframework.web.client.RestTemplate.exchange(RestTemplate.java:602)
+	at org.springframework.cloud.netflix.eureka.http.RestTemplateEurekaHttpClient.getApplicationsInternal(RestTemplateEurekaHttpClient.java:145)
+	at org.springframework.cloud.netflix.eureka.http.RestTemplateEurekaHttpClient.getApplications(RestTemplateEurekaHttpClient.java:135)
+	at com.netflix.discovery.shared.transport.decorator.EurekaHttpClientDecorator$6.execute(EurekaHttpClientDecorator.java:137)
+	at com.netflix.discovery.shared.transport.decorator.RedirectingEurekaHttpClient.executeOnNewServer(RedirectingEurekaHttpClient.java:121)
+	at com.netflix.discovery.shared.transport.decorator.RedirectingEurekaHttpClient.execute(RedirectingEurekaHttpClient.java:80)
+	at com.netflix.discovery.shared.transport.decorator.EurekaHttpClientDecorator.getApplications(EurekaHttpClientDecorator.java:134)
+	at com.netflix.discovery.shared.transport.decorator.EurekaHttpClientDecorator$6.execute(EurekaHttpClientDecorator.java:137)
+	at com.netflix.discovery.shared.transport.decorator.RetryableEurekaHttpClient.execute(RetryableEurekaHttpClient.java:120)
+	at com.netflix.discovery.shared.transport.decorator.EurekaHttpClientDecorator.getApplications(EurekaHttpClientDecorator.java:134)
+	at com.netflix.discovery.shared.transport.decorator.EurekaHttpClientDecorator$6.execute(EurekaHttpClientDecorator.java:137)
+	at com.netflix.discovery.shared.transport.decorator.SessionedEurekaHttpClient.execute(SessionedEurekaHttpClient.java:77)
+	at com.netflix.discovery.shared.transport.decorator.EurekaHttpClientDecorator.getApplications(EurekaHttpClientDecorator.java:134)
+	at com.netflix.discovery.DiscoveryClient.getAndStoreFullRegistry(DiscoveryClient.java:1101)
+	at com.netflix.discovery.DiscoveryClient.fetchRegistry(DiscoveryClient.java:1014)
+	at com.netflix.discovery.DiscoveryClient.<init>(DiscoveryClient.java:441)
+	at com.netflix.discovery.DiscoveryClient.<init>(DiscoveryClient.java:283)
+	at com.netflix.discovery.DiscoveryClient.<init>(DiscoveryClient.java:279)
+	at org.springframework.cloud.netflix.eureka.CloudEurekaClient.<init>(CloudEurekaClient.java:66)
+	at org.springframework.cloud.netflix.eureka.EurekaClientAutoConfiguration$RefreshableEurekaClientConfiguration.eurekaClient(EurekaClientAutoConfiguration.java:292)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.springframework.beans.factory.support.SimpleInstantiationStrategy.instantiate(SimpleInstantiationStrategy.java:154)
+	at org.springframework.beans.factory.support.ConstructorResolver.instantiate(ConstructorResolver.java:653)
+	at org.springframework.beans.factory.support.ConstructorResolver.instantiateUsingFactoryMethod(ConstructorResolver.java:638)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.instantiateUsingFactoryMethod(AbstractAutowireCapableBeanFactory.java:1334)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBeanInstance(AbstractAutowireCapableBeanFactory.java:1177)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:564)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:524)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.lambda$doGetBean$1(AbstractBeanFactory.java:374)
+	at org.springframework.cloud.context.scope.GenericScope$BeanLifecycleWrapper.getBean(GenericScope.java:381)
+	at org.springframework.cloud.context.scope.GenericScope.get(GenericScope.java:184)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:371)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:208)
+	at org.springframework.aop.target.SimpleBeanTargetSource.getTarget(SimpleBeanTargetSource.java:35)
+	at org.springframework.cloud.netflix.eureka.serviceregistry.EurekaRegistration.getTargetObject(EurekaRegistration.java:127)
+	at org.springframework.cloud.netflix.eureka.serviceregistry.EurekaRegistration.getEurekaClient(EurekaRegistration.java:115)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.springframework.util.ReflectionUtils.invokeMethod(ReflectionUtils.java:282)
+	at org.springframework.cloud.context.scope.GenericScope$LockedScopedProxyFactoryBean.invoke(GenericScope.java:490)
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:186)
+	at org.springframework.aop.framework.CglibAopProxy$CglibMethodInvocation.proceed(CglibAopProxy.java:750)
+	at org.springframework.aop.framework.CglibAopProxy$DynamicAdvisedInterceptor.intercept(CglibAopProxy.java:692)
+	at org.springframework.cloud.netflix.eureka.serviceregistry.EurekaRegistration$$EnhancerBySpringCGLIB$$3a60a948.getEurekaClient(<generated>)
+	at org.springframework.cloud.netflix.eureka.serviceregistry.EurekaServiceRegistry.maybeInitializeClient(EurekaServiceRegistry.java:54)
+	at org.springframework.cloud.netflix.eureka.serviceregistry.EurekaServiceRegistry.register(EurekaServiceRegistry.java:38)
+	at org.springframework.cloud.netflix.eureka.serviceregistry.EurekaAutoServiceRegistration.start(EurekaAutoServiceRegistration.java:83)
+	at org.springframework.context.support.DefaultLifecycleProcessor.doStart(DefaultLifecycleProcessor.java:178)
+	at org.springframework.context.support.DefaultLifecycleProcessor.access$200(DefaultLifecycleProcessor.java:54)
+	at org.springframework.context.support.DefaultLifecycleProcessor$LifecycleGroup.start(DefaultLifecycleProcessor.java:356)
+	at java.lang.Iterable.forEach(Iterable.java:75)
+	at org.springframework.context.support.DefaultLifecycleProcessor.startBeans(DefaultLifecycleProcessor.java:155)
+	at org.springframework.context.support.DefaultLifecycleProcessor.onRefresh(DefaultLifecycleProcessor.java:123)
+	at org.springframework.context.support.AbstractApplicationContext.finishRefresh(AbstractApplicationContext.java:935)
+	at org.springframework.context.support.AbstractApplicationContext.refresh(AbstractApplicationContext.java:586)
+	at org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext.refresh(ServletWebServerApplicationContext.java:144)
+	at org.springframework.boot.SpringApplication.refresh(SpringApplication.java:782)
+	at org.springframework.boot.SpringApplication.refresh(SpringApplication.java:774)
+	at org.springframework.boot.SpringApplication.refreshContext(SpringApplication.java:439)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:339)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1340)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1329)
+	at ratingService.RatingServiceApplication.main(RatingServiceApplication.java:12)
+Caused by: java.net.ConnectException: Connection refused: connect
+	at java.net.DualStackPlainSocketImpl.connect0(Native Method)
+	at java.net.DualStackPlainSocketImpl.socketConnect(DualStackPlainSocketImpl.java:75)
+	at java.net.AbstractPlainSocketImpl.doConnect(AbstractPlainSocketImpl.java:476)
+	at java.net.AbstractPlainSocketImpl.connectToAddress(AbstractPlainSocketImpl.java:218)
+	at java.net.AbstractPlainSocketImpl.connect(AbstractPlainSocketImpl.java:200)
+	at java.net.PlainSocketImpl.connect(PlainSocketImpl.java:162)
+	at java.net.SocksSocketImpl.connect(SocksSocketImpl.java:394)
+	at java.net.Socket.connect(Socket.java:606)
+	at java.net.Socket.connect(Socket.java:555)
+	at sun.net.NetworkClient.doConnect(NetworkClient.java:180)
+	at sun.net.www.http.HttpClient.openServer(HttpClient.java:463)
+	at sun.net.www.http.HttpClient.openServer(HttpClient.java:558)
+	at sun.net.www.http.HttpClient.<init>(HttpClient.java:242)
+	at sun.net.www.http.HttpClient.New(HttpClient.java:339)
+	at sun.net.www.http.HttpClient.New(HttpClient.java:357)
+	at sun.net.www.protocol.http.HttpURLConnection.getNewHttpClient(HttpURLConnection.java:1226)
+	at sun.net.www.protocol.http.HttpURLConnection.plainConnect0(HttpURLConnection.java:1162)
+	at sun.net.www.protocol.http.HttpURLConnection.plainConnect(HttpURLConnection.java:1056)
+	at sun.net.www.protocol.http.HttpURLConnection.connect(HttpURLConnection.java:990)
+	at org.springframework.http.client.SimpleBufferingClientHttpRequest.executeInternal(SimpleBufferingClientHttpRequest.java:76)
+	at org.springframework.http.client.AbstractBufferingClientHttpRequest.executeInternal(AbstractBufferingClientHttpRequest.java:48)
+	at org.springframework.http.client.AbstractClientHttpRequest.execute(AbstractClientHttpRequest.java:66)
+	at org.springframework.web.client.RestTemplate.doExecute(RestTemplate.java:776)
+	... 69 more
+
+[0;39m[33m19:52:34.731[0;39m [main] [31mWARN [0;39m [36mc.n.d.s.t.d.RetryableEurekaHttpClient[0;39m - [32mRequest execution failed with message: I/O error on GET request for "http://localhost:8761/eureka/apps/": Connection refused: connect; nested exception is java.net.ConnectException: Connection refused: connect
+[0;39m[33m19:52:34.732[0;39m [main] [34mINFO [0;39m [36mc.netflix.discovery.DiscoveryClient[0;39m - [32mDiscoveryClient_RATING-SERVICE/LAPTOP-F31M9K39:rating-service:5002 - was unable to refresh its cache! This periodic background refresh will be retried in 30 seconds. status = Cannot execute request on any known server stacktrace = com.netflix.discovery.shared.transport.TransportException: Cannot execute request on any known server
+	at com.netflix.discovery.shared.transport.decorator.RetryableEurekaHttpClient.execute(RetryableEurekaHttpClient.java:112)
+	at com.netflix.discovery.shared.transport.decorator.EurekaHttpClientDecorator.getApplications(EurekaHttpClientDecorator.java:134)
+	at com.netflix.discovery.shared.transport.decorator.EurekaHttpClientDecorator$6.execute(EurekaHttpClientDecorator.java:137)
+	at com.netflix.discovery.shared.transport.decorator.SessionedEurekaHttpClient.execute(SessionedEurekaHttpClient.java:77)
+	at com.netflix.discovery.shared.transport.decorator.EurekaHttpClientDecorator.getApplications(EurekaHttpClientDecorator.java:134)
+	at com.netflix.discovery.DiscoveryClient.getAndStoreFullRegistry(DiscoveryClient.java:1101)
+	at com.netflix.discovery.DiscoveryClient.fetchRegistry(DiscoveryClient.java:1014)
+	at com.netflix.discovery.DiscoveryClient.<init>(DiscoveryClient.java:441)
+	at com.netflix.discovery.DiscoveryClient.<init>(DiscoveryClient.java:283)
+	at com.netflix.discovery.DiscoveryClient.<init>(DiscoveryClient.java:279)
+	at org.springframework.cloud.netflix.eureka.CloudEurekaClient.<init>(CloudEurekaClient.java:66)
+	at org.springframework.cloud.netflix.eureka.EurekaClientAutoConfiguration$RefreshableEurekaClientConfiguration.eurekaClient(EurekaClientAutoConfiguration.java:292)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.springframework.beans.factory.support.SimpleInstantiationStrategy.instantiate(SimpleInstantiationStrategy.java:154)
+	at org.springframework.beans.factory.support.ConstructorResolver.instantiate(ConstructorResolver.java:653)
+	at org.springframework.beans.factory.support.ConstructorResolver.instantiateUsingFactoryMethod(ConstructorResolver.java:638)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.instantiateUsingFactoryMethod(AbstractAutowireCapableBeanFactory.java:1334)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBeanInstance(AbstractAutowireCapableBeanFactory.java:1177)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:564)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:524)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.lambda$doGetBean$1(AbstractBeanFactory.java:374)
+	at org.springframework.cloud.context.scope.GenericScope$BeanLifecycleWrapper.getBean(GenericScope.java:381)
+	at org.springframework.cloud.context.scope.GenericScope.get(GenericScope.java:184)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:371)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:208)
+	at org.springframework.aop.target.SimpleBeanTargetSource.getTarget(SimpleBeanTargetSource.java:35)
+	at org.springframework.cloud.netflix.eureka.serviceregistry.EurekaRegistration.getTargetObject(EurekaRegistration.java:127)
+	at org.springframework.cloud.netflix.eureka.serviceregistry.EurekaRegistration.getEurekaClient(EurekaRegistration.java:115)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.springframework.util.ReflectionUtils.invokeMethod(ReflectionUtils.java:282)
+	at org.springframework.cloud.context.scope.GenericScope$LockedScopedProxyFactoryBean.invoke(GenericScope.java:490)
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:186)
+	at org.springframework.aop.framework.CglibAopProxy$CglibMethodInvocation.proceed(CglibAopProxy.java:750)
+	at org.springframework.aop.framework.CglibAopProxy$DynamicAdvisedInterceptor.intercept(CglibAopProxy.java:692)
+	at org.springframework.cloud.netflix.eureka.serviceregistry.EurekaRegistration$$EnhancerBySpringCGLIB$$3a60a948.getEurekaClient(<generated>)
+	at org.springframework.cloud.netflix.eureka.serviceregistry.EurekaServiceRegistry.maybeInitializeClient(EurekaServiceRegistry.java:54)
+	at org.springframework.cloud.netflix.eureka.serviceregistry.EurekaServiceRegistry.register(EurekaServiceRegistry.java:38)
+	at org.springframework.cloud.netflix.eureka.serviceregistry.EurekaAutoServiceRegistration.start(EurekaAutoServiceRegistration.java:83)
+	at org.springframework.context.support.DefaultLifecycleProcessor.doStart(DefaultLifecycleProcessor.java:178)
+	at org.springframework.context.support.DefaultLifecycleProcessor.access$200(DefaultLifecycleProcessor.java:54)
+	at org.springframework.context.support.DefaultLifecycleProcessor$LifecycleGroup.start(DefaultLifecycleProcessor.java:356)
+	at java.lang.Iterable.forEach(Iterable.java:75)
+	at org.springframework.context.support.DefaultLifecycleProcessor.startBeans(DefaultLifecycleProcessor.java:155)
+	at org.springframework.context.support.DefaultLifecycleProcessor.onRefresh(DefaultLifecycleProcessor.java:123)
+	at org.springframework.context.support.AbstractApplicationContext.finishRefresh(AbstractApplicationContext.java:935)
+	at org.springframework.context.support.AbstractApplicationContext.refresh(AbstractApplicationContext.java:586)
+	at org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext.refresh(ServletWebServerApplicationContext.java:144)
+	at org.springframework.boot.SpringApplication.refresh(SpringApplication.java:782)
+	at org.springframework.boot.SpringApplication.refresh(SpringApplication.java:774)
+	at org.springframework.boot.SpringApplication.refreshContext(SpringApplication.java:439)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:339)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1340)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1329)
+	at ratingService.RatingServiceApplication.main(RatingServiceApplication.java:12)
+
+[0;39m[33m19:52:34.785[0;39m [main] [34mINFO [0;39m [36mc.netflix.discovery.DiscoveryClient[0;39m - [32mInitial registry fetch from primary servers failed
+[0;39m[33m19:52:34.786[0;39m [main] [31mWARN [0;39m [36mc.netflix.discovery.DiscoveryClient[0;39m - [32mUsing default backup registry implementation which does not do anything.
+[0;39m[33m19:52:34.789[0;39m [main] [34mINFO [0;39m [36mc.netflix.discovery.DiscoveryClient[0;39m - [32mInitial registry fetch from backup servers failed
+[0;39m[33m19:52:34.793[0;39m [main] [34mINFO [0;39m [36mc.netflix.discovery.DiscoveryClient[0;39m - [32mStarting heartbeat executor: renew interval is: 30
+[0;39m[33m19:52:34.802[0;39m [main] [34mINFO [0;39m [36mc.n.discovery.InstanceInfoReplicator[0;39m - [32mInstanceInfoReplicator onDemand update allowed rate per min is 4
+[0;39m[33m19:52:34.926[0;39m [main] [34mINFO [0;39m [36mc.netflix.discovery.DiscoveryClient[0;39m - [32mDiscovery Client initialized at timestamp 1622125354817 with initial instances count: 0
+[0;39m[33m19:52:34.935[0;39m [main] [34mINFO [0;39m [36mo.s.c.n.e.s.EurekaServiceRegistry[0;39m - [32mRegistering application RATING-SERVICE with eureka with status UP
+[0;39m[33m19:52:34.936[0;39m [main] [34mINFO [0;39m [36mc.netflix.discovery.DiscoveryClient[0;39m - [32mSaw local status change event StatusChangeEvent [timestamp=1622125354936, current=UP, previous=STARTING]
+[0;39m[33m19:52:34.943[0;39m [DiscoveryClient-InstanceInfoReplicator-0] [34mINFO [0;39m [36mc.netflix.discovery.DiscoveryClient[0;39m - [32mDiscoveryClient_RATING-SERVICE/LAPTOP-F31M9K39:rating-service:5002: registering service...
+[0;39m[33m19:52:35.059[0;39m [main] [34mINFO [0;39m [36mo.s.b.w.e.tomcat.TomcatWebServer[0;39m - [32mTomcat started on port(s): 5002 (http) with context path ''
+[0;39m[33m19:52:35.062[0;39m [main] [34mINFO [0;39m [36mo.s.c.n.e.s.EurekaAutoServiceRegistration[0;39m - [32mUpdating port to 5002
+[0;39m[33m19:52:36.005[0;39m [main] [34mINFO [0;39m [36mr.RatingServiceApplication[0;39m - [32mStarted RatingServiceApplication in 18.103 seconds (JVM running for 19.126)
+[0;39m[33m19:52:37.131[0;39m [DiscoveryClient-InstanceInfoReplicator-0] [34mINFO [0;39m [36mc.n.d.s.t.d.RedirectingEurekaHttpClient[0;39m - [32mRequest execution error. endpoint=DefaultEndpoint{ serviceUrl='http://localhost:8761/eureka/}, exception=I/O error on POST request for "http://localhost:8761/eureka/apps/RATING-SERVICE": Connection refused: connect; nested exception is java.net.ConnectException: Connection refused: connect stacktrace=org.springframework.web.client.ResourceAccessException: I/O error on POST request for "http://localhost:8761/eureka/apps/RATING-SERVICE": Connection refused: connect; nested exception is java.net.ConnectException: Connection refused: connect
+	at org.springframework.web.client.RestTemplate.doExecute(RestTemplate.java:785)
+	at org.springframework.web.client.RestTemplate.execute(RestTemplate.java:711)
+	at org.springframework.web.client.RestTemplate.exchange(RestTemplate.java:602)
+	at org.springframework.cloud.netflix.eureka.http.RestTemplateEurekaHttpClient.register(RestTemplateEurekaHttpClient.java:77)
+	at com.netflix.discovery.shared.transport.decorator.EurekaHttpClientDecorator$1.execute(EurekaHttpClientDecorator.java:59)
+	at com.netflix.discovery.shared.transport.decorator.RedirectingEurekaHttpClient.executeOnNewServer(RedirectingEurekaHttpClient.java:121)
+	at com.netflix.discovery.shared.transport.decorator.RedirectingEurekaHttpClient.execute(RedirectingEurekaHttpClient.java:80)
+	at com.netflix.discovery.shared.transport.decorator.EurekaHttpClientDecorator.register(EurekaHttpClientDecorator.java:56)
+	at com.netflix.discovery.shared.transport.decorator.EurekaHttpClientDecorator$1.execute(EurekaHttpClientDecorator.java:59)
+	at com.netflix.discovery.shared.transport.decorator.RetryableEurekaHttpClient.execute(RetryableEurekaHttpClient.java:120)
+	at com.netflix.discovery.shared.transport.decorator.EurekaHttpClientDecorator.register(EurekaHttpClientDecorator.java:56)
+	at com.netflix.discovery.shared.transport.decorator.EurekaHttpClientDecorator$1.execute(EurekaHttpClientDecorator.java:59)
+	at com.netflix.discovery.shared.transport.decorator.SessionedEurekaHttpClient.execute(SessionedEurekaHttpClient.java:77)
+	at com.netflix.discovery.shared.transport.decorator.EurekaHttpClientDecorator.register(EurekaHttpClientDecorator.java:56)
+	at com.netflix.discovery.DiscoveryClient.register(DiscoveryClient.java:876)
+	at com.netflix.discovery.InstanceInfoReplicator.run(InstanceInfoReplicator.java:121)
+	at com.netflix.discovery.InstanceInfoReplicator$1.run(InstanceInfoReplicator.java:101)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.access$201(ScheduledThreadPoolExecutor.java:180)
+	at java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.run(ScheduledThreadPoolExecutor.java:293)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at java.lang.Thread.run(Thread.java:748)
+Caused by: java.net.ConnectException: Connection refused: connect
+	at java.net.DualStackPlainSocketImpl.connect0(Native Method)
+	at java.net.DualStackPlainSocketImpl.socketConnect(DualStackPlainSocketImpl.java:75)
+	at java.net.AbstractPlainSocketImpl.doConnect(AbstractPlainSocketImpl.java:476)
+	at java.net.AbstractPlainSocketImpl.connectToAddress(AbstractPlainSocketImpl.java:218)
+	at java.net.AbstractPlainSocketImpl.connect(AbstractPlainSocketImpl.java:200)
+	at java.net.PlainSocketImpl.connect(PlainSocketImpl.java:162)
+	at java.net.SocksSocketImpl.connect(SocksSocketImpl.java:394)
+	at java.net.Socket.connect(Socket.java:606)
+	at java.net.Socket.connect(Socket.java:555)
+	at sun.net.NetworkClient.doConnect(NetworkClient.java:180)
+	at sun.net.www.http.HttpClient.openServer(HttpClient.java:463)
+	at sun.net.www.http.HttpClient.openServer(HttpClient.java:558)
+	at sun.net.www.http.HttpClient.<init>(HttpClient.java:242)
+	at sun.net.www.http.HttpClient.New(HttpClient.java:339)
+	at sun.net.www.http.HttpClient.New(HttpClient.java:357)
+	at sun.net.www.protocol.http.HttpURLConnection.getNewHttpClient(HttpURLConnection.java:1226)
+	at sun.net.www.protocol.http.HttpURLConnection.plainConnect0(HttpURLConnection.java:1162)
+	at sun.net.www.protocol.http.HttpURLConnection.plainConnect(HttpURLConnection.java:1056)
+	at sun.net.www.protocol.http.HttpURLConnection.connect(HttpURLConnection.java:990)
+	at org.springframework.http.client.SimpleBufferingClientHttpRequest.executeInternal(SimpleBufferingClientHttpRequest.java:76)
+	at org.springframework.http.client.AbstractBufferingClientHttpRequest.executeInternal(AbstractBufferingClientHttpRequest.java:48)
+	at org.springframework.http.client.AbstractClientHttpRequest.execute(AbstractClientHttpRequest.java:66)
+	at org.springframework.web.client.RestTemplate.doExecute(RestTemplate.java:776)
+	... 23 more
+
+[0;39m[33m19:52:37.153[0;39m [DiscoveryClient-InstanceInfoReplicator-0] [31mWARN [0;39m [36mc.n.d.s.t.d.RetryableEurekaHttpClient[0;39m - [32mRequest execution failed with message: I/O error on POST request for "http://localhost:8761/eureka/apps/RATING-SERVICE": Connection refused: connect; nested exception is java.net.ConnectException: Connection refused: connect
+[0;39m[33m19:52:37.160[0;39m [DiscoveryClient-InstanceInfoReplicator-0] [31mWARN [0;39m [36mc.netflix.discovery.DiscoveryClient[0;39m - [32mDiscoveryClient_RATING-SERVICE/LAPTOP-F31M9K39:rating-service:5002 - registration failed Cannot execute request on any known server
+[0;39mcom.netflix.discovery.shared.transport.TransportException: Cannot execute request on any known server
+	at com.netflix.discovery.shared.transport.decorator.RetryableEurekaHttpClient.execute(RetryableEurekaHttpClient.java:112)
+	at com.netflix.discovery.shared.transport.decorator.EurekaHttpClientDecorator.register(EurekaHttpClientDecorator.java:56)
+	at com.netflix.discovery.shared.transport.decorator.EurekaHttpClientDecorator$1.execute(EurekaHttpClientDecorator.java:59)
+	at com.netflix.discovery.shared.transport.decorator.SessionedEurekaHttpClient.execute(SessionedEurekaHttpClient.java:77)
+	at com.netflix.discovery.shared.transport.decorator.EurekaHttpClientDecorator.register(EurekaHttpClientDecorator.java:56)
+	at com.netflix.discovery.DiscoveryClient.register(DiscoveryClient.java:876)
+	at com.netflix.discovery.InstanceInfoReplicator.run(InstanceInfoReplicator.java:121)
+	at com.netflix.discovery.InstanceInfoReplicator$1.run(InstanceInfoReplicator.java:101)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.access$201(ScheduledThreadPoolExecutor.java:180)
+	at java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.run(ScheduledThreadPoolExecutor.java:293)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at java.lang.Thread.run(Thread.java:748)
+[33m19:52:37.162[0;39m [DiscoveryClient-InstanceInfoReplicator-0] [31mWARN [0;39m [36mc.n.discovery.InstanceInfoReplicator[0;39m - [32mThere was a problem with the instance info replicator
+[0;39mcom.netflix.discovery.shared.transport.TransportException: Cannot execute request on any known server
+	at com.netflix.discovery.shared.transport.decorator.RetryableEurekaHttpClient.execute(RetryableEurekaHttpClient.java:112)
+	at com.netflix.discovery.shared.transport.decorator.EurekaHttpClientDecorator.register(EurekaHttpClientDecorator.java:56)
+	at com.netflix.discovery.shared.transport.decorator.EurekaHttpClientDecorator$1.execute(EurekaHttpClientDecorator.java:59)
+	at com.netflix.discovery.shared.transport.decorator.SessionedEurekaHttpClient.execute(SessionedEurekaHttpClient.java:77)
+	at com.netflix.discovery.shared.transport.decorator.EurekaHttpClientDecorator.register(EurekaHttpClientDecorator.java:56)
+	at com.netflix.discovery.DiscoveryClient.register(DiscoveryClient.java:876)
+	at com.netflix.discovery.InstanceInfoReplicator.run(InstanceInfoReplicator.java:121)
+	at com.netflix.discovery.InstanceInfoReplicator$1.run(InstanceInfoReplicator.java:101)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.access$201(ScheduledThreadPoolExecutor.java:180)
+	at java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.run(ScheduledThreadPoolExecutor.java:293)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at java.lang.Thread.run(Thread.java:748)
+[33m19:53:04.800[0;39m [DiscoveryClient-CacheRefreshExecutor-0] [34mINFO [0;39m [36mc.netflix.discovery.DiscoveryClient[0;39m - [32mDisable delta property : false
+[0;39m[33m19:53:04.813[0;39m [DiscoveryClient-CacheRefreshExecutor-0] [34mINFO [0;39m [36mc.netflix.discovery.DiscoveryClient[0;39m - [32mSingle vip registry refresh property : null
+[0;39m[33m19:53:04.813[0;39m [DiscoveryClient-CacheRefreshExecutor-0] [34mINFO [0;39m [36mc.netflix.discovery.DiscoveryClient[0;39m - [32mForce full registry fetch : false
+[0;39m[33m19:53:04.813[0;39m [DiscoveryClient-CacheRefreshExecutor-0] [34mINFO [0;39m [36mc.netflix.discovery.DiscoveryClient[0;39m - [32mApplication is null : false
+[0;39m[33m19:53:04.813[0;39m [DiscoveryClient-CacheRefreshExecutor-0] [34mINFO [0;39m [36mc.netflix.discovery.DiscoveryClient[0;39m - [32mRegistered Applications size is zero : true
+[0;39m[33m19:53:04.813[0;39m [DiscoveryClient-CacheRefreshExecutor-0] [34mINFO [0;39m [36mc.netflix.discovery.DiscoveryClient[0;39m - [32mApplication version is -1: true
+[0;39m[33m19:53:04.813[0;39m [DiscoveryClient-CacheRefreshExecutor-0] [34mINFO [0;39m [36mc.netflix.discovery.DiscoveryClient[0;39m - [32mGetting all instance registry info from the eureka server
+[0;39m[33m19:53:05.060[0;39m [DiscoveryClient-HeartbeatExecutor-0] [34mINFO [0;39m [36mc.netflix.discovery.DiscoveryClient[0;39m - [32mDiscoveryClient_RATING-SERVICE/LAPTOP-F31M9K39:rating-service:5002 - Re-registering apps/RATING-SERVICE
+[0;39m[33m19:53:05.061[0;39m [DiscoveryClient-HeartbeatExecutor-0] [34mINFO [0;39m [36mc.netflix.discovery.DiscoveryClient[0;39m - [32mDiscoveryClient_RATING-SERVICE/LAPTOP-F31M9K39:rating-service:5002: registering service...
+[0;39m[33m19:53:05.151[0;39m [DiscoveryClient-CacheRefreshExecutor-0] [34mINFO [0;39m [36mc.netflix.discovery.DiscoveryClient[0;39m - [32mThe response status is 200
+[0;39m[33m19:53:05.192[0;39m [DiscoveryClient-HeartbeatExecutor-0] [34mINFO [0;39m [36mc.netflix.discovery.DiscoveryClient[0;39m - [32mDiscoveryClient_RATING-SERVICE/LAPTOP-F31M9K39:rating-service:5002 - registration status: 204
+[0;39m[33m19:53:35.165[0;39m [DiscoveryClient-CacheRefreshExecutor-0] [34mINFO [0;39m [36mc.netflix.discovery.DiscoveryClient[0;39m - [32mDisable delta property : false
+[0;39m[33m19:53:35.167[0;39m [DiscoveryClient-CacheRefreshExecutor-0] [34mINFO [0;39m [36mc.netflix.discovery.DiscoveryClient[0;39m - [32mSingle vip registry refresh property : null
+[0;39m[33m19:53:35.169[0;39m [DiscoveryClient-CacheRefreshExecutor-0] [34mINFO [0;39m [36mc.netflix.discovery.DiscoveryClient[0;39m - [32mForce full registry fetch : false
+[0;39m[33m19:53:35.170[0;39m [DiscoveryClient-CacheRefreshExecutor-0] [34mINFO [0;39m [36mc.netflix.discovery.DiscoveryClient[0;39m - [32mApplication is null : false
+[0;39m[33m19:53:35.170[0;39m [DiscoveryClient-CacheRefreshExecutor-0] [34mINFO [0;39m [36mc.netflix.discovery.DiscoveryClient[0;39m - [32mRegistered Applications size is zero : true
+[0;39m[33m19:53:35.170[0;39m [DiscoveryClient-CacheRefreshExecutor-0] [34mINFO [0;39m [36mc.netflix.discovery.DiscoveryClient[0;39m - [32mApplication version is -1: false
+[0;39m[33m19:53:35.177[0;39m [DiscoveryClient-CacheRefreshExecutor-0] [34mINFO [0;39m [36mc.netflix.discovery.DiscoveryClient[0;39m - [32mGetting all instance registry info from the eureka server
+[0;39m[33m19:53:35.199[0;39m [DiscoveryClient-CacheRefreshExecutor-0] [34mINFO [0;39m [36mc.netflix.discovery.DiscoveryClient[0;39m - [32mThe response status is 200
+[0;39m[33m19:57:32.156[0;39m [AsyncResolver-bootstrap-executor-0] [34mINFO [0;39m [36mc.n.d.s.r.aws.ConfigClusterResolver[0;39m - [32mResolving eureka endpoints via configuration
+[0;39m[33m19:58:31.950[0;39m [SpringContextShutdownHook] [34mINFO [0;39m [36mo.s.c.n.e.s.EurekaServiceRegistry[0;39m - [32mUnregistering application RATING-SERVICE with eureka with status DOWN
+[0;39m[33m19:58:31.954[0;39m [SpringContextShutdownHook] [1;31mERROR[0;39m [36mc.netflix.discovery.DiscoveryClient[0;39m - [32mSaw local status change event StatusChangeEvent [timestamp=1622125711954, current=DOWN, previous=UP]
+[0;39m[33m19:58:31.957[0;39m [DiscoveryClient-InstanceInfoReplicator-0] [34mINFO [0;39m [36mc.netflix.discovery.DiscoveryClient[0;39m - [32mDiscoveryClient_RATING-SERVICE/LAPTOP-F31M9K39:rating-service:5002: registering service...
+[0;39m[33m19:58:32.817[0;39m [SpringContextShutdownHook] [34mINFO [0;39m [36mo.s.s.c.ThreadPoolTaskExecutor[0;39m - [32mShutting down ExecutorService 'applicationTaskExecutor'
+[0;39m[33m19:58:32.820[0;39m [SpringContextShutdownHook] [34mINFO [0;39m [36mo.s.o.j.LocalContainerEntityManagerFactoryBean[0;39m - [32mClosing JPA EntityManagerFactory for persistence unit 'default'
+[0;39m[33m19:58:32.826[0;39m [SpringContextShutdownHook] [34mINFO [0;39m [36mcom.zaxxer.hikari.HikariDataSource[0;39m - [32mHikariPool-1 - Shutdown initiated...
+[0;39m[33m19:58:32.979[0;39m [SpringContextShutdownHook] [34mINFO [0;39m [36mcom.zaxxer.hikari.HikariDataSource[0;39m - [32mHikariPool-1 - Shutdown completed.
+[0;39m[33m19:58:32.981[0;39m [SpringContextShutdownHook] [34mINFO [0;39m [36mc.netflix.discovery.DiscoveryClient[0;39m - [32mShutting down DiscoveryClient ...
+[0;39m[33m19:58:33.997[0;39m [DiscoveryClient-InstanceInfoReplicator-0] [34mINFO [0;39m [36mc.n.d.s.t.d.RedirectingEurekaHttpClient[0;39m - [32mRequest execution error. endpoint=DefaultEndpoint{ serviceUrl='http://localhost:8761/eureka/} exception=I/O error on POST request for "http://localhost:8761/eureka/apps/RATING-SERVICE": Connection refused: connect; nested exception is java.net.ConnectException: Connection refused: connect stacktrace=org.springframework.web.client.ResourceAccessException: I/O error on POST request for "http://localhost:8761/eureka/apps/RATING-SERVICE": Connection refused: connect; nested exception is java.net.ConnectException: Connection refused: connect
+	at org.springframework.web.client.RestTemplate.doExecute(RestTemplate.java:785)
+	at org.springframework.web.client.RestTemplate.execute(RestTemplate.java:711)
+	at org.springframework.web.client.RestTemplate.exchange(RestTemplate.java:602)
+	at org.springframework.cloud.netflix.eureka.http.RestTemplateEurekaHttpClient.register(RestTemplateEurekaHttpClient.java:77)
+	at com.netflix.discovery.shared.transport.decorator.EurekaHttpClientDecorator$1.execute(EurekaHttpClientDecorator.java:59)
+	at com.netflix.discovery.shared.transport.decorator.RedirectingEurekaHttpClient.execute(RedirectingEurekaHttpClient.java:91)
+	at com.netflix.discovery.shared.transport.decorator.EurekaHttpClientDecorator.register(EurekaHttpClientDecorator.java:56)
+	at com.netflix.discovery.shared.transport.decorator.EurekaHttpClientDecorator$1.execute(EurekaHttpClientDecorator.java:59)
+	at com.netflix.discovery.shared.transport.decorator.RetryableEurekaHttpClient.execute(RetryableEurekaHttpClient.java:120)
+	at com.netflix.discovery.shared.transport.decorator.EurekaHttpClientDecorator.register(EurekaHttpClientDecorator.java:56)
+	at com.netflix.discovery.shared.transport.decorator.EurekaHttpClientDecorator$1.execute(EurekaHttpClientDecorator.java:59)
+	at com.netflix.discovery.shared.transport.decorator.SessionedEurekaHttpClient.execute(SessionedEurekaHttpClient.java:77)
+	at com.netflix.discovery.shared.transport.decorator.EurekaHttpClientDecorator.register(EurekaHttpClientDecorator.java:56)
+	at com.netflix.discovery.DiscoveryClient.register(DiscoveryClient.java:876)
+	at com.netflix.discovery.InstanceInfoReplicator.run(InstanceInfoReplicator.java:121)
+	at com.netflix.discovery.InstanceInfoReplicator$1.run(InstanceInfoReplicator.java:101)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.access$201(ScheduledThreadPoolExecutor.java:180)
+	at java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.run(ScheduledThreadPoolExecutor.java:293)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at java.lang.Thread.run(Thread.java:748)
+Caused by: java.net.ConnectException: Connection refused: connect
+	at java.net.DualStackPlainSocketImpl.connect0(Native Method)
+	at java.net.DualStackPlainSocketImpl.socketConnect(DualStackPlainSocketImpl.java:75)
+	at java.net.AbstractPlainSocketImpl.doConnect(AbstractPlainSocketImpl.java:476)
+	at java.net.AbstractPlainSocketImpl.connectToAddress(AbstractPlainSocketImpl.java:218)
+	at java.net.AbstractPlainSocketImpl.connect(AbstractPlainSocketImpl.java:200)
+	at java.net.PlainSocketImpl.connect(PlainSocketImpl.java:162)
+	at java.net.SocksSocketImpl.connect(SocksSocketImpl.java:394)
+	at java.net.Socket.connect(Socket.java:606)
+	at java.net.Socket.connect(Socket.java:555)
+	at sun.net.NetworkClient.doConnect(NetworkClient.java:180)
+	at sun.net.www.http.HttpClient.openServer(HttpClient.java:463)
+	at sun.net.www.http.HttpClient.openServer(HttpClient.java:558)
+	at sun.net.www.http.HttpClient.<init>(HttpClient.java:242)
+	at sun.net.www.http.HttpClient.New(HttpClient.java:339)
+	at sun.net.www.http.HttpClient.New(HttpClient.java:357)
+	at sun.net.www.protocol.http.HttpURLConnection.getNewHttpClient(HttpURLConnection.java:1226)
+	at sun.net.www.protocol.http.HttpURLConnection.plainConnect0(HttpURLConnection.java:1162)
+	at sun.net.www.protocol.http.HttpURLConnection.plainConnect(HttpURLConnection.java:1056)
+	at sun.net.www.protocol.http.HttpURLConnection.connect(HttpURLConnection.java:990)
+	at org.springframework.http.client.SimpleBufferingClientHttpRequest.executeInternal(SimpleBufferingClientHttpRequest.java:76)
+	at org.springframework.http.client.AbstractBufferingClientHttpRequest.executeInternal(AbstractBufferingClientHttpRequest.java:48)
+	at org.springframework.http.client.AbstractClientHttpRequest.execute(AbstractClientHttpRequest.java:66)
+	at org.springframework.web.client.RestTemplate.doExecute(RestTemplate.java:776)
+	... 22 more
+
+[0;39m[33m19:58:35.221[0;39m [DiscoveryClient-InstanceInfoReplicator-0] [31mWARN [0;39m [36mc.n.d.s.t.d.RetryableEurekaHttpClient[0;39m - [32mRequest execution failed with message: I/O error on POST request for "http://localhost:8761/eureka/apps/RATING-SERVICE": Connection refused: connect; nested exception is java.net.ConnectException: Connection refused: connect
+[0;39m[33m19:58:35.992[0;39m [DiscoveryClient-1] [31mWARN [0;39m [36mc.n.discovery.TimedSupervisorTask[0;39m - [32mtask supervisor shutting down, can't accept the task
+[0;39m[33m19:58:35.992[0;39m [DiscoveryClient-0] [31mWARN [0;39m [36mc.n.discovery.TimedSupervisorTask[0;39m - [32mtask supervisor shutting down, can't accept the task
+[0;39m[33m19:58:35.995[0;39m [SpringContextShutdownHook] [34mINFO [0;39m [36mc.netflix.discovery.DiscoveryClient[0;39m - [32mUnregistering ...
+[0;39m[33m20:04:02.918[0;39m [main] [34mINFO [0;39m [36mr.RatingServiceApplication[0;39m - [32mStarting RatingServiceApplication using Java 1.8.0_291 on LAPTOP-F31M9K39 with PID 20812 (D:\Java Projects\movie-microservices\rating-service\target\classes started by lenono in D:\Java Projects\movie-microservices\rating-service)
+[0;39m[33m20:04:02.922[0;39m [main] [34mINFO [0;39m [36mr.RatingServiceApplication[0;39m - [32mNo active profile set, falling back to default profiles: default
+[0;39m[33m20:04:03.885[0;39m [main] [34mINFO [0;39m [36mo.s.d.r.c.RepositoryConfigurationDelegate[0;39m - [32mMultiple Spring Data modules found, entering strict repository configuration mode!
+[0;39m[33m20:04:03.886[0;39m [main] [34mINFO [0;39m [36mo.s.d.r.c.RepositoryConfigurationDelegate[0;39m - [32mBootstrapping Spring Data JDBC repositories in DEFAULT mode.
+[0;39m[33m20:04:03.916[0;39m [main] [34mINFO [0;39m [36mo.s.d.r.c.RepositoryConfigurationExtensionSupport[0;39m - [32mSpring Data JDBC - Could not safely identify store assignment for repository candidate interface ratingService.repositories.RatingRepository. If you want this repository to be a JDBC repository, consider annotating your entities with one of these annotations: org.springframework.data.relational.core.mapping.Table.
+[0;39m[33m20:04:03.918[0;39m [main] [34mINFO [0;39m [36mo.s.d.r.c.RepositoryConfigurationDelegate[0;39m - [32mFinished Spring Data repository scanning in 26 ms. Found 0 JDBC repository interfaces.
+[0;39m[33m20:04:03.929[0;39m [main] [34mINFO [0;39m [36mo.s.d.r.c.RepositoryConfigurationDelegate[0;39m - [32mMultiple Spring Data modules found, entering strict repository configuration mode!
+[0;39m[33m20:04:03.930[0;39m [main] [34mINFO [0;39m [36mo.s.d.r.c.RepositoryConfigurationDelegate[0;39m - [32mBootstrapping Spring Data JPA repositories in DEFAULT mode.
+[0;39m[33m20:04:03.989[0;39m [main] [34mINFO [0;39m [36mo.s.d.r.c.RepositoryConfigurationDelegate[0;39m - [32mFinished Spring Data repository scanning in 49 ms. Found 1 JPA repository interfaces.
+[0;39m[33m20:04:04.228[0;39m [main] [34mINFO [0;39m [36mo.s.cloud.context.scope.GenericScope[0;39m - [32mBeanFactory id=fd63b7b5-b92b-315c-a725-6e14b42855ab
+[0;39m[33m20:04:04.879[0;39m [main] [34mINFO [0;39m [36mo.s.b.w.e.tomcat.TomcatWebServer[0;39m - [32mTomcat initialized with port(s): 5002 (http)
+[0;39m[33m20:04:04.888[0;39m [main] [34mINFO [0;39m [36mo.a.catalina.core.StandardService[0;39m - [32mStarting service [Tomcat]
+[0;39m[33m20:04:04.889[0;39m [main] [34mINFO [0;39m [36mo.a.catalina.core.StandardEngine[0;39m - [32mStarting Servlet engine: [Apache Tomcat/9.0.45]
+[0;39m[33m20:04:05.142[0;39m [main] [34mINFO [0;39m [36mo.a.c.c.C.[Tomcat].[localhost].[/][0;39m - [32mInitializing Spring embedded WebApplicationContext
+[0;39m[33m20:04:05.142[0;39m [main] [34mINFO [0;39m [36mo.s.b.w.s.c.ServletWebServerApplicationContext[0;39m - [32mRoot WebApplicationContext: initialization completed in 2163 ms
+[0;39m[33m20:04:05.372[0;39m [main] [34mINFO [0;39m [36mo.h.jpa.internal.util.LogHelper[0;39m - [32mHHH000204: Processing PersistenceUnitInfo [name: default]
+[0;39m[33m20:04:05.517[0;39m [main] [34mINFO [0;39m [36morg.hibernate.Version[0;39m - [32mHHH000412: Hibernate ORM core version 5.4.30.Final
+[0;39m[33m20:04:05.623[0;39m [main] [34mINFO [0;39m [36mo.h.annotations.common.Version[0;39m - [32mHCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+[0;39m[33m20:04:05.708[0;39m [main] [34mINFO [0;39m [36mcom.zaxxer.hikari.HikariDataSource[0;39m - [32mHikariPool-1 - Starting...
+[0;39m[33m20:04:06.239[0;39m [main] [34mINFO [0;39m [36mcom.zaxxer.hikari.HikariDataSource[0;39m - [32mHikariPool-1 - Start completed.
+[0;39m[33m20:04:06.250[0;39m [main] [34mINFO [0;39m [36morg.hibernate.dialect.Dialect[0;39m - [32mHHH000400: Using dialect: org.hibernate.dialect.Oracle10gDialect
+[0;39m[33m20:04:07.006[0;39m [main] [34mINFO [0;39m [36mo.h.e.t.j.p.i.JtaPlatformInitiator[0;39m - [32mHHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+[0;39m[33m20:04:07.024[0;39m [main] [34mINFO [0;39m [36mo.s.o.j.LocalContainerEntityManagerFactoryBean[0;39m - [32mInitialized JPA EntityManagerFactory for persistence unit 'default'
+[0;39m[33m20:04:07.359[0;39m [main] [31mWARN [0;39m [36mo.s.b.a.o.j.JpaBaseConfiguration$JpaWebConfiguration[0;39m - [32mspring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+[0;39m[33m20:04:07.413[0;39m [main] [34mINFO [0;39m [36mo.s.s.c.ThreadPoolTaskExecutor[0;39m - [32mInitializing ExecutorService 'applicationTaskExecutor'
+[0;39m[33m20:04:07.977[0;39m [main] [34mINFO [0;39m [36mo.s.c.n.e.c.DiscoveryClientOptionalArgsConfiguration[0;39m - [32mEureka HTTP Client uses RestTemplate.
+[0;39m[33m20:04:08.381[0;39m [main] [31mWARN [0;39m [36mo.s.c.l.c.LoadBalancerCacheAutoConfiguration$LoadBalancerCaffeineWarnLogger[0;39m - [32mSpring Cloud LoadBalancer is currently working with the default cache. You can switch to using Caffeine cache, by adding it to the classpath.
+[0;39m[33m20:04:08.416[0;39m [main] [34mINFO [0;39m [36mo.s.c.n.eureka.InstanceInfoFactory[0;39m - [32mSetting initial instance status as: STARTING
+[0;39m[33m20:04:08.621[0;39m [main] [34mINFO [0;39m [36mc.netflix.discovery.DiscoveryClient[0;39m - [32mInitializing Eureka in region us-east-1
+[0;39m[33m20:04:08.625[0;39m [main] [34mINFO [0;39m [36mc.n.d.s.r.aws.ConfigClusterResolver[0;39m - [32mResolving eureka endpoints via configuration
+[0;39m[33m20:04:08.858[0;39m [main] [34mINFO [0;39m [36mc.netflix.discovery.DiscoveryClient[0;39m - [32mDisable delta property : false
+[0;39m[33m20:04:08.861[0;39m [main] [34mINFO [0;39m [36mc.netflix.discovery.DiscoveryClient[0;39m - [32mSingle vip registry refresh property : null
+[0;39m[33m20:04:08.861[0;39m [main] [34mINFO [0;39m [36mc.netflix.discovery.DiscoveryClient[0;39m - [32mForce full registry fetch : false
+[0;39m[33m20:04:08.861[0;39m [main] [34mINFO [0;39m [36mc.netflix.discovery.DiscoveryClient[0;39m - [32mApplication is null : false
+[0;39m[33m20:04:08.862[0;39m [main] [34mINFO [0;39m [36mc.netflix.discovery.DiscoveryClient[0;39m - [32mRegistered Applications size is zero : true
+[0;39m[33m20:04:08.862[0;39m [main] [34mINFO [0;39m [36mc.netflix.discovery.DiscoveryClient[0;39m - [32mApplication version is -1: true
+[0;39m[33m20:04:08.862[0;39m [main] [34mINFO [0;39m [36mc.netflix.discovery.DiscoveryClient[0;39m - [32mGetting all instance registry info from the eureka server
+[0;39m[33m20:04:11.064[0;39m [main] [34mINFO [0;39m [36mc.n.d.s.t.d.RedirectingEurekaHttpClient[0;39m - [32mRequest execution error. endpoint=DefaultEndpoint{ serviceUrl='http://localhost:8761/eureka/}, exception=I/O error on GET request for "http://localhost:8761/eureka/apps/": Connection refused: connect; nested exception is java.net.ConnectException: Connection refused: connect stacktrace=org.springframework.web.client.ResourceAccessException: I/O error on GET request for "http://localhost:8761/eureka/apps/": Connection refused: connect; nested exception is java.net.ConnectException: Connection refused: connect
+	at org.springframework.web.client.RestTemplate.doExecute(RestTemplate.java:785)
+	at org.springframework.web.client.RestTemplate.execute(RestTemplate.java:711)
+	at org.springframework.web.client.RestTemplate.exchange(RestTemplate.java:602)
+	at org.springframework.cloud.netflix.eureka.http.RestTemplateEurekaHttpClient.getApplicationsInternal(RestTemplateEurekaHttpClient.java:145)
+	at org.springframework.cloud.netflix.eureka.http.RestTemplateEurekaHttpClient.getApplications(RestTemplateEurekaHttpClient.java:135)
+	at com.netflix.discovery.shared.transport.decorator.EurekaHttpClientDecorator$6.execute(EurekaHttpClientDecorator.java:137)
+	at com.netflix.discovery.shared.transport.decorator.RedirectingEurekaHttpClient.executeOnNewServer(RedirectingEurekaHttpClient.java:121)
+	at com.netflix.discovery.shared.transport.decorator.RedirectingEurekaHttpClient.execute(RedirectingEurekaHttpClient.java:80)
+	at com.netflix.discovery.shared.transport.decorator.EurekaHttpClientDecorator.getApplications(EurekaHttpClientDecorator.java:134)
+	at com.netflix.discovery.shared.transport.decorator.EurekaHttpClientDecorator$6.execute(EurekaHttpClientDecorator.java:137)
+	at com.netflix.discovery.shared.transport.decorator.RetryableEurekaHttpClient.execute(RetryableEurekaHttpClient.java:120)
+	at com.netflix.discovery.shared.transport.decorator.EurekaHttpClientDecorator.getApplications(EurekaHttpClientDecorator.java:134)
+	at com.netflix.discovery.shared.transport.decorator.EurekaHttpClientDecorator$6.execute(EurekaHttpClientDecorator.java:137)
+	at com.netflix.discovery.shared.transport.decorator.SessionedEurekaHttpClient.execute(SessionedEurekaHttpClient.java:77)
+	at com.netflix.discovery.shared.transport.decorator.EurekaHttpClientDecorator.getApplications(EurekaHttpClientDecorator.java:134)
+	at com.netflix.discovery.DiscoveryClient.getAndStoreFullRegistry(DiscoveryClient.java:1101)
+	at com.netflix.discovery.DiscoveryClient.fetchRegistry(DiscoveryClient.java:1014)
+	at com.netflix.discovery.DiscoveryClient.<init>(DiscoveryClient.java:441)
+	at com.netflix.discovery.DiscoveryClient.<init>(DiscoveryClient.java:283)
+	at com.netflix.discovery.DiscoveryClient.<init>(DiscoveryClient.java:279)
+	at org.springframework.cloud.netflix.eureka.CloudEurekaClient.<init>(CloudEurekaClient.java:66)
+	at org.springframework.cloud.netflix.eureka.EurekaClientAutoConfiguration$RefreshableEurekaClientConfiguration.eurekaClient(EurekaClientAutoConfiguration.java:292)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.springframework.beans.factory.support.SimpleInstantiationStrategy.instantiate(SimpleInstantiationStrategy.java:154)
+	at org.springframework.beans.factory.support.ConstructorResolver.instantiate(ConstructorResolver.java:653)
+	at org.springframework.beans.factory.support.ConstructorResolver.instantiateUsingFactoryMethod(ConstructorResolver.java:638)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.instantiateUsingFactoryMethod(AbstractAutowireCapableBeanFactory.java:1334)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBeanInstance(AbstractAutowireCapableBeanFactory.java:1177)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:564)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:524)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.lambda$doGetBean$1(AbstractBeanFactory.java:374)
+	at org.springframework.cloud.context.scope.GenericScope$BeanLifecycleWrapper.getBean(GenericScope.java:381)
+	at org.springframework.cloud.context.scope.GenericScope.get(GenericScope.java:184)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:371)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:208)
+	at org.springframework.aop.target.SimpleBeanTargetSource.getTarget(SimpleBeanTargetSource.java:35)
+	at org.springframework.cloud.netflix.eureka.serviceregistry.EurekaRegistration.getTargetObject(EurekaRegistration.java:127)
+	at org.springframework.cloud.netflix.eureka.serviceregistry.EurekaRegistration.getEurekaClient(EurekaRegistration.java:115)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.springframework.util.ReflectionUtils.invokeMethod(ReflectionUtils.java:282)
+	at org.springframework.cloud.context.scope.GenericScope$LockedScopedProxyFactoryBean.invoke(GenericScope.java:490)
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:186)
+	at org.springframework.aop.framework.CglibAopProxy$CglibMethodInvocation.proceed(CglibAopProxy.java:750)
+	at org.springframework.aop.framework.CglibAopProxy$DynamicAdvisedInterceptor.intercept(CglibAopProxy.java:692)
+	at org.springframework.cloud.netflix.eureka.serviceregistry.EurekaRegistration$$EnhancerBySpringCGLIB$$4d0e0396.getEurekaClient(<generated>)
+	at org.springframework.cloud.netflix.eureka.serviceregistry.EurekaServiceRegistry.maybeInitializeClient(EurekaServiceRegistry.java:54)
+	at org.springframework.cloud.netflix.eureka.serviceregistry.EurekaServiceRegistry.register(EurekaServiceRegistry.java:38)
+	at org.springframework.cloud.netflix.eureka.serviceregistry.EurekaAutoServiceRegistration.start(EurekaAutoServiceRegistration.java:83)
+	at org.springframework.context.support.DefaultLifecycleProcessor.doStart(DefaultLifecycleProcessor.java:178)
+	at org.springframework.context.support.DefaultLifecycleProcessor.access$200(DefaultLifecycleProcessor.java:54)
+	at org.springframework.context.support.DefaultLifecycleProcessor$LifecycleGroup.start(DefaultLifecycleProcessor.java:356)
+	at java.lang.Iterable.forEach(Iterable.java:75)
+	at org.springframework.context.support.DefaultLifecycleProcessor.startBeans(DefaultLifecycleProcessor.java:155)
+	at org.springframework.context.support.DefaultLifecycleProcessor.onRefresh(DefaultLifecycleProcessor.java:123)
+	at org.springframework.context.support.AbstractApplicationContext.finishRefresh(AbstractApplicationContext.java:935)
+	at org.springframework.context.support.AbstractApplicationContext.refresh(AbstractApplicationContext.java:586)
+	at org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext.refresh(ServletWebServerApplicationContext.java:144)
+	at org.springframework.boot.SpringApplication.refresh(SpringApplication.java:782)
+	at org.springframework.boot.SpringApplication.refresh(SpringApplication.java:774)
+	at org.springframework.boot.SpringApplication.refreshContext(SpringApplication.java:439)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:339)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1340)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1329)
+	at ratingService.RatingServiceApplication.main(RatingServiceApplication.java:12)
+Caused by: java.net.ConnectException: Connection refused: connect
+	at java.net.DualStackPlainSocketImpl.connect0(Native Method)
+	at java.net.DualStackPlainSocketImpl.socketConnect(DualStackPlainSocketImpl.java:75)
+	at java.net.AbstractPlainSocketImpl.doConnect(AbstractPlainSocketImpl.java:476)
+	at java.net.AbstractPlainSocketImpl.connectToAddress(AbstractPlainSocketImpl.java:218)
+	at java.net.AbstractPlainSocketImpl.connect(AbstractPlainSocketImpl.java:200)
+	at java.net.PlainSocketImpl.connect(PlainSocketImpl.java:162)
+	at java.net.SocksSocketImpl.connect(SocksSocketImpl.java:394)
+	at java.net.Socket.connect(Socket.java:606)
+	at java.net.Socket.connect(Socket.java:555)
+	at sun.net.NetworkClient.doConnect(NetworkClient.java:180)
+	at sun.net.www.http.HttpClient.openServer(HttpClient.java:463)
+	at sun.net.www.http.HttpClient.openServer(HttpClient.java:558)
+	at sun.net.www.http.HttpClient.<init>(HttpClient.java:242)
+	at sun.net.www.http.HttpClient.New(HttpClient.java:339)
+	at sun.net.www.http.HttpClient.New(HttpClient.java:357)
+	at sun.net.www.protocol.http.HttpURLConnection.getNewHttpClient(HttpURLConnection.java:1226)
+	at sun.net.www.protocol.http.HttpURLConnection.plainConnect0(HttpURLConnection.java:1162)
+	at sun.net.www.protocol.http.HttpURLConnection.plainConnect(HttpURLConnection.java:1056)
+	at sun.net.www.protocol.http.HttpURLConnection.connect(HttpURLConnection.java:990)
+	at org.springframework.http.client.SimpleBufferingClientHttpRequest.executeInternal(SimpleBufferingClientHttpRequest.java:76)
+	at org.springframework.http.client.AbstractBufferingClientHttpRequest.executeInternal(AbstractBufferingClientHttpRequest.java:48)
+	at org.springframework.http.client.AbstractClientHttpRequest.execute(AbstractClientHttpRequest.java:66)
+	at org.springframework.web.client.RestTemplate.doExecute(RestTemplate.java:776)
+	... 69 more
+
+[0;39m[33m20:04:11.072[0;39m [main] [31mWARN [0;39m [36mc.n.d.s.t.d.RetryableEurekaHttpClient[0;39m - [32mRequest execution failed with message: I/O error on GET request for "http://localhost:8761/eureka/apps/": Connection refused: connect; nested exception is java.net.ConnectException: Connection refused: connect
+[0;39m[33m20:04:11.081[0;39m [main] [34mINFO [0;39m [36mc.netflix.discovery.DiscoveryClient[0;39m - [32mDiscoveryClient_RATING-SERVICE/LAPTOP-F31M9K39:rating-service:5002 - was unable to refresh its cache! This periodic background refresh will be retried in 30 seconds. status = Cannot execute request on any known server stacktrace = com.netflix.discovery.shared.transport.TransportException: Cannot execute request on any known server
+	at com.netflix.discovery.shared.transport.decorator.RetryableEurekaHttpClient.execute(RetryableEurekaHttpClient.java:112)
+	at com.netflix.discovery.shared.transport.decorator.EurekaHttpClientDecorator.getApplications(EurekaHttpClientDecorator.java:134)
+	at com.netflix.discovery.shared.transport.decorator.EurekaHttpClientDecorator$6.execute(EurekaHttpClientDecorator.java:137)
+	at com.netflix.discovery.shared.transport.decorator.SessionedEurekaHttpClient.execute(SessionedEurekaHttpClient.java:77)
+	at com.netflix.discovery.shared.transport.decorator.EurekaHttpClientDecorator.getApplications(EurekaHttpClientDecorator.java:134)
+	at com.netflix.discovery.DiscoveryClient.getAndStoreFullRegistry(DiscoveryClient.java:1101)
+	at com.netflix.discovery.DiscoveryClient.fetchRegistry(DiscoveryClient.java:1014)
+	at com.netflix.discovery.DiscoveryClient.<init>(DiscoveryClient.java:441)
+	at com.netflix.discovery.DiscoveryClient.<init>(DiscoveryClient.java:283)
+	at com.netflix.discovery.DiscoveryClient.<init>(DiscoveryClient.java:279)
+	at org.springframework.cloud.netflix.eureka.CloudEurekaClient.<init>(CloudEurekaClient.java:66)
+	at org.springframework.cloud.netflix.eureka.EurekaClientAutoConfiguration$RefreshableEurekaClientConfiguration.eurekaClient(EurekaClientAutoConfiguration.java:292)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.springframework.beans.factory.support.SimpleInstantiationStrategy.instantiate(SimpleInstantiationStrategy.java:154)
+	at org.springframework.beans.factory.support.ConstructorResolver.instantiate(ConstructorResolver.java:653)
+	at org.springframework.beans.factory.support.ConstructorResolver.instantiateUsingFactoryMethod(ConstructorResolver.java:638)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.instantiateUsingFactoryMethod(AbstractAutowireCapableBeanFactory.java:1334)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBeanInstance(AbstractAutowireCapableBeanFactory.java:1177)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:564)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:524)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.lambda$doGetBean$1(AbstractBeanFactory.java:374)
+	at org.springframework.cloud.context.scope.GenericScope$BeanLifecycleWrapper.getBean(GenericScope.java:381)
+	at org.springframework.cloud.context.scope.GenericScope.get(GenericScope.java:184)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:371)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:208)
+	at org.springframework.aop.target.SimpleBeanTargetSource.getTarget(SimpleBeanTargetSource.java:35)
+	at org.springframework.cloud.netflix.eureka.serviceregistry.EurekaRegistration.getTargetObject(EurekaRegistration.java:127)
+	at org.springframework.cloud.netflix.eureka.serviceregistry.EurekaRegistration.getEurekaClient(EurekaRegistration.java:115)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.springframework.util.ReflectionUtils.invokeMethod(ReflectionUtils.java:282)
+	at org.springframework.cloud.context.scope.GenericScope$LockedScopedProxyFactoryBean.invoke(GenericScope.java:490)
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:186)
+	at org.springframework.aop.framework.CglibAopProxy$CglibMethodInvocation.proceed(CglibAopProxy.java:750)
+	at org.springframework.aop.framework.CglibAopProxy$DynamicAdvisedInterceptor.intercept(CglibAopProxy.java:692)
+	at org.springframework.cloud.netflix.eureka.serviceregistry.EurekaRegistration$$EnhancerBySpringCGLIB$$4d0e0396.getEurekaClient(<generated>)
+	at org.springframework.cloud.netflix.eureka.serviceregistry.EurekaServiceRegistry.maybeInitializeClient(EurekaServiceRegistry.java:54)
+	at org.springframework.cloud.netflix.eureka.serviceregistry.EurekaServiceRegistry.register(EurekaServiceRegistry.java:38)
+	at org.springframework.cloud.netflix.eureka.serviceregistry.EurekaAutoServiceRegistration.start(EurekaAutoServiceRegistration.java:83)
+	at org.springframework.context.support.DefaultLifecycleProcessor.doStart(DefaultLifecycleProcessor.java:178)
+	at org.springframework.context.support.DefaultLifecycleProcessor.access$200(DefaultLifecycleProcessor.java:54)
+	at org.springframework.context.support.DefaultLifecycleProcessor$LifecycleGroup.start(DefaultLifecycleProcessor.java:356)
+	at java.lang.Iterable.forEach(Iterable.java:75)
+	at org.springframework.context.support.DefaultLifecycleProcessor.startBeans(DefaultLifecycleProcessor.java:155)
+	at org.springframework.context.support.DefaultLifecycleProcessor.onRefresh(DefaultLifecycleProcessor.java:123)
+	at org.springframework.context.support.AbstractApplicationContext.finishRefresh(AbstractApplicationContext.java:935)
+	at org.springframework.context.support.AbstractApplicationContext.refresh(AbstractApplicationContext.java:586)
+	at org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext.refresh(ServletWebServerApplicationContext.java:144)
+	at org.springframework.boot.SpringApplication.refresh(SpringApplication.java:782)
+	at org.springframework.boot.SpringApplication.refresh(SpringApplication.java:774)
+	at org.springframework.boot.SpringApplication.refreshContext(SpringApplication.java:439)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:339)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1340)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1329)
+	at ratingService.RatingServiceApplication.main(RatingServiceApplication.java:12)
+
+[0;39m[33m20:04:11.090[0;39m [main] [34mINFO [0;39m [36mc.netflix.discovery.DiscoveryClient[0;39m - [32mInitial registry fetch from primary servers failed
+[0;39m[33m20:04:11.101[0;39m [main] [31mWARN [0;39m [36mc.netflix.discovery.DiscoveryClient[0;39m - [32mUsing default backup registry implementation which does not do anything.
+[0;39m[33m20:04:11.105[0;39m [main] [34mINFO [0;39m [36mc.netflix.discovery.DiscoveryClient[0;39m - [32mInitial registry fetch from backup servers failed
+[0;39m[33m20:04:11.111[0;39m [main] [34mINFO [0;39m [36mc.netflix.discovery.DiscoveryClient[0;39m - [32mStarting heartbeat executor: renew interval is: 30
+[0;39m[33m20:04:11.118[0;39m [main] [34mINFO [0;39m [36mc.n.discovery.InstanceInfoReplicator[0;39m - [32mInstanceInfoReplicator onDemand update allowed rate per min is 4
+[0;39m[33m20:04:11.131[0;39m [main] [34mINFO [0;39m [36mc.netflix.discovery.DiscoveryClient[0;39m - [32mDiscovery Client initialized at timestamp 1622126051129 with initial instances count: 0
+[0;39m[33m20:04:11.134[0;39m [main] [34mINFO [0;39m [36mo.s.c.n.e.s.EurekaServiceRegistry[0;39m - [32mRegistering application RATING-SERVICE with eureka with status UP
+[0;39m[33m20:04:11.135[0;39m [main] [34mINFO [0;39m [36mc.netflix.discovery.DiscoveryClient[0;39m - [32mSaw local status change event StatusChangeEvent [timestamp=1622126051135, current=UP, previous=STARTING]
+[0;39m[33m20:04:11.139[0;39m [DiscoveryClient-InstanceInfoReplicator-0] [34mINFO [0;39m [36mc.netflix.discovery.DiscoveryClient[0;39m - [32mDiscoveryClient_RATING-SERVICE/LAPTOP-F31M9K39:rating-service:5002: registering service...
+[0;39m[33m20:04:11.168[0;39m [main] [34mINFO [0;39m [36mo.s.b.w.e.tomcat.TomcatWebServer[0;39m - [32mTomcat started on port(s): 5002 (http) with context path ''
+[0;39m[33m20:04:11.168[0;39m [main] [34mINFO [0;39m [36mo.s.c.n.e.s.EurekaAutoServiceRegistration[0;39m - [32mUpdating port to 5002
+[0;39m[33m20:04:11.684[0;39m [main] [34mINFO [0;39m [36mr.RatingServiceApplication[0;39m - [32mStarted RatingServiceApplication in 9.528 seconds (JVM running for 10.191)
+[0;39m[33m20:04:13.242[0;39m [DiscoveryClient-InstanceInfoReplicator-0] [34mINFO [0;39m [36mc.n.d.s.t.d.RedirectingEurekaHttpClient[0;39m - [32mRequest execution error. endpoint=DefaultEndpoint{ serviceUrl='http://localhost:8761/eureka/}, exception=I/O error on POST request for "http://localhost:8761/eureka/apps/RATING-SERVICE": Connection refused: connect; nested exception is java.net.ConnectException: Connection refused: connect stacktrace=org.springframework.web.client.ResourceAccessException: I/O error on POST request for "http://localhost:8761/eureka/apps/RATING-SERVICE": Connection refused: connect; nested exception is java.net.ConnectException: Connection refused: connect
+	at org.springframework.web.client.RestTemplate.doExecute(RestTemplate.java:785)
+	at org.springframework.web.client.RestTemplate.execute(RestTemplate.java:711)
+	at org.springframework.web.client.RestTemplate.exchange(RestTemplate.java:602)
+	at org.springframework.cloud.netflix.eureka.http.RestTemplateEurekaHttpClient.register(RestTemplateEurekaHttpClient.java:77)
+	at com.netflix.discovery.shared.transport.decorator.EurekaHttpClientDecorator$1.execute(EurekaHttpClientDecorator.java:59)
+	at com.netflix.discovery.shared.transport.decorator.RedirectingEurekaHttpClient.executeOnNewServer(RedirectingEurekaHttpClient.java:121)
+	at com.netflix.discovery.shared.transport.decorator.RedirectingEurekaHttpClient.execute(RedirectingEurekaHttpClient.java:80)
+	at com.netflix.discovery.shared.transport.decorator.EurekaHttpClientDecorator.register(EurekaHttpClientDecorator.java:56)
+	at com.netflix.discovery.shared.transport.decorator.EurekaHttpClientDecorator$1.execute(EurekaHttpClientDecorator.java:59)
+	at com.netflix.discovery.shared.transport.decorator.RetryableEurekaHttpClient.execute(RetryableEurekaHttpClient.java:120)
+	at com.netflix.discovery.shared.transport.decorator.EurekaHttpClientDecorator.register(EurekaHttpClientDecorator.java:56)
+	at com.netflix.discovery.shared.transport.decorator.EurekaHttpClientDecorator$1.execute(EurekaHttpClientDecorator.java:59)
+	at com.netflix.discovery.shared.transport.decorator.SessionedEurekaHttpClient.execute(SessionedEurekaHttpClient.java:77)
+	at com.netflix.discovery.shared.transport.decorator.EurekaHttpClientDecorator.register(EurekaHttpClientDecorator.java:56)
+	at com.netflix.discovery.DiscoveryClient.register(DiscoveryClient.java:876)
+	at com.netflix.discovery.InstanceInfoReplicator.run(InstanceInfoReplicator.java:121)
+	at com.netflix.discovery.InstanceInfoReplicator$1.run(InstanceInfoReplicator.java:101)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.access$201(ScheduledThreadPoolExecutor.java:180)
+	at java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.run(ScheduledThreadPoolExecutor.java:293)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at java.lang.Thread.run(Thread.java:748)
+Caused by: java.net.ConnectException: Connection refused: connect
+	at java.net.DualStackPlainSocketImpl.connect0(Native Method)
+	at java.net.DualStackPlainSocketImpl.socketConnect(DualStackPlainSocketImpl.java:75)
+	at java.net.AbstractPlainSocketImpl.doConnect(AbstractPlainSocketImpl.java:476)
+	at java.net.AbstractPlainSocketImpl.connectToAddress(AbstractPlainSocketImpl.java:218)
+	at java.net.AbstractPlainSocketImpl.connect(AbstractPlainSocketImpl.java:200)
+	at java.net.PlainSocketImpl.connect(PlainSocketImpl.java:162)
+	at java.net.SocksSocketImpl.connect(SocksSocketImpl.java:394)
+	at java.net.Socket.connect(Socket.java:606)
+	at java.net.Socket.connect(Socket.java:555)
+	at sun.net.NetworkClient.doConnect(NetworkClient.java:180)
+	at sun.net.www.http.HttpClient.openServer(HttpClient.java:463)
+	at sun.net.www.http.HttpClient.openServer(HttpClient.java:558)
+	at sun.net.www.http.HttpClient.<init>(HttpClient.java:242)
+	at sun.net.www.http.HttpClient.New(HttpClient.java:339)
+	at sun.net.www.http.HttpClient.New(HttpClient.java:357)
+	at sun.net.www.protocol.http.HttpURLConnection.getNewHttpClient(HttpURLConnection.java:1226)
+	at sun.net.www.protocol.http.HttpURLConnection.plainConnect0(HttpURLConnection.java:1162)
+	at sun.net.www.protocol.http.HttpURLConnection.plainConnect(HttpURLConnection.java:1056)
+	at sun.net.www.protocol.http.HttpURLConnection.connect(HttpURLConnection.java:990)
+	at org.springframework.http.client.SimpleBufferingClientHttpRequest.executeInternal(SimpleBufferingClientHttpRequest.java:76)
+	at org.springframework.http.client.AbstractBufferingClientHttpRequest.executeInternal(AbstractBufferingClientHttpRequest.java:48)
+	at org.springframework.http.client.AbstractClientHttpRequest.execute(AbstractClientHttpRequest.java:66)
+	at org.springframework.web.client.RestTemplate.doExecute(RestTemplate.java:776)
+	... 23 more
+
+[0;39m[33m20:04:13.243[0;39m [DiscoveryClient-InstanceInfoReplicator-0] [31mWARN [0;39m [36mc.n.d.s.t.d.RetryableEurekaHttpClient[0;39m - [32mRequest execution failed with message: I/O error on POST request for "http://localhost:8761/eureka/apps/RATING-SERVICE": Connection refused: connect; nested exception is java.net.ConnectException: Connection refused: connect
+[0;39m[33m20:04:13.251[0;39m [DiscoveryClient-InstanceInfoReplicator-0] [31mWARN [0;39m [36mc.netflix.discovery.DiscoveryClient[0;39m - [32mDiscoveryClient_RATING-SERVICE/LAPTOP-F31M9K39:rating-service:5002 - registration failed Cannot execute request on any known server
+[0;39mcom.netflix.discovery.shared.transport.TransportException: Cannot execute request on any known server
+	at com.netflix.discovery.shared.transport.decorator.RetryableEurekaHttpClient.execute(RetryableEurekaHttpClient.java:112)
+	at com.netflix.discovery.shared.transport.decorator.EurekaHttpClientDecorator.register(EurekaHttpClientDecorator.java:56)
+	at com.netflix.discovery.shared.transport.decorator.EurekaHttpClientDecorator$1.execute(EurekaHttpClientDecorator.java:59)
+	at com.netflix.discovery.shared.transport.decorator.SessionedEurekaHttpClient.execute(SessionedEurekaHttpClient.java:77)
+	at com.netflix.discovery.shared.transport.decorator.EurekaHttpClientDecorator.register(EurekaHttpClientDecorator.java:56)
+	at com.netflix.discovery.DiscoveryClient.register(DiscoveryClient.java:876)
+	at com.netflix.discovery.InstanceInfoReplicator.run(InstanceInfoReplicator.java:121)
+	at com.netflix.discovery.InstanceInfoReplicator$1.run(InstanceInfoReplicator.java:101)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.access$201(ScheduledThreadPoolExecutor.java:180)
+	at java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.run(ScheduledThreadPoolExecutor.java:293)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at java.lang.Thread.run(Thread.java:748)
+[33m20:04:13.251[0;39m [DiscoveryClient-InstanceInfoReplicator-0] [31mWARN [0;39m [36mc.n.discovery.InstanceInfoReplicator[0;39m - [32mThere was a problem with the instance info replicator
+[0;39mcom.netflix.discovery.shared.transport.TransportException: Cannot execute request on any known server
+	at com.netflix.discovery.shared.transport.decorator.RetryableEurekaHttpClient.execute(RetryableEurekaHttpClient.java:112)
+	at com.netflix.discovery.shared.transport.decorator.EurekaHttpClientDecorator.register(EurekaHttpClientDecorator.java:56)
+	at com.netflix.discovery.shared.transport.decorator.EurekaHttpClientDecorator$1.execute(EurekaHttpClientDecorator.java:59)
+	at com.netflix.discovery.shared.transport.decorator.SessionedEurekaHttpClient.execute(SessionedEurekaHttpClient.java:77)
+	at com.netflix.discovery.shared.transport.decorator.EurekaHttpClientDecorator.register(EurekaHttpClientDecorator.java:56)
+	at com.netflix.discovery.DiscoveryClient.register(DiscoveryClient.java:876)
+	at com.netflix.discovery.InstanceInfoReplicator.run(InstanceInfoReplicator.java:121)
+	at com.netflix.discovery.InstanceInfoReplicator$1.run(InstanceInfoReplicator.java:101)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.access$201(ScheduledThreadPoolExecutor.java:180)
+	at java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.run(ScheduledThreadPoolExecutor.java:293)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at java.lang.Thread.run(Thread.java:748)
+[33m20:04:41.115[0;39m [DiscoveryClient-CacheRefreshExecutor-0] [34mINFO [0;39m [36mc.netflix.discovery.DiscoveryClient[0;39m - [32mDisable delta property : false
+[0;39m[33m20:04:41.115[0;39m [DiscoveryClient-CacheRefreshExecutor-0] [34mINFO [0;39m [36mc.netflix.discovery.DiscoveryClient[0;39m - [32mSingle vip registry refresh property : null
+[0;39m[33m20:04:41.115[0;39m [DiscoveryClient-CacheRefreshExecutor-0] [34mINFO [0;39m [36mc.netflix.discovery.DiscoveryClient[0;39m - [32mForce full registry fetch : false
+[0;39m[33m20:04:41.120[0;39m [DiscoveryClient-CacheRefreshExecutor-0] [34mINFO [0;39m [36mc.netflix.discovery.DiscoveryClient[0;39m - [32mApplication is null : false
+[0;39m[33m20:04:41.121[0;39m [DiscoveryClient-CacheRefreshExecutor-0] [34mINFO [0;39m [36mc.netflix.discovery.DiscoveryClient[0;39m - [32mRegistered Applications size is zero : true
+[0;39m[33m20:04:41.122[0;39m [DiscoveryClient-CacheRefreshExecutor-0] [34mINFO [0;39m [36mc.netflix.discovery.DiscoveryClient[0;39m - [32mApplication version is -1: true
+[0;39m[33m20:04:41.123[0;39m [DiscoveryClient-CacheRefreshExecutor-0] [34mINFO [0;39m [36mc.netflix.discovery.DiscoveryClient[0;39m - [32mGetting all instance registry info from the eureka server
+[0;39m[33m20:04:43.230[0;39m [DiscoveryClient-HeartbeatExecutor-0] [34mINFO [0;39m [36mc.n.d.s.t.d.RedirectingEurekaHttpClient[0;39m - [32mRequest execution error. endpoint=DefaultEndpoint{ serviceUrl='http://localhost:8761/eureka/}, exception=I/O error on PUT request for "http://localhost:8761/eureka/apps/RATING-SERVICE/LAPTOP-F31M9K39:rating-service:5002": Connection refused: connect; nested exception is java.net.ConnectException: Connection refused: connect stacktrace=org.springframework.web.client.ResourceAccessException: I/O error on PUT request for "http://localhost:8761/eureka/apps/RATING-SERVICE/LAPTOP-F31M9K39:rating-service:5002": Connection refused: connect; nested exception is java.net.ConnectException: Connection refused: connect
+	at org.springframework.web.client.RestTemplate.doExecute(RestTemplate.java:785)
+	at org.springframework.web.client.RestTemplate.execute(RestTemplate.java:711)
+	at org.springframework.web.client.RestTemplate.exchange(RestTemplate.java:602)
+	at org.springframework.cloud.netflix.eureka.http.RestTemplateEurekaHttpClient.sendHeartBeat(RestTemplateEurekaHttpClient.java:99)
+	at com.netflix.discovery.shared.transport.decorator.EurekaHttpClientDecorator$3.execute(EurekaHttpClientDecorator.java:92)
+	at com.netflix.discovery.shared.transport.decorator.RedirectingEurekaHttpClient.executeOnNewServer(RedirectingEurekaHttpClient.java:121)
+	at com.netflix.discovery.shared.transport.decorator.RedirectingEurekaHttpClient.execute(RedirectingEurekaHttpClient.java:80)
+	at com.netflix.discovery.shared.transport.decorator.EurekaHttpClientDecorator.sendHeartBeat(EurekaHttpClientDecorator.java:89)
+	at com.netflix.discovery.shared.transport.decorator.EurekaHttpClientDecorator$3.execute(EurekaHttpClientDecorator.java:92)
+	at com.netflix.discovery.shared.transport.decorator.RetryableEurekaHttpClient.execute(RetryableEurekaHttpClient.java:120)
+	at com.netflix.discovery.shared.transport.decorator.EurekaHttpClientDecorator.sendHeartBeat(EurekaHttpClientDecorator.java:89)
+	at com.netflix.discovery.shared.transport.decorator.EurekaHttpClientDecorator$3.execute(EurekaHttpClientDecorator.java:92)
+	at com.netflix.discovery.shared.transport.decorator.SessionedEurekaHttpClient.execute(SessionedEurekaHttpClient.java:77)
+	at com.netflix.discovery.shared.transport.decorator.EurekaHttpClientDecorator.sendHeartBeat(EurekaHttpClientDecorator.java:89)
+	at com.netflix.discovery.DiscoveryClient.renew(DiscoveryClient.java:893)
+	at com.netflix.discovery.DiscoveryClient$HeartbeatThread.run(DiscoveryClient.java:1461)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at java.lang.Thread.run(Thread.java:748)
+Caused by: java.net.ConnectException: Connection refused: connect
+	at java.net.DualStackPlainSocketImpl.connect0(Native Method)
+	at java.net.DualStackPlainSocketImpl.socketConnect(DualStackPlainSocketImpl.java:75)
+	at java.net.AbstractPlainSocketImpl.doConnect(AbstractPlainSocketImpl.java:476)
+	at java.net.AbstractPlainSocketImpl.connectToAddress(AbstractPlainSocketImpl.java:218)
+	at java.net.AbstractPlainSocketImpl.connect(AbstractPlainSocketImpl.java:200)
+	at java.net.PlainSocketImpl.connect(PlainSocketImpl.java:162)
+	at java.net.SocksSocketImpl.connect(SocksSocketImpl.java:394)
+	at java.net.Socket.connect(Socket.java:606)
+	at java.net.Socket.connect(Socket.java:555)
+	at sun.net.NetworkClient.doConnect(NetworkClient.java:180)
+	at sun.net.www.http.HttpClient.openServer(HttpClient.java:463)
+	at sun.net.www.http.HttpClient.openServer(HttpClient.java:558)
+	at sun.net.www.http.HttpClient.<init>(HttpClient.java:242)
+	at sun.net.www.http.HttpClient.New(HttpClient.java:339)
+	at sun.net.www.http.HttpClient.New(HttpClient.java:357)
+	at sun.net.www.protocol.http.HttpURLConnection.getNewHttpClient(HttpURLConnection.java:1226)
+	at sun.net.www.protocol.http.HttpURLConnection.plainConnect0(HttpURLConnection.java:1162)
+	at sun.net.www.protocol.http.HttpURLConnection.plainConnect(HttpURLConnection.java:1056)
+	at sun.net.www.protocol.http.HttpURLConnection.connect(HttpURLConnection.java:990)
+	at org.springframework.http.client.SimpleBufferingClientHttpRequest.executeInternal(SimpleBufferingClientHttpRequest.java:76)
+	at org.springframework.http.client.AbstractBufferingClientHttpRequest.executeInternal(AbstractBufferingClientHttpRequest.java:48)
+	at org.springframework.http.client.AbstractClientHttpRequest.execute(AbstractClientHttpRequest.java:66)
+	at org.springframework.web.client.RestTemplate.doExecute(RestTemplate.java:776)
+	... 20 more
+
+[0;39m[33m20:04:43.230[0;39m [DiscoveryClient-HeartbeatExecutor-0] [31mWARN [0;39m [36mc.n.d.s.t.d.RetryableEurekaHttpClient[0;39m - [32mRequest execution failed with message: I/O error on PUT request for "http://localhost:8761/eureka/apps/RATING-SERVICE/LAPTOP-F31M9K39:rating-service:5002": Connection refused: connect; nested exception is java.net.ConnectException: Connection refused: connect
+[0;39m[33m20:04:43.240[0;39m [DiscoveryClient-CacheRefreshExecutor-0] [34mINFO [0;39m [36mc.n.d.s.t.d.RedirectingEurekaHttpClient[0;39m - [32mRequest execution error. endpoint=DefaultEndpoint{ serviceUrl='http://localhost:8761/eureka/}, exception=I/O error on GET request for "http://localhost:8761/eureka/apps/": Connection refused: connect; nested exception is java.net.ConnectException: Connection refused: connect stacktrace=org.springframework.web.client.ResourceAccessException: I/O error on GET request for "http://localhost:8761/eureka/apps/": Connection refused: connect; nested exception is java.net.ConnectException: Connection refused: connect
+	at org.springframework.web.client.RestTemplate.doExecute(RestTemplate.java:785)
+	at org.springframework.web.client.RestTemplate.execute(RestTemplate.java:711)
+	at org.springframework.web.client.RestTemplate.exchange(RestTemplate.java:602)
+	at org.springframework.cloud.netflix.eureka.http.RestTemplateEurekaHttpClient.getApplicationsInternal(RestTemplateEurekaHttpClient.java:145)
+	at org.springframework.cloud.netflix.eureka.http.RestTemplateEurekaHttpClient.getApplications(RestTemplateEurekaHttpClient.java:135)
+	at com.netflix.discovery.shared.transport.decorator.EurekaHttpClientDecorator$6.execute(EurekaHttpClientDecorator.java:137)
+	at com.netflix.discovery.shared.transport.decorator.RedirectingEurekaHttpClient.executeOnNewServer(RedirectingEurekaHttpClient.java:121)
+	at com.netflix.discovery.shared.transport.decorator.RedirectingEurekaHttpClient.execute(RedirectingEurekaHttpClient.java:80)
+	at com.netflix.discovery.shared.transport.decorator.EurekaHttpClientDecorator.getApplications(EurekaHttpClientDecorator.java:134)
+	at com.netflix.discovery.shared.transport.decorator.EurekaHttpClientDecorator$6.execute(EurekaHttpClientDecorator.java:137)
+	at com.netflix.discovery.shared.transport.decorator.RetryableEurekaHttpClient.execute(RetryableEurekaHttpClient.java:120)
+	at com.netflix.discovery.shared.transport.decorator.EurekaHttpClientDecorator.getApplications(EurekaHttpClientDecorator.java:134)
+	at com.netflix.discovery.shared.transport.decorator.EurekaHttpClientDecorator$6.execute(EurekaHttpClientDecorator.java:137)
+	at com.netflix.discovery.shared.transport.decorator.SessionedEurekaHttpClient.execute(SessionedEurekaHttpClient.java:77)
+	at com.netflix.discovery.shared.transport.decorator.EurekaHttpClientDecorator.getApplications(EurekaHttpClientDecorator.java:134)
+	at com.netflix.discovery.DiscoveryClient.getAndStoreFullRegistry(DiscoveryClient.java:1101)
+	at com.netflix.discovery.DiscoveryClient.fetchRegistry(DiscoveryClient.java:1014)
+	at com.netflix.discovery.DiscoveryClient.refreshRegistry(DiscoveryClient.java:1535)
+	at com.netflix.discovery.DiscoveryClient$CacheRefreshThread.run(DiscoveryClient.java:1502)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at java.lang.Thread.run(Thread.java:748)
+Caused by: java.net.ConnectException: Connection refused: connect
+	at java.net.DualStackPlainSocketImpl.connect0(Native Method)
+	at java.net.DualStackPlainSocketImpl.socketConnect(DualStackPlainSocketImpl.java:75)
+	at java.net.AbstractPlainSocketImpl.doConnect(AbstractPlainSocketImpl.java:476)
+	at java.net.AbstractPlainSocketImpl.connectToAddress(AbstractPlainSocketImpl.java:218)
+	at java.net.AbstractPlainSocketImpl.connect(AbstractPlainSocketImpl.java:200)
+	at java.net.PlainSocketImpl.connect(PlainSocketImpl.java:162)
+	at java.net.SocksSocketImpl.connect(SocksSocketImpl.java:394)
+	at java.net.Socket.connect(Socket.java:606)
+	at java.net.Socket.connect(Socket.java:555)
+	at sun.net.NetworkClient.doConnect(NetworkClient.java:180)
+	at sun.net.www.http.HttpClient.openServer(HttpClient.java:463)
+	at sun.net.www.http.HttpClient.openServer(HttpClient.java:558)
+	at sun.net.www.http.HttpClient.<init>(HttpClient.java:242)
+	at sun.net.www.http.HttpClient.New(HttpClient.java:339)
+	at sun.net.www.http.HttpClient.New(HttpClient.java:357)
+	at sun.net.www.protocol.http.HttpURLConnection.getNewHttpClient(HttpURLConnection.java:1226)
+	at sun.net.www.protocol.http.HttpURLConnection.plainConnect0(HttpURLConnection.java:1162)
+	at sun.net.www.protocol.http.HttpURLConnection.plainConnect(HttpURLConnection.java:1056)
+	at sun.net.www.protocol.http.HttpURLConnection.connect(HttpURLConnection.java:990)
+	at org.springframework.http.client.SimpleBufferingClientHttpRequest.executeInternal(SimpleBufferingClientHttpRequest.java:76)
+	at org.springframework.http.client.AbstractBufferingClientHttpRequest.executeInternal(AbstractBufferingClientHttpRequest.java:48)
+	at org.springframework.http.client.AbstractClientHttpRequest.execute(AbstractClientHttpRequest.java:66)
+	at org.springframework.web.client.RestTemplate.doExecute(RestTemplate.java:776)
+	... 23 more
+
+[0;39m[33m20:04:43.245[0;39m [DiscoveryClient-HeartbeatExecutor-0] [1;31mERROR[0;39m [36mc.netflix.discovery.DiscoveryClient[0;39m - [32mDiscoveryClient_RATING-SERVICE/LAPTOP-F31M9K39:rating-service:5002 - was unable to send heartbeat!
+[0;39mcom.netflix.discovery.shared.transport.TransportException: Cannot execute request on any known server
+	at com.netflix.discovery.shared.transport.decorator.RetryableEurekaHttpClient.execute(RetryableEurekaHttpClient.java:112)
+	at com.netflix.discovery.shared.transport.decorator.EurekaHttpClientDecorator.sendHeartBeat(EurekaHttpClientDecorator.java:89)
+	at com.netflix.discovery.shared.transport.decorator.EurekaHttpClientDecorator$3.execute(EurekaHttpClientDecorator.java:92)
+	at com.netflix.discovery.shared.transport.decorator.SessionedEurekaHttpClient.execute(SessionedEurekaHttpClient.java:77)
+	at com.netflix.discovery.shared.transport.decorator.EurekaHttpClientDecorator.sendHeartBeat(EurekaHttpClientDecorator.java:89)
+	at com.netflix.discovery.DiscoveryClient.renew(DiscoveryClient.java:893)
+	at com.netflix.discovery.DiscoveryClient$HeartbeatThread.run(DiscoveryClient.java:1461)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at java.lang.Thread.run(Thread.java:748)
+[33m20:04:43.246[0;39m [DiscoveryClient-CacheRefreshExecutor-0] [31mWARN [0;39m [36mc.n.d.s.t.d.RetryableEurekaHttpClient[0;39m - [32mRequest execution failed with message: I/O error on GET request for "http://localhost:8761/eureka/apps/": Connection refused: connect; nested exception is java.net.ConnectException: Connection refused: connect
+[0;39m[33m20:04:43.251[0;39m [DiscoveryClient-CacheRefreshExecutor-0] [34mINFO [0;39m [36mc.netflix.discovery.DiscoveryClient[0;39m - [32mDiscoveryClient_RATING-SERVICE/LAPTOP-F31M9K39:rating-service:5002 - was unable to refresh its cache! This periodic background refresh will be retried in 30 seconds. status = Cannot execute request on any known server stacktrace = com.netflix.discovery.shared.transport.TransportException: Cannot execute request on any known server
+	at com.netflix.discovery.shared.transport.decorator.RetryableEurekaHttpClient.execute(RetryableEurekaHttpClient.java:112)
+	at com.netflix.discovery.shared.transport.decorator.EurekaHttpClientDecorator.getApplications(EurekaHttpClientDecorator.java:134)
+	at com.netflix.discovery.shared.transport.decorator.EurekaHttpClientDecorator$6.execute(EurekaHttpClientDecorator.java:137)
+	at com.netflix.discovery.shared.transport.decorator.SessionedEurekaHttpClient.execute(SessionedEurekaHttpClient.java:77)
+	at com.netflix.discovery.shared.transport.decorator.EurekaHttpClientDecorator.getApplications(EurekaHttpClientDecorator.java:134)
+	at com.netflix.discovery.DiscoveryClient.getAndStoreFullRegistry(DiscoveryClient.java:1101)
+	at com.netflix.discovery.DiscoveryClient.fetchRegistry(DiscoveryClient.java:1014)
+	at com.netflix.discovery.DiscoveryClient.refreshRegistry(DiscoveryClient.java:1535)
+	at com.netflix.discovery.DiscoveryClient$CacheRefreshThread.run(DiscoveryClient.java:1502)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at java.lang.Thread.run(Thread.java:748)
+
+[0;39m[33m20:04:43.260[0;39m [DiscoveryClient-InstanceInfoReplicator-0] [34mINFO [0;39m [36mc.netflix.discovery.DiscoveryClient[0;39m - [32mDiscoveryClient_RATING-SERVICE/LAPTOP-F31M9K39:rating-service:5002: registering service...
+[0;39m[33m20:04:45.338[0;39m [DiscoveryClient-InstanceInfoReplicator-0] [34mINFO [0;39m [36mc.n.d.s.t.d.RedirectingEurekaHttpClient[0;39m - [32mRequest execution error. endpoint=DefaultEndpoint{ serviceUrl='http://localhost:8761/eureka/}, exception=I/O error on POST request for "http://localhost:8761/eureka/apps/RATING-SERVICE": Connection refused: connect; nested exception is java.net.ConnectException: Connection refused: connect stacktrace=org.springframework.web.client.ResourceAccessException: I/O error on POST request for "http://localhost:8761/eureka/apps/RATING-SERVICE": Connection refused: connect; nested exception is java.net.ConnectException: Connection refused: connect
+	at org.springframework.web.client.RestTemplate.doExecute(RestTemplate.java:785)
+	at org.springframework.web.client.RestTemplate.execute(RestTemplate.java:711)
+	at org.springframework.web.client.RestTemplate.exchange(RestTemplate.java:602)
+	at org.springframework.cloud.netflix.eureka.http.RestTemplateEurekaHttpClient.register(RestTemplateEurekaHttpClient.java:77)
+	at com.netflix.discovery.shared.transport.decorator.EurekaHttpClientDecorator$1.execute(EurekaHttpClientDecorator.java:59)
+	at com.netflix.discovery.shared.transport.decorator.RedirectingEurekaHttpClient.executeOnNewServer(RedirectingEurekaHttpClient.java:121)
+	at com.netflix.discovery.shared.transport.decorator.RedirectingEurekaHttpClient.execute(RedirectingEurekaHttpClient.java:80)
+	at com.netflix.discovery.shared.transport.decorator.EurekaHttpClientDecorator.register(EurekaHttpClientDecorator.java:56)
+	at com.netflix.discovery.shared.transport.decorator.EurekaHttpClientDecorator$1.execute(EurekaHttpClientDecorator.java:59)
+	at com.netflix.discovery.shared.transport.decorator.RetryableEurekaHttpClient.execute(RetryableEurekaHttpClient.java:120)
+	at com.netflix.discovery.shared.transport.decorator.EurekaHttpClientDecorator.register(EurekaHttpClientDecorator.java:56)
+	at com.netflix.discovery.shared.transport.decorator.EurekaHttpClientDecorator$1.execute(EurekaHttpClientDecorator.java:59)
+	at com.netflix.discovery.shared.transport.decorator.SessionedEurekaHttpClient.execute(SessionedEurekaHttpClient.java:77)
+	at com.netflix.discovery.shared.transport.decorator.EurekaHttpClientDecorator.register(EurekaHttpClientDecorator.java:56)
+	at com.netflix.discovery.DiscoveryClient.register(DiscoveryClient.java:876)
+	at com.netflix.discovery.InstanceInfoReplicator.run(InstanceInfoReplicator.java:121)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.access$201(ScheduledThreadPoolExecutor.java:180)
+	at java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.run(ScheduledThreadPoolExecutor.java:293)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at java.lang.Thread.run(Thread.java:748)
+Caused by: java.net.ConnectException: Connection refused: connect
+	at java.net.DualStackPlainSocketImpl.connect0(Native Method)
+	at java.net.DualStackPlainSocketImpl.socketConnect(DualStackPlainSocketImpl.java:75)
+	at java.net.AbstractPlainSocketImpl.doConnect(AbstractPlainSocketImpl.java:476)
+	at java.net.AbstractPlainSocketImpl.connectToAddress(AbstractPlainSocketImpl.java:218)
+	at java.net.AbstractPlainSocketImpl.connect(AbstractPlainSocketImpl.java:200)
+	at java.net.PlainSocketImpl.connect(PlainSocketImpl.java:162)
+	at java.net.SocksSocketImpl.connect(SocksSocketImpl.java:394)
+	at java.net.Socket.connect(Socket.java:606)
+	at java.net.Socket.connect(Socket.java:555)
+	at sun.net.NetworkClient.doConnect(NetworkClient.java:180)
+	at sun.net.www.http.HttpClient.openServer(HttpClient.java:463)
+	at sun.net.www.http.HttpClient.openServer(HttpClient.java:558)
+	at sun.net.www.http.HttpClient.<init>(HttpClient.java:242)
+	at sun.net.www.http.HttpClient.New(HttpClient.java:339)
+	at sun.net.www.http.HttpClient.New(HttpClient.java:357)
+	at sun.net.www.protocol.http.HttpURLConnection.getNewHttpClient(HttpURLConnection.java:1226)
+	at sun.net.www.protocol.http.HttpURLConnection.plainConnect0(HttpURLConnection.java:1162)
+	at sun.net.www.protocol.http.HttpURLConnection.plainConnect(HttpURLConnection.java:1056)
+	at sun.net.www.protocol.http.HttpURLConnection.connect(HttpURLConnection.java:990)
+	at org.springframework.http.client.SimpleBufferingClientHttpRequest.executeInternal(SimpleBufferingClientHttpRequest.java:76)
+	at org.springframework.http.client.AbstractBufferingClientHttpRequest.executeInternal(AbstractBufferingClientHttpRequest.java:48)
+	at org.springframework.http.client.AbstractClientHttpRequest.execute(AbstractClientHttpRequest.java:66)
+	at org.springframework.web.client.RestTemplate.doExecute(RestTemplate.java:776)
+	... 22 more
+
+[0;39m[33m20:04:45.340[0;39m [DiscoveryClient-InstanceInfoReplicator-0] [31mWARN [0;39m [36mc.n.d.s.t.d.RetryableEurekaHttpClient[0;39m - [32mRequest execution failed with message: I/O error on POST request for "http://localhost:8761/eureka/apps/RATING-SERVICE": Connection refused: connect; nested exception is java.net.ConnectException: Connection refused: connect
+[0;39m[33m20:04:45.342[0;39m [DiscoveryClient-InstanceInfoReplicator-0] [31mWARN [0;39m [36mc.netflix.discovery.DiscoveryClient[0;39m - [32mDiscoveryClient_RATING-SERVICE/LAPTOP-F31M9K39:rating-service:5002 - registration failed Cannot execute request on any known server
+[0;39mcom.netflix.discovery.shared.transport.TransportException: Cannot execute request on any known server
+	at com.netflix.discovery.shared.transport.decorator.RetryableEurekaHttpClient.execute(RetryableEurekaHttpClient.java:112)
+	at com.netflix.discovery.shared.transport.decorator.EurekaHttpClientDecorator.register(EurekaHttpClientDecorator.java:56)
+	at com.netflix.discovery.shared.transport.decorator.EurekaHttpClientDecorator$1.execute(EurekaHttpClientDecorator.java:59)
+	at com.netflix.discovery.shared.transport.decorator.SessionedEurekaHttpClient.execute(SessionedEurekaHttpClient.java:77)
+	at com.netflix.discovery.shared.transport.decorator.EurekaHttpClientDecorator.register(EurekaHttpClientDecorator.java:56)
+	at com.netflix.discovery.DiscoveryClient.register(DiscoveryClient.java:876)
+	at com.netflix.discovery.InstanceInfoReplicator.run(InstanceInfoReplicator.java:121)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.access$201(ScheduledThreadPoolExecutor.java:180)
+	at java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.run(ScheduledThreadPoolExecutor.java:293)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at java.lang.Thread.run(Thread.java:748)
+[33m20:04:45.344[0;39m [DiscoveryClient-InstanceInfoReplicator-0] [31mWARN [0;39m [36mc.n.discovery.InstanceInfoReplicator[0;39m - [32mThere was a problem with the instance info replicator
+[0;39mcom.netflix.discovery.shared.transport.TransportException: Cannot execute request on any known server
+	at com.netflix.discovery.shared.transport.decorator.RetryableEurekaHttpClient.execute(RetryableEurekaHttpClient.java:112)
+	at com.netflix.discovery.shared.transport.decorator.EurekaHttpClientDecorator.register(EurekaHttpClientDecorator.java:56)
+	at com.netflix.discovery.shared.transport.decorator.EurekaHttpClientDecorator$1.execute(EurekaHttpClientDecorator.java:59)
+	at com.netflix.discovery.shared.transport.decorator.SessionedEurekaHttpClient.execute(SessionedEurekaHttpClient.java:77)
+	at com.netflix.discovery.shared.transport.decorator.EurekaHttpClientDecorator.register(EurekaHttpClientDecorator.java:56)
+	at com.netflix.discovery.DiscoveryClient.register(DiscoveryClient.java:876)
+	at com.netflix.discovery.InstanceInfoReplicator.run(InstanceInfoReplicator.java:121)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.access$201(ScheduledThreadPoolExecutor.java:180)
+	at java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.run(ScheduledThreadPoolExecutor.java:293)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at java.lang.Thread.run(Thread.java:748)
+[33m20:04:50.084[0;39m [SpringContextShutdownHook] [34mINFO [0;39m [36mo.s.c.n.e.s.EurekaServiceRegistry[0;39m - [32mUnregistering application RATING-SERVICE with eureka with status DOWN
+[0;39m[33m20:04:50.084[0;39m [SpringContextShutdownHook] [1;31mERROR[0;39m [36mc.netflix.discovery.DiscoveryClient[0;39m - [32mSaw local status change event StatusChangeEvent [timestamp=1622126090084, current=DOWN, previous=UP]
+[0;39m[33m20:04:50.084[0;39m [DiscoveryClient-InstanceInfoReplicator-0] [34mINFO [0;39m [36mc.netflix.discovery.DiscoveryClient[0;39m - [32mDiscoveryClient_RATING-SERVICE/LAPTOP-F31M9K39:rating-service:5002: registering service...
+[0;39m[33m20:04:50.410[0;39m [SpringContextShutdownHook] [34mINFO [0;39m [36mo.s.s.c.ThreadPoolTaskExecutor[0;39m - [32mShutting down ExecutorService 'applicationTaskExecutor'
+[0;39m[33m20:04:50.411[0;39m [SpringContextShutdownHook] [34mINFO [0;39m [36mo.s.o.j.LocalContainerEntityManagerFactoryBean[0;39m - [32mClosing JPA EntityManagerFactory for persistence unit 'default'
+[0;39m[33m20:04:50.413[0;39m [SpringContextShutdownHook] [34mINFO [0;39m [36mcom.zaxxer.hikari.HikariDataSource[0;39m - [32mHikariPool-1 - Shutdown initiated...
+[0;39m[33m20:04:50.421[0;39m [SpringContextShutdownHook] [34mINFO [0;39m [36mcom.zaxxer.hikari.HikariDataSource[0;39m - [32mHikariPool-1 - Shutdown completed.
+[0;39m[33m20:04:50.421[0;39m [SpringContextShutdownHook] [34mINFO [0;39m [36mc.netflix.discovery.DiscoveryClient[0;39m - [32mShutting down DiscoveryClient ...
+[0;39m[33m20:04:52.136[0;39m [DiscoveryClient-InstanceInfoReplicator-0] [34mINFO [0;39m [36mc.n.d.s.t.d.RedirectingEurekaHttpClient[0;39m - [32mRequest execution error. endpoint=DefaultEndpoint{ serviceUrl='http://localhost:8761/eureka/}, exception=I/O error on POST request for "http://localhost:8761/eureka/apps/RATING-SERVICE": Connection refused: connect; nested exception is java.net.ConnectException: Connection refused: connect stacktrace=org.springframework.web.client.ResourceAccessException: I/O error on POST request for "http://localhost:8761/eureka/apps/RATING-SERVICE": Connection refused: connect; nested exception is java.net.ConnectException: Connection refused: connect
+	at org.springframework.web.client.RestTemplate.doExecute(RestTemplate.java:785)
+	at org.springframework.web.client.RestTemplate.execute(RestTemplate.java:711)
+	at org.springframework.web.client.RestTemplate.exchange(RestTemplate.java:602)
+	at org.springframework.cloud.netflix.eureka.http.RestTemplateEurekaHttpClient.register(RestTemplateEurekaHttpClient.java:77)
+	at com.netflix.discovery.shared.transport.decorator.EurekaHttpClientDecorator$1.execute(EurekaHttpClientDecorator.java:59)
+	at com.netflix.discovery.shared.transport.decorator.RedirectingEurekaHttpClient.executeOnNewServer(RedirectingEurekaHttpClient.java:121)
+	at com.netflix.discovery.shared.transport.decorator.RedirectingEurekaHttpClient.execute(RedirectingEurekaHttpClient.java:80)
+	at com.netflix.discovery.shared.transport.decorator.EurekaHttpClientDecorator.register(EurekaHttpClientDecorator.java:56)
+	at com.netflix.discovery.shared.transport.decorator.EurekaHttpClientDecorator$1.execute(EurekaHttpClientDecorator.java:59)
+	at com.netflix.discovery.shared.transport.decorator.RetryableEurekaHttpClient.execute(RetryableEurekaHttpClient.java:120)
+	at com.netflix.discovery.shared.transport.decorator.EurekaHttpClientDecorator.register(EurekaHttpClientDecorator.java:56)
+	at com.netflix.discovery.shared.transport.decorator.EurekaHttpClientDecorator$1.execute(EurekaHttpClientDecorator.java:59)
+	at com.netflix.discovery.shared.transport.decorator.SessionedEurekaHttpClient.execute(SessionedEurekaHttpClient.java:77)
+	at com.netflix.discovery.shared.transport.decorator.EurekaHttpClientDecorator.register(EurekaHttpClientDecorator.java:56)
+	at com.netflix.discovery.DiscoveryClient.register(DiscoveryClient.java:876)
+	at com.netflix.discovery.InstanceInfoReplicator.run(InstanceInfoReplicator.java:121)
+	at com.netflix.discovery.InstanceInfoReplicator$1.run(InstanceInfoReplicator.java:101)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.access$201(ScheduledThreadPoolExecutor.java:180)
+	at java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.run(ScheduledThreadPoolExecutor.java:293)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at java.lang.Thread.run(Thread.java:748)
+Caused by: java.net.ConnectException: Connection refused: connect
+	at java.net.DualStackPlainSocketImpl.connect0(Native Method)
+	at java.net.DualStackPlainSocketImpl.socketConnect(DualStackPlainSocketImpl.java:75)
+	at java.net.AbstractPlainSocketImpl.doConnect(AbstractPlainSocketImpl.java:476)
+	at java.net.AbstractPlainSocketImpl.connectToAddress(AbstractPlainSocketImpl.java:218)
+	at java.net.AbstractPlainSocketImpl.connect(AbstractPlainSocketImpl.java:200)
+	at java.net.PlainSocketImpl.connect(PlainSocketImpl.java:162)
+	at java.net.SocksSocketImpl.connect(SocksSocketImpl.java:394)
+	at java.net.Socket.connect(Socket.java:606)
+	at java.net.Socket.connect(Socket.java:555)
+	at sun.net.NetworkClient.doConnect(NetworkClient.java:180)
+	at sun.net.www.http.HttpClient.openServer(HttpClient.java:463)
+	at sun.net.www.http.HttpClient.openServer(HttpClient.java:558)
+	at sun.net.www.http.HttpClient.<init>(HttpClient.java:242)
+	at sun.net.www.http.HttpClient.New(HttpClient.java:339)
+	at sun.net.www.http.HttpClient.New(HttpClient.java:357)
+	at sun.net.www.protocol.http.HttpURLConnection.getNewHttpClient(HttpURLConnection.java:1226)
+	at sun.net.www.protocol.http.HttpURLConnection.plainConnect0(HttpURLConnection.java:1162)
+	at sun.net.www.protocol.http.HttpURLConnection.plainConnect(HttpURLConnection.java:1056)
+	at sun.net.www.protocol.http.HttpURLConnection.connect(HttpURLConnection.java:990)
+	at org.springframework.http.client.SimpleBufferingClientHttpRequest.executeInternal(SimpleBufferingClientHttpRequest.java:76)
+	at org.springframework.http.client.AbstractBufferingClientHttpRequest.executeInternal(AbstractBufferingClientHttpRequest.java:48)
+	at org.springframework.http.client.AbstractClientHttpRequest.execute(AbstractClientHttpRequest.java:66)
+	at org.springframework.web.client.RestTemplate.doExecute(RestTemplate.java:776)
+	... 23 more
+
+[0;39m[33m20:04:52.137[0;39m [DiscoveryClient-InstanceInfoReplicator-0] [31mWARN [0;39m [36mc.n.d.s.t.d.RetryableEurekaHttpClient[0;39m - [32mRequest execution failed with message: I/O error on POST request for "http://localhost:8761/eureka/apps/RATING-SERVICE": Connection refused: connect; nested exception is java.net.ConnectException: Connection refused: connect
+[0;39m[33m20:04:52.139[0;39m [DiscoveryClient-InstanceInfoReplicator-0] [31mWARN [0;39m [36mc.netflix.discovery.DiscoveryClient[0;39m - [32mDiscoveryClient_RATING-SERVICE/LAPTOP-F31M9K39:rating-service:5002 - registration failed Cannot execute request on any known server
+[0;39mcom.netflix.discovery.shared.transport.TransportException: Cannot execute request on any known server
+	at com.netflix.discovery.shared.transport.decorator.RetryableEurekaHttpClient.execute(RetryableEurekaHttpClient.java:112)
+	at com.netflix.discovery.shared.transport.decorator.EurekaHttpClientDecorator.register(EurekaHttpClientDecorator.java:56)
+	at com.netflix.discovery.shared.transport.decorator.EurekaHttpClientDecorator$1.execute(EurekaHttpClientDecorator.java:59)
+	at com.netflix.discovery.shared.transport.decorator.SessionedEurekaHttpClient.execute(SessionedEurekaHttpClient.java:77)
+	at com.netflix.discovery.shared.transport.decorator.EurekaHttpClientDecorator.register(EurekaHttpClientDecorator.java:56)
+	at com.netflix.discovery.DiscoveryClient.register(DiscoveryClient.java:876)
+	at com.netflix.discovery.InstanceInfoReplicator.run(InstanceInfoReplicator.java:121)
+	at com.netflix.discovery.InstanceInfoReplicator$1.run(InstanceInfoReplicator.java:101)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.access$201(ScheduledThreadPoolExecutor.java:180)
+	at java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.run(ScheduledThreadPoolExecutor.java:293)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at java.lang.Thread.run(Thread.java:748)
+[33m20:04:52.139[0;39m [DiscoveryClient-InstanceInfoReplicator-0] [31mWARN [0;39m [36mc.n.discovery.InstanceInfoReplicator[0;39m - [32mThere was a problem with the instance info replicator
+[0;39mcom.netflix.discovery.shared.transport.TransportException: Cannot execute request on any known server
+	at com.netflix.discovery.shared.transport.decorator.RetryableEurekaHttpClient.execute(RetryableEurekaHttpClient.java:112)
+	at com.netflix.discovery.shared.transport.decorator.EurekaHttpClientDecorator.register(EurekaHttpClientDecorator.java:56)
+	at com.netflix.discovery.shared.transport.decorator.EurekaHttpClientDecorator$1.execute(EurekaHttpClientDecorator.java:59)
+	at com.netflix.discovery.shared.transport.decorator.SessionedEurekaHttpClient.execute(SessionedEurekaHttpClient.java:77)
+	at com.netflix.discovery.shared.transport.decorator.EurekaHttpClientDecorator.register(EurekaHttpClientDecorator.java:56)
+	at com.netflix.discovery.DiscoveryClient.register(DiscoveryClient.java:876)
+	at com.netflix.discovery.InstanceInfoReplicator.run(InstanceInfoReplicator.java:121)
+	at com.netflix.discovery.InstanceInfoReplicator$1.run(InstanceInfoReplicator.java:101)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.access$201(ScheduledThreadPoolExecutor.java:180)
+	at java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.run(ScheduledThreadPoolExecutor.java:293)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at java.lang.Thread.run(Thread.java:748)
+[33m20:04:52.142[0;39m [SpringContextShutdownHook] [34mINFO [0;39m [36mc.netflix.discovery.DiscoveryClient[0;39m - [32mUnregistering ...
+[0;39m[33m20:04:54.170[0;39m [SpringContextShutdownHook] [34mINFO [0;39m [36mc.n.d.s.t.d.RedirectingEurekaHttpClient[0;39m - [32mRequest execution error. endpoint=DefaultEndpoint{ serviceUrl='http://localhost:8761/eureka/}, exception=I/O error on DELETE request for "http://localhost:8761/eureka/apps/RATING-SERVICE/LAPTOP-F31M9K39:rating-service:5002": Connection refused: connect; nested exception is java.net.ConnectException: Connection refused: connect stacktrace=org.springframework.web.client.ResourceAccessException: I/O error on DELETE request for "http://localhost:8761/eureka/apps/RATING-SERVICE/LAPTOP-F31M9K39:rating-service:5002": Connection refused: connect; nested exception is java.net.ConnectException: Connection refused: connect
+	at org.springframework.web.client.RestTemplate.doExecute(RestTemplate.java:785)
+	at org.springframework.web.client.RestTemplate.execute(RestTemplate.java:711)
+	at org.springframework.web.client.RestTemplate.exchange(RestTemplate.java:602)
+	at org.springframework.cloud.netflix.eureka.http.RestTemplateEurekaHttpClient.cancel(RestTemplateEurekaHttpClient.java:87)
+	at com.netflix.discovery.shared.transport.decorator.EurekaHttpClientDecorator$2.execute(EurekaHttpClientDecorator.java:74)
+	at com.netflix.discovery.shared.transport.decorator.RedirectingEurekaHttpClient.executeOnNewServer(RedirectingEurekaHttpClient.java:121)
+	at com.netflix.discovery.shared.transport.decorator.RedirectingEurekaHttpClient.execute(RedirectingEurekaHttpClient.java:80)
+	at com.netflix.discovery.shared.transport.decorator.EurekaHttpClientDecorator.cancel(EurekaHttpClientDecorator.java:71)
+	at com.netflix.discovery.shared.transport.decorator.EurekaHttpClientDecorator$2.execute(EurekaHttpClientDecorator.java:74)
+	at com.netflix.discovery.shared.transport.decorator.RetryableEurekaHttpClient.execute(RetryableEurekaHttpClient.java:120)
+	at com.netflix.discovery.shared.transport.decorator.EurekaHttpClientDecorator.cancel(EurekaHttpClientDecorator.java:71)
+	at com.netflix.discovery.shared.transport.decorator.EurekaHttpClientDecorator$2.execute(EurekaHttpClientDecorator.java:74)
+	at com.netflix.discovery.shared.transport.decorator.SessionedEurekaHttpClient.execute(SessionedEurekaHttpClient.java:77)
+	at com.netflix.discovery.shared.transport.decorator.EurekaHttpClientDecorator.cancel(EurekaHttpClientDecorator.java:71)
+	at com.netflix.discovery.DiscoveryClient.unregister(DiscoveryClient.java:972)
+	at com.netflix.discovery.DiscoveryClient.shutdown(DiscoveryClient.java:948)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.springframework.beans.factory.annotation.InitDestroyAnnotationBeanPostProcessor$LifecycleElement.invoke(InitDestroyAnnotationBeanPostProcessor.java:389)
+	at org.springframework.beans.factory.annotation.InitDestroyAnnotationBeanPostProcessor$LifecycleMetadata.invokeDestroyMethods(InitDestroyAnnotationBeanPostProcessor.java:347)
+	at org.springframework.beans.factory.annotation.InitDestroyAnnotationBeanPostProcessor.postProcessBeforeDestruction(InitDestroyAnnotationBeanPostProcessor.java:177)
+	at org.springframework.beans.factory.support.DisposableBeanAdapter.destroy(DisposableBeanAdapter.java:184)
+	at org.springframework.beans.factory.support.DisposableBeanAdapter.run(DisposableBeanAdapter.java:177)
+	at org.springframework.cloud.context.scope.GenericScope$BeanLifecycleWrapper.destroy(GenericScope.java:395)
+	at org.springframework.cloud.context.scope.GenericScope.destroy(GenericScope.java:141)
+	at org.springframework.beans.factory.support.DisposableBeanAdapter.destroy(DisposableBeanAdapter.java:200)
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.destroyBean(DefaultSingletonBeanRegistry.java:587)
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.destroySingleton(DefaultSingletonBeanRegistry.java:559)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.destroySingleton(DefaultListableBeanFactory.java:1152)
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.destroySingletons(DefaultSingletonBeanRegistry.java:520)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.destroySingletons(DefaultListableBeanFactory.java:1145)
+	at org.springframework.context.support.AbstractApplicationContext.destroyBeans(AbstractApplicationContext.java:1106)
+	at org.springframework.context.support.AbstractApplicationContext.doClose(AbstractApplicationContext.java:1075)
+	at org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext.doClose(ServletWebServerApplicationContext.java:171)
+	at org.springframework.context.support.AbstractApplicationContext$1.run(AbstractApplicationContext.java:991)
+Caused by: java.net.ConnectException: Connection refused: connect
+	at java.net.DualStackPlainSocketImpl.connect0(Native Method)
+	at java.net.DualStackPlainSocketImpl.socketConnect(DualStackPlainSocketImpl.java:75)
+	at java.net.AbstractPlainSocketImpl.doConnect(AbstractPlainSocketImpl.java:476)
+	at java.net.AbstractPlainSocketImpl.connectToAddress(AbstractPlainSocketImpl.java:218)
+	at java.net.AbstractPlainSocketImpl.connect(AbstractPlainSocketImpl.java:200)
+	at java.net.PlainSocketImpl.connect(PlainSocketImpl.java:162)
+	at java.net.SocksSocketImpl.connect(SocksSocketImpl.java:394)
+	at java.net.Socket.connect(Socket.java:606)
+	at java.net.Socket.connect(Socket.java:555)
+	at sun.net.NetworkClient.doConnect(NetworkClient.java:180)
+	at sun.net.www.http.HttpClient.openServer(HttpClient.java:463)
+	at sun.net.www.http.HttpClient.openServer(HttpClient.java:558)
+	at sun.net.www.http.HttpClient.<init>(HttpClient.java:242)
+	at sun.net.www.http.HttpClient.New(HttpClient.java:339)
+	at sun.net.www.http.HttpClient.New(HttpClient.java:357)
+	at sun.net.www.protocol.http.HttpURLConnection.getNewHttpClient(HttpURLConnection.java:1226)
+	at sun.net.www.protocol.http.HttpURLConnection.plainConnect0(HttpURLConnection.java:1162)
+	at sun.net.www.protocol.http.HttpURLConnection.plainConnect(HttpURLConnection.java:1056)
+	at sun.net.www.protocol.http.HttpURLConnection.connect(HttpURLConnection.java:990)
+	at org.springframework.http.client.SimpleBufferingClientHttpRequest.executeInternal(SimpleBufferingClientHttpRequest.java:76)
+	at org.springframework.http.client.AbstractBufferingClientHttpRequest.executeInternal(AbstractBufferingClientHttpRequest.java:48)
+	at org.springframework.http.client.AbstractClientHttpRequest.execute(AbstractClientHttpRequest.java:66)
+	at org.springframework.web.client.RestTemplate.doExecute(RestTemplate.java:776)
+	... 36 more
+
+[0;39m[33m20:04:54.172[0;39m [SpringContextShutdownHook] [31mWARN [0;39m [36mc.n.d.s.t.d.RetryableEurekaHttpClient[0;39m - [32mRequest execution failed with message: I/O error on DELETE request for "http://localhost:8761/eureka/apps/RATING-SERVICE/LAPTOP-F31M9K39:rating-service:5002": Connection refused: connect; nested exception is java.net.ConnectException: Connection refused: connect
+[0;39m[33m20:04:54.174[0;39m [SpringContextShutdownHook] [1;31mERROR[0;39m [36mc.netflix.discovery.DiscoveryClient[0;39m - [32mDiscoveryClient_RATING-SERVICE/LAPTOP-F31M9K39:rating-service:5002 - de-registration failedCannot execute request on any known server
+[0;39mcom.netflix.discovery.shared.transport.TransportException: Cannot execute request on any known server
+	at com.netflix.discovery.shared.transport.decorator.RetryableEurekaHttpClient.execute(RetryableEurekaHttpClient.java:112)
+	at com.netflix.discovery.shared.transport.decorator.EurekaHttpClientDecorator.cancel(EurekaHttpClientDecorator.java:71)
+	at com.netflix.discovery.shared.transport.decorator.EurekaHttpClientDecorator$2.execute(EurekaHttpClientDecorator.java:74)
+	at com.netflix.discovery.shared.transport.decorator.SessionedEurekaHttpClient.execute(SessionedEurekaHttpClient.java:77)
+	at com.netflix.discovery.shared.transport.decorator.EurekaHttpClientDecorator.cancel(EurekaHttpClientDecorator.java:71)
+	at com.netflix.discovery.DiscoveryClient.unregister(DiscoveryClient.java:972)
+	at com.netflix.discovery.DiscoveryClient.shutdown(DiscoveryClient.java:948)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.springframework.beans.factory.annotation.InitDestroyAnnotationBeanPostProcessor$LifecycleElement.invoke(InitDestroyAnnotationBeanPostProcessor.java:389)
+	at org.springframework.beans.factory.annotation.InitDestroyAnnotationBeanPostProcessor$LifecycleMetadata.invokeDestroyMethods(InitDestroyAnnotationBeanPostProcessor.java:347)
+	at org.springframework.beans.factory.annotation.InitDestroyAnnotationBeanPostProcessor.postProcessBeforeDestruction(InitDestroyAnnotationBeanPostProcessor.java:177)
+	at org.springframework.beans.factory.support.DisposableBeanAdapter.destroy(DisposableBeanAdapter.java:184)
+	at org.springframework.beans.factory.support.DisposableBeanAdapter.run(DisposableBeanAdapter.java:177)
+	at org.springframework.cloud.context.scope.GenericScope$BeanLifecycleWrapper.destroy(GenericScope.java:395)
+	at org.springframework.cloud.context.scope.GenericScope.destroy(GenericScope.java:141)
+	at org.springframework.beans.factory.support.DisposableBeanAdapter.destroy(DisposableBeanAdapter.java:200)
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.destroyBean(DefaultSingletonBeanRegistry.java:587)
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.destroySingleton(DefaultSingletonBeanRegistry.java:559)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.destroySingleton(DefaultListableBeanFactory.java:1152)
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.destroySingletons(DefaultSingletonBeanRegistry.java:520)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.destroySingletons(DefaultListableBeanFactory.java:1145)
+	at org.springframework.context.support.AbstractApplicationContext.destroyBeans(AbstractApplicationContext.java:1106)
+	at org.springframework.context.support.AbstractApplicationContext.doClose(AbstractApplicationContext.java:1075)
+	at org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext.doClose(ServletWebServerApplicationContext.java:171)
+	at org.springframework.context.support.AbstractApplicationContext$1.run(AbstractApplicationContext.java:991)
+[33m20:04:54.179[0;39m [SpringContextShutdownHook] [34mINFO [0;39m [36mc.netflix.discovery.DiscoveryClient[0;39m - [32mCompleted shut down of DiscoveryClient
+[0;39m[33m20:05:16.801[0;39m [main] [34mINFO [0;39m [36mr.RatingServiceApplication[0;39m - [32mStarting RatingServiceApplication using Java 1.8.0_291 on LAPTOP-F31M9K39 with PID 7948 (D:\Java Projects\movie-microservices\rating-service\target\classes started by lenono in D:\Java Projects\movie-microservices\rating-service)
+[0;39m[33m20:05:16.804[0;39m [main] [34mINFO [0;39m [36mr.RatingServiceApplication[0;39m - [32mNo active profile set, falling back to default profiles: default
+[0;39m[33m20:05:17.724[0;39m [main] [34mINFO [0;39m [36mo.s.d.r.c.RepositoryConfigurationDelegate[0;39m - [32mMultiple Spring Data modules found, entering strict repository configuration mode!
+[0;39m[33m20:05:17.725[0;39m [main] [34mINFO [0;39m [36mo.s.d.r.c.RepositoryConfigurationDelegate[0;39m - [32mBootstrapping Spring Data JDBC repositories in DEFAULT mode.
+[0;39m[33m20:05:17.756[0;39m [main] [34mINFO [0;39m [36mo.s.d.r.c.RepositoryConfigurationExtensionSupport[0;39m - [32mSpring Data JDBC - Could not safely identify store assignment for repository candidate interface ratingService.repositories.RatingRepository. If you want this repository to be a JDBC repository, consider annotating your entities with one of these annotations: org.springframework.data.relational.core.mapping.Table.
+[0;39m[33m20:05:17.757[0;39m [main] [34mINFO [0;39m [36mo.s.d.r.c.RepositoryConfigurationDelegate[0;39m - [32mFinished Spring Data repository scanning in 27 ms. Found 0 JDBC repository interfaces.
+[0;39m[33m20:05:17.766[0;39m [main] [34mINFO [0;39m [36mo.s.d.r.c.RepositoryConfigurationDelegate[0;39m - [32mMultiple Spring Data modules found, entering strict repository configuration mode!
+[0;39m[33m20:05:17.767[0;39m [main] [34mINFO [0;39m [36mo.s.d.r.c.RepositoryConfigurationDelegate[0;39m - [32mBootstrapping Spring Data JPA repositories in DEFAULT mode.
+[0;39m[33m20:05:17.809[0;39m [main] [34mINFO [0;39m [36mo.s.d.r.c.RepositoryConfigurationDelegate[0;39m - [32mFinished Spring Data repository scanning in 36 ms. Found 1 JPA repository interfaces.
+[0;39m[33m20:05:18.020[0;39m [main] [34mINFO [0;39m [36mo.s.cloud.context.scope.GenericScope[0;39m - [32mBeanFactory id=fd63b7b5-b92b-315c-a725-6e14b42855ab
+[0;39m[33m20:05:18.700[0;39m [main] [34mINFO [0;39m [36mo.s.b.w.e.tomcat.TomcatWebServer[0;39m - [32mTomcat initialized with port(s): 5002 (http)
+[0;39m[33m20:05:18.703[0;39m [main] [34mINFO [0;39m [36mo.a.catalina.core.StandardService[0;39m - [32mStarting service [Tomcat]
+[0;39m[33m20:05:18.711[0;39m [main] [34mINFO [0;39m [36mo.a.catalina.core.StandardEngine[0;39m - [32mStarting Servlet engine: [Apache Tomcat/9.0.45]
+[0;39m[33m20:05:18.924[0;39m [main] [34mINFO [0;39m [36mo.a.c.c.C.[Tomcat].[localhost].[/][0;39m - [32mInitializing Spring embedded WebApplicationContext
+[0;39m[33m20:05:18.924[0;39m [main] [34mINFO [0;39m [36mo.s.b.w.s.c.ServletWebServerApplicationContext[0;39m - [32mRoot WebApplicationContext: initialization completed in 2060 ms
+[0;39m[33m20:05:19.115[0;39m [main] [34mINFO [0;39m [36mo.h.jpa.internal.util.LogHelper[0;39m - [32mHHH000204: Processing PersistenceUnitInfo [name: default]
+[0;39m[33m20:05:19.218[0;39m [main] [34mINFO [0;39m [36morg.hibernate.Version[0;39m - [32mHHH000412: Hibernate ORM core version 5.4.30.Final
+[0;39m[33m20:05:19.333[0;39m [main] [34mINFO [0;39m [36mo.h.annotations.common.Version[0;39m - [32mHCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+[0;39m[33m20:05:19.420[0;39m [main] [34mINFO [0;39m [36mcom.zaxxer.hikari.HikariDataSource[0;39m - [32mHikariPool-1 - Starting...
+[0;39m[33m20:05:20.143[0;39m [main] [34mINFO [0;39m [36mcom.zaxxer.hikari.HikariDataSource[0;39m - [32mHikariPool-1 - Start completed.
+[0;39m[33m20:05:20.154[0;39m [main] [34mINFO [0;39m [36morg.hibernate.dialect.Dialect[0;39m - [32mHHH000400: Using dialect: org.hibernate.dialect.Oracle10gDialect
+[0;39m[33m20:05:21.125[0;39m [main] [34mINFO [0;39m [36mo.h.e.t.j.p.i.JtaPlatformInitiator[0;39m - [32mHHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+[0;39m[33m20:05:21.130[0;39m [main] [34mINFO [0;39m [36mo.s.o.j.LocalContainerEntityManagerFactoryBean[0;39m - [32mInitialized JPA EntityManagerFactory for persistence unit 'default'
+[0;39m[33m20:05:21.589[0;39m [main] [31mWARN [0;39m [36mo.s.b.a.o.j.JpaBaseConfiguration$JpaWebConfiguration[0;39m - [32mspring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+[0;39m[33m20:05:21.683[0;39m [main] [34mINFO [0;39m [36mo.s.s.c.ThreadPoolTaskExecutor[0;39m - [32mInitializing ExecutorService 'applicationTaskExecutor'
+[0;39m[33m20:05:22.361[0;39m [main] [34mINFO [0;39m [36mo.s.c.n.e.c.DiscoveryClientOptionalArgsConfiguration[0;39m - [32mEureka HTTP Client uses RestTemplate.
+[0;39m[33m20:05:22.816[0;39m [main] [31mWARN [0;39m [36mo.s.c.l.c.LoadBalancerCacheAutoConfiguration$LoadBalancerCaffeineWarnLogger[0;39m - [32mSpring Cloud LoadBalancer is currently working with the default cache. You can switch to using Caffeine cache, by adding it to the classpath.
+[0;39m[33m20:05:22.840[0;39m [main] [34mINFO [0;39m [36mo.s.c.n.eureka.InstanceInfoFactory[0;39m - [32mSetting initial instance status as: STARTING
+[0;39m[33m20:05:23.074[0;39m [main] [34mINFO [0;39m [36mc.netflix.discovery.DiscoveryClient[0;39m - [32mInitializing Eureka in region us-east-1
+[0;39m[33m20:05:23.081[0;39m [main] [34mINFO [0;39m [36mc.n.d.s.r.aws.ConfigClusterResolver[0;39m - [32mResolving eureka endpoints via configuration
+[0;39m[33m20:05:23.414[0;39m [main] [34mINFO [0;39m [36mc.netflix.discovery.DiscoveryClient[0;39m - [32mDisable delta property : false
+[0;39m[33m20:05:23.415[0;39m [main] [34mINFO [0;39m [36mc.netflix.discovery.DiscoveryClient[0;39m - [32mSingle vip registry refresh property : null
+[0;39m[33m20:05:23.415[0;39m [main] [34mINFO [0;39m [36mc.netflix.discovery.DiscoveryClient[0;39m - [32mForce full registry fetch : false
+[0;39m[33m20:05:23.415[0;39m [main] [34mINFO [0;39m [36mc.netflix.discovery.DiscoveryClient[0;39m - [32mApplication is null : false
+[0;39m[33m20:05:23.415[0;39m [main] [34mINFO [0;39m [36mc.netflix.discovery.DiscoveryClient[0;39m - [32mRegistered Applications size is zero : true
+[0;39m[33m20:05:23.416[0;39m [main] [34mINFO [0;39m [36mc.netflix.discovery.DiscoveryClient[0;39m - [32mApplication version is -1: true
+[0;39m[33m20:05:23.416[0;39m [main] [34mINFO [0;39m [36mc.netflix.discovery.DiscoveryClient[0;39m - [32mGetting all instance registry info from the eureka server
+[0;39m[33m20:05:24.067[0;39m [main] [34mINFO [0;39m [36mc.netflix.discovery.DiscoveryClient[0;39m - [32mThe response status is 200
+[0;39m[33m20:05:24.073[0;39m [main] [34mINFO [0;39m [36mc.netflix.discovery.DiscoveryClient[0;39m - [32mStarting heartbeat executor: renew interval is: 30
+[0;39m[33m20:05:24.081[0;39m [main] [34mINFO [0;39m [36mc.n.discovery.InstanceInfoReplicator[0;39m - [32mInstanceInfoReplicator onDemand update allowed rate per min is 4
+[0;39m[33m20:05:24.096[0;39m [main] [34mINFO [0;39m [36mc.netflix.discovery.DiscoveryClient[0;39m - [32mDiscovery Client initialized at timestamp 1622126124093 with initial instances count: 0
+[0;39m[33m20:05:24.100[0;39m [main] [34mINFO [0;39m [36mo.s.c.n.e.s.EurekaServiceRegistry[0;39m - [32mRegistering application RATING-SERVICE with eureka with status UP
+[0;39m[33m20:05:24.102[0;39m [main] [34mINFO [0;39m [36mc.netflix.discovery.DiscoveryClient[0;39m - [32mSaw local status change event StatusChangeEvent [timestamp=1622126124102, current=UP, previous=STARTING]
+[0;39m[33m20:05:24.107[0;39m [DiscoveryClient-InstanceInfoReplicator-0] [34mINFO [0;39m [36mc.netflix.discovery.DiscoveryClient[0;39m - [32mDiscoveryClient_RATING-SERVICE/LAPTOP-F31M9K39:rating-service:5002: registering service...
+[0;39m[33m20:05:24.195[0;39m [main] [34mINFO [0;39m [36mo.s.b.w.e.tomcat.TomcatWebServer[0;39m - [32mTomcat started on port(s): 5002 (http) with context path ''
+[0;39m[33m20:05:24.198[0;39m [main] [34mINFO [0;39m [36mo.s.c.n.e.s.EurekaAutoServiceRegistration[0;39m - [32mUpdating port to 5002
+[0;39m[33m20:05:24.681[0;39m [DiscoveryClient-InstanceInfoReplicator-0] [34mINFO [0;39m [36mc.netflix.discovery.DiscoveryClient[0;39m - [32mDiscoveryClient_RATING-SERVICE/LAPTOP-F31M9K39:rating-service:5002 - registration status: 204
+[0;39m[33m20:05:24.681[0;39m [main] [34mINFO [0;39m [36mr.RatingServiceApplication[0;39m - [32mStarted RatingServiceApplication in 9.019 seconds (JVM running for 9.697)
+[0;39m[33m20:05:54.079[0;39m [DiscoveryClient-CacheRefreshExecutor-0] [34mINFO [0;39m [36mc.netflix.discovery.DiscoveryClient[0;39m - [32mDisable delta property : false
+[0;39m[33m20:05:54.080[0;39m [DiscoveryClient-CacheRefreshExecutor-0] [34mINFO [0;39m [36mc.netflix.discovery.DiscoveryClient[0;39m - [32mSingle vip registry refresh property : null
+[0;39m[33m20:05:54.081[0;39m [DiscoveryClient-CacheRefreshExecutor-0] [34mINFO [0;39m [36mc.netflix.discovery.DiscoveryClient[0;39m - [32mForce full registry fetch : false
+[0;39m[33m20:05:54.082[0;39m [DiscoveryClient-CacheRefreshExecutor-0] [34mINFO [0;39m [36mc.netflix.discovery.DiscoveryClient[0;39m - [32mApplication is null : false
+[0;39m[33m20:05:54.082[0;39m [DiscoveryClient-CacheRefreshExecutor-0] [34mINFO [0;39m [36mc.netflix.discovery.DiscoveryClient[0;39m - [32mRegistered Applications size is zero : true
+[0;39m[33m20:05:54.082[0;39m [DiscoveryClient-CacheRefreshExecutor-0] [34mINFO [0;39m [36mc.netflix.discovery.DiscoveryClient[0;39m - [32mApplication version is -1: false
+[0;39m[33m20:05:54.083[0;39m [DiscoveryClient-CacheRefreshExecutor-0] [34mINFO [0;39m [36mc.netflix.discovery.DiscoveryClient[0;39m - [32mGetting all instance registry info from the eureka server
+[0;39m[33m20:05:54.099[0;39m [DiscoveryClient-CacheRefreshExecutor-0] [34mINFO [0;39m [36mc.netflix.discovery.DiscoveryClient[0;39m - [32mThe response status is 200
 [0;39m
