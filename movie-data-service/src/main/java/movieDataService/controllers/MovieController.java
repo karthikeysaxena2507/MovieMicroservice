@@ -6,7 +6,6 @@ import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Controller;
-
 import javax.ws.rs.*;
 import javax.ws.rs.core.MediaType;
 import javax.ws.rs.core.Response;
@@ -40,9 +39,6 @@ public class MovieController {
     @Produces(MediaType.APPLICATION_JSON)
     public Response getAllMovies() {
         try {
-            logger.info(System.getenv("SPRING_DATASOURCE_URL"));
-            logger.info(System.getenv("SPRING_DATASOURCE_USERNAME"));
-            logger.info(System.getenv("SPRING_DATASOURCE_PASSWORD"));
             List<Movie> data = movieService.getAllMovies();
             return Response.status(200).entity(data).build();
         }
@@ -51,6 +47,12 @@ public class MovieController {
         }
     }
 
+    @GET
+    @Path("/error")
+    @Produces(MediaType.APPLICATION_JSON)
+    public Response getErrorResponse() {
+        return Response.status(Response.Status.NOT_FOUND).entity("Not Found").build();
+    }
 
 
     /**

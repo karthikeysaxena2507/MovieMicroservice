@@ -1,0 +1,279 @@
+[33m18:49:50.413[0;39m [main] [34mINFO [0;39m [36mr.RatingServiceApplication[0;39m - [32mStarting RatingServiceApplication using Java 1.8.0_291 on LAPTOP-F31M9K39 with PID 2376 (D:\Java Projects\rating-service\target\classes started by lenono in D:\Java Projects\rating-service)
+[0;39m[33m18:49:50.416[0;39m [main] [34mINFO [0;39m [36mr.RatingServiceApplication[0;39m - [32mNo active profile set, falling back to default profiles: default
+[0;39m[33m18:49:51.320[0;39m [main] [34mINFO [0;39m [36mo.s.d.r.c.RepositoryConfigurationDelegate[0;39m - [32mMultiple Spring Data modules found, entering strict repository configuration mode!
+[0;39m[33m18:49:51.322[0;39m [main] [34mINFO [0;39m [36mo.s.d.r.c.RepositoryConfigurationDelegate[0;39m - [32mBootstrapping Spring Data JDBC repositories in DEFAULT mode.
+[0;39m[33m18:49:51.370[0;39m [main] [34mINFO [0;39m [36mo.s.d.r.c.RepositoryConfigurationExtensionSupport[0;39m - [32mSpring Data JDBC - Could not safely identify store assignment for repository candidate interface ratingService.repositories.RatingRepository. If you want this repository to be a JDBC repository, consider annotating your entities with one of these annotations: org.springframework.data.relational.core.mapping.Table.
+[0;39m[33m18:49:51.371[0;39m [main] [34mINFO [0;39m [36mo.s.d.r.c.RepositoryConfigurationDelegate[0;39m - [32mFinished Spring Data repository scanning in 35 ms. Found 0 JDBC repository interfaces.
+[0;39m[33m18:49:51.381[0;39m [main] [34mINFO [0;39m [36mo.s.d.r.c.RepositoryConfigurationDelegate[0;39m - [32mMultiple Spring Data modules found, entering strict repository configuration mode!
+[0;39m[33m18:49:51.382[0;39m [main] [34mINFO [0;39m [36mo.s.d.r.c.RepositoryConfigurationDelegate[0;39m - [32mBootstrapping Spring Data JPA repositories in DEFAULT mode.
+[0;39m[33m18:49:51.569[0;39m [main] [34mINFO [0;39m [36mo.s.d.r.c.RepositoryConfigurationDelegate[0;39m - [32mFinished Spring Data repository scanning in 179 ms. Found 1 JPA repository interfaces.
+[0;39m[33m18:49:51.896[0;39m [main] [34mINFO [0;39m [36mo.s.cloud.context.scope.GenericScope[0;39m - [32mBeanFactory id=fd63b7b5-b92b-315c-a725-6e14b42855ab
+[0;39m[33m18:49:52.571[0;39m [main] [34mINFO [0;39m [36mo.s.b.w.e.tomcat.TomcatWebServer[0;39m - [32mTomcat initialized with port(s): 5002 (http)
+[0;39m[33m18:49:52.581[0;39m [main] [34mINFO [0;39m [36mo.a.catalina.core.StandardService[0;39m - [32mStarting service [Tomcat]
+[0;39m[33m18:49:52.581[0;39m [main] [34mINFO [0;39m [36mo.a.catalina.core.StandardEngine[0;39m - [32mStarting Servlet engine: [Apache Tomcat/9.0.45]
+[0;39m[33m18:49:52.754[0;39m [main] [34mINFO [0;39m [36mo.a.c.c.C.[Tomcat].[localhost].[/][0;39m - [32mInitializing Spring embedded WebApplicationContext
+[0;39m[33m18:49:52.754[0;39m [main] [34mINFO [0;39m [36mo.s.b.w.s.c.ServletWebServerApplicationContext[0;39m - [32mRoot WebApplicationContext: initialization completed in 2281 ms
+[0;39m[33m18:49:53.009[0;39m [main] [34mINFO [0;39m [36mo.h.jpa.internal.util.LogHelper[0;39m - [32mHHH000204: Processing PersistenceUnitInfo [name: default]
+[0;39m[33m18:49:53.063[0;39m [main] [34mINFO [0;39m [36morg.hibernate.Version[0;39m - [32mHHH000412: Hibernate ORM core version 5.4.30.Final
+[0;39m[33m18:49:53.205[0;39m [main] [34mINFO [0;39m [36mo.h.annotations.common.Version[0;39m - [32mHCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+[0;39m[33m18:49:53.347[0;39m [main] [34mINFO [0;39m [36mcom.zaxxer.hikari.HikariDataSource[0;39m - [32mHikariPool-1 - Starting...
+[0;39m[33m18:49:54.062[0;39m [main] [34mINFO [0;39m [36mcom.zaxxer.hikari.HikariDataSource[0;39m - [32mHikariPool-1 - Start completed.
+[0;39m[33m18:49:54.080[0;39m [main] [34mINFO [0;39m [36morg.hibernate.dialect.Dialect[0;39m - [32mHHH000400: Using dialect: org.hibernate.dialect.Oracle10gDialect
+[0;39m[33m18:49:55.556[0;39m [main] [34mINFO [0;39m [36mo.h.e.t.j.p.i.JtaPlatformInitiator[0;39m - [32mHHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+[0;39m[33m18:49:55.564[0;39m [main] [34mINFO [0;39m [36mo.s.o.j.LocalContainerEntityManagerFactoryBean[0;39m - [32mInitialized JPA EntityManagerFactory for persistence unit 'default'
+[0;39m[33m18:49:55.998[0;39m [main] [31mWARN [0;39m [36mo.s.b.a.o.j.JpaBaseConfiguration$JpaWebConfiguration[0;39m - [32mspring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+[0;39m[33m18:49:56.083[0;39m [main] [34mINFO [0;39m [36mo.s.s.c.ThreadPoolTaskExecutor[0;39m - [32mInitializing ExecutorService 'applicationTaskExecutor'
+[0;39m[33m18:49:56.899[0;39m [main] [34mINFO [0;39m [36mo.s.c.n.e.c.DiscoveryClientOptionalArgsConfiguration[0;39m - [32mEureka HTTP Client uses RestTemplate.
+[0;39m[33m18:49:57.375[0;39m [main] [31mWARN [0;39m [36mo.s.c.l.c.LoadBalancerCacheAutoConfiguration$LoadBalancerCaffeineWarnLogger[0;39m - [32mSpring Cloud LoadBalancer is currently working with the default cache. You can switch to using Caffeine cache, by adding it to the classpath.
+[0;39m[33m18:49:57.401[0;39m [main] [34mINFO [0;39m [36mo.s.c.n.eureka.InstanceInfoFactory[0;39m - [32mSetting initial instance status as: STARTING
+[0;39m[33m18:49:57.455[0;39m [main] [34mINFO [0;39m [36mc.netflix.discovery.DiscoveryClient[0;39m - [32mInitializing Eureka in region us-east-1
+[0;39m[33m18:49:57.463[0;39m [main] [34mINFO [0;39m [36mc.n.d.s.r.aws.ConfigClusterResolver[0;39m - [32mResolving eureka endpoints via configuration
+[0;39m[33m18:49:57.697[0;39m [main] [34mINFO [0;39m [36mc.netflix.discovery.DiscoveryClient[0;39m - [32mDisable delta property : false
+[0;39m[33m18:49:57.698[0;39m [main] [34mINFO [0;39m [36mc.netflix.discovery.DiscoveryClient[0;39m - [32mSingle vip registry refresh property : null
+[0;39m[33m18:49:57.698[0;39m [main] [34mINFO [0;39m [36mc.netflix.discovery.DiscoveryClient[0;39m - [32mForce full registry fetch : false
+[0;39m[33m18:49:57.698[0;39m [main] [34mINFO [0;39m [36mc.netflix.discovery.DiscoveryClient[0;39m - [32mApplication is null : false
+[0;39m[33m18:49:57.698[0;39m [main] [34mINFO [0;39m [36mc.netflix.discovery.DiscoveryClient[0;39m - [32mRegistered Applications size is zero : true
+[0;39m[33m18:49:57.698[0;39m [main] [34mINFO [0;39m [36mc.netflix.discovery.DiscoveryClient[0;39m - [32mApplication version is -1: true
+[0;39m[33m18:49:57.698[0;39m [main] [34mINFO [0;39m [36mc.netflix.discovery.DiscoveryClient[0;39m - [32mGetting all instance registry info from the eureka server
+[0;39m[33m18:49:57.989[0;39m [main] [34mINFO [0;39m [36mc.netflix.discovery.DiscoveryClient[0;39m - [32mThe response status is 200
+[0;39m[33m18:49:57.992[0;39m [main] [34mINFO [0;39m [36mc.netflix.discovery.DiscoveryClient[0;39m - [32mStarting heartbeat executor: renew interval is: 30
+[0;39m[33m18:49:57.996[0;39m [main] [34mINFO [0;39m [36mc.n.discovery.InstanceInfoReplicator[0;39m - [32mInstanceInfoReplicator onDemand update allowed rate per min is 4
+[0;39m[33m18:49:58.002[0;39m [main] [34mINFO [0;39m [36mc.netflix.discovery.DiscoveryClient[0;39m - [32mDiscovery Client initialized at timestamp 1622121598000 with initial instances count: 3
+[0;39m[33m18:49:58.004[0;39m [main] [34mINFO [0;39m [36mo.s.c.n.e.s.EurekaServiceRegistry[0;39m - [32mRegistering application RATING-SERVICE with eureka with status UP
+[0;39m[33m18:49:58.005[0;39m [main] [34mINFO [0;39m [36mc.netflix.discovery.DiscoveryClient[0;39m - [32mSaw local status change event StatusChangeEvent [timestamp=1622121598005, current=UP, previous=STARTING]
+[0;39m[33m18:49:58.007[0;39m [DiscoveryClient-InstanceInfoReplicator-0] [34mINFO [0;39m [36mc.netflix.discovery.DiscoveryClient[0;39m - [32mDiscoveryClient_RATING-SERVICE/LAPTOP-F31M9K39:rating-service:5002: registering service...
+[0;39m[33m18:49:58.034[0;39m [main] [34mINFO [0;39m [36mo.s.b.w.e.tomcat.TomcatWebServer[0;39m - [32mTomcat started on port(s): 5002 (http) with context path ''
+[0;39m[33m18:49:58.035[0;39m [main] [34mINFO [0;39m [36mo.s.c.n.e.s.EurekaAutoServiceRegistration[0;39m - [32mUpdating port to 5002
+[0;39m[33m18:49:58.092[0;39m [DiscoveryClient-InstanceInfoReplicator-0] [34mINFO [0;39m [36mc.netflix.discovery.DiscoveryClient[0;39m - [32mDiscoveryClient_RATING-SERVICE/LAPTOP-F31M9K39:rating-service:5002 - registration status: 204
+[0;39m[33m18:49:58.346[0;39m [main] [34mINFO [0;39m [36mr.RatingServiceApplication[0;39m - [32mStarted RatingServiceApplication in 9.107 seconds (JVM running for 9.751)
+[0;39m[33m18:51:17.237[0;39m [http-nio-5002-exec-2] [34mINFO [0;39m [36mo.a.c.c.C.[Tomcat].[localhost].[/][0;39m - [32mInitializing Spring DispatcherServlet 'dispatcherServlet'
+[0;39m[33m18:51:17.238[0;39m [http-nio-5002-exec-2] [34mINFO [0;39m [36mo.s.web.servlet.DispatcherServlet[0;39m - [32mInitializing Servlet 'dispatcherServlet'
+[0;39m[33m18:51:17.240[0;39m [http-nio-5002-exec-2] [34mINFO [0;39m [36mo.s.web.servlet.DispatcherServlet[0;39m - [32mCompleted initialization in 1 ms
+[0;39m[33m18:51:45.988[0;39m [http-nio-5002-exec-4] [31mWARN [0;39m [36mo.s.w.s.m.s.DefaultHandlerExceptionResolver[0;39m - [32mResolved [org.springframework.http.converter.HttpMessageNotReadableException: JSON parse error: Cannot deserialize value of type `java.lang.Long` from String "kart": not a valid Long value; nested exception is com.fasterxml.jackson.databind.exc.InvalidFormatException: Cannot deserialize value of type `java.lang.Long` from String "kart": not a valid Long value
+ at [Source: (PushbackInputStream); line: 2, column: 17] (through reference chain: ratingService.models.Rating["username"])]
+[0;39m[33m19:03:32.079[0;39m [HikariPool-1 housekeeper] [31mWARN [0;39m [36mcom.zaxxer.hikari.pool.HikariPool[0;39m - [32mHikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=9m37s880ms646µs900ns).
+[0;39m[33m19:04:05.566[0;39m [AsyncResolver-bootstrap-executor-0] [34mINFO [0;39m [36mc.n.d.s.r.aws.ConfigClusterResolver[0;39m - [32mResolving eureka endpoints via configuration
+[0;39m[33m19:09:05.578[0;39m [AsyncResolver-bootstrap-executor-0] [34mINFO [0;39m [36mc.n.d.s.r.aws.ConfigClusterResolver[0;39m - [32mResolving eureka endpoints via configuration
+[0;39m[33m19:14:05.580[0;39m [AsyncResolver-bootstrap-executor-0] [34mINFO [0;39m [36mc.n.d.s.r.aws.ConfigClusterResolver[0;39m - [32mResolving eureka endpoints via configuration
+[0;39m[33m19:19:05.585[0;39m [AsyncResolver-bootstrap-executor-0] [34mINFO [0;39m [36mc.n.d.s.r.aws.ConfigClusterResolver[0;39m - [32mResolving eureka endpoints via configuration
+[0;39m[33m19:24:05.596[0;39m [AsyncResolver-bootstrap-executor-0] [34mINFO [0;39m [36mc.n.d.s.r.aws.ConfigClusterResolver[0;39m - [32mResolving eureka endpoints via configuration
+[0;39m[33m19:29:05.606[0;39m [AsyncResolver-bootstrap-executor-0] [34mINFO [0;39m [36mc.n.d.s.r.aws.ConfigClusterResolver[0;39m - [32mResolving eureka endpoints via configuration
+[0;39m[33m19:34:05.617[0;39m [AsyncResolver-bootstrap-executor-0] [34mINFO [0;39m [36mc.n.d.s.r.aws.ConfigClusterResolver[0;39m - [32mResolving eureka endpoints via configuration
+[0;39m[33m19:34:38.352[0;39m [http-nio-5002-exec-7] [31mWARN [0;39m [36mo.s.w.s.m.s.DefaultHandlerExceptionResolver[0;39m - [32mResolved [org.springframework.http.converter.HttpMessageNotReadableException: JSON parse error: Cannot deserialize value of type `java.lang.Long` from String "kart": not a valid Long value; nested exception is com.fasterxml.jackson.databind.exc.InvalidFormatException: Cannot deserialize value of type `java.lang.Long` from String "kart": not a valid Long value
+ at [Source: (PushbackInputStream); line: 2, column: 17] (through reference chain: ratingService.models.Rating["username"])]
+[0;39m[33m19:36:25.668[0;39m [http-nio-5002-exec-2] [31mWARN [0;39m [36mo.s.w.s.m.s.DefaultHandlerExceptionResolver[0;39m - [32mResolved [org.springframework.http.converter.HttpMessageNotReadableException: JSON parse error: Cannot deserialize value of type `java.lang.Long` from String "kart": not a valid Long value; nested exception is com.fasterxml.jackson.databind.exc.InvalidFormatException: Cannot deserialize value of type `java.lang.Long` from String "kart": not a valid Long value
+ at [Source: (PushbackInputStream); line: 3, column: 17] (through reference chain: ratingService.models.Rating["username"])]
+[0;39m[33m19:39:05.621[0;39m [AsyncResolver-bootstrap-executor-0] [34mINFO [0;39m [36mc.n.d.s.r.aws.ConfigClusterResolver[0;39m - [32mResolving eureka endpoints via configuration
+[0;39m[33m19:40:31.581[0;39m [main] [34mINFO [0;39m [36mr.RatingServiceApplication[0;39m - [32mStarting RatingServiceApplication using Java 1.8.0_291 on LAPTOP-F31M9K39 with PID 20204 (D:\Java Projects\rating-service\target\classes started by lenono in D:\Java Projects\rating-service)
+[0;39m[33m19:40:31.586[0;39m [main] [34mINFO [0;39m [36mr.RatingServiceApplication[0;39m - [32mNo active profile set, falling back to default profiles: default
+[0;39m[33m19:40:32.615[0;39m [main] [34mINFO [0;39m [36mo.s.d.r.c.RepositoryConfigurationDelegate[0;39m - [32mMultiple Spring Data modules found, entering strict repository configuration mode!
+[0;39m[33m19:40:32.618[0;39m [main] [34mINFO [0;39m [36mo.s.d.r.c.RepositoryConfigurationDelegate[0;39m - [32mBootstrapping Spring Data JDBC repositories in DEFAULT mode.
+[0;39m[33m19:40:32.661[0;39m [main] [34mINFO [0;39m [36mo.s.d.r.c.RepositoryConfigurationExtensionSupport[0;39m - [32mSpring Data JDBC - Could not safely identify store assignment for repository candidate interface ratingService.repositories.RatingRepository. If you want this repository to be a JDBC repository, consider annotating your entities with one of these annotations: org.springframework.data.relational.core.mapping.Table.
+[0;39m[33m19:40:32.662[0;39m [main] [34mINFO [0;39m [36mo.s.d.r.c.RepositoryConfigurationDelegate[0;39m - [32mFinished Spring Data repository scanning in 37 ms. Found 0 JDBC repository interfaces.
+[0;39m[33m19:40:32.672[0;39m [main] [34mINFO [0;39m [36mo.s.d.r.c.RepositoryConfigurationDelegate[0;39m - [32mMultiple Spring Data modules found, entering strict repository configuration mode!
+[0;39m[33m19:40:32.675[0;39m [main] [34mINFO [0;39m [36mo.s.d.r.c.RepositoryConfigurationDelegate[0;39m - [32mBootstrapping Spring Data JPA repositories in DEFAULT mode.
+[0;39m[33m19:40:32.922[0;39m [main] [34mINFO [0;39m [36mo.s.d.r.c.RepositoryConfigurationDelegate[0;39m - [32mFinished Spring Data repository scanning in 241 ms. Found 1 JPA repository interfaces.
+[0;39m[33m19:40:33.337[0;39m [main] [34mINFO [0;39m [36mo.s.cloud.context.scope.GenericScope[0;39m - [32mBeanFactory id=fd63b7b5-b92b-315c-a725-6e14b42855ab
+[0;39m[33m19:40:34.405[0;39m [main] [34mINFO [0;39m [36mo.s.b.w.e.tomcat.TomcatWebServer[0;39m - [32mTomcat initialized with port(s): 5002 (http)
+[0;39m[33m19:40:34.644[0;39m [main] [34mINFO [0;39m [36mo.a.catalina.core.StandardService[0;39m - [32mStarting service [Tomcat]
+[0;39m[33m19:40:34.645[0;39m [main] [34mINFO [0;39m [36mo.a.catalina.core.StandardEngine[0;39m - [32mStarting Servlet engine: [Apache Tomcat/9.0.45]
+[0;39m[33m19:40:35.013[0;39m [main] [34mINFO [0;39m [36mo.a.c.c.C.[Tomcat].[localhost].[/][0;39m - [32mInitializing Spring embedded WebApplicationContext
+[0;39m[33m19:40:35.013[0;39m [main] [34mINFO [0;39m [36mo.s.b.w.s.c.ServletWebServerApplicationContext[0;39m - [32mRoot WebApplicationContext: initialization completed in 3372 ms
+[0;39m[33m19:40:35.521[0;39m [main] [34mINFO [0;39m [36mo.h.jpa.internal.util.LogHelper[0;39m - [32mHHH000204: Processing PersistenceUnitInfo [name: default]
+[0;39m[33m19:40:35.726[0;39m [main] [34mINFO [0;39m [36morg.hibernate.Version[0;39m - [32mHHH000412: Hibernate ORM core version 5.4.30.Final
+[0;39m[33m19:40:36.120[0;39m [main] [34mINFO [0;39m [36mo.h.annotations.common.Version[0;39m - [32mHCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+[0;39m[33m19:40:36.284[0;39m [main] [34mINFO [0;39m [36mcom.zaxxer.hikari.HikariDataSource[0;39m - [32mHikariPool-1 - Starting...
+[0;39m[33m19:40:37.271[0;39m [main] [34mINFO [0;39m [36mcom.zaxxer.hikari.HikariDataSource[0;39m - [32mHikariPool-1 - Start completed.
+[0;39m[33m19:40:37.296[0;39m [main] [34mINFO [0;39m [36morg.hibernate.dialect.Dialect[0;39m - [32mHHH000400: Using dialect: org.hibernate.dialect.Oracle10gDialect
+[0;39m[33m19:40:38.786[0;39m [main] [34mINFO [0;39m [36mo.h.e.t.j.p.i.JtaPlatformInitiator[0;39m - [32mHHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+[0;39m[33m19:40:38.800[0;39m [main] [34mINFO [0;39m [36mo.s.o.j.LocalContainerEntityManagerFactoryBean[0;39m - [32mInitialized JPA EntityManagerFactory for persistence unit 'default'
+[0;39m[33m19:40:39.281[0;39m [main] [31mWARN [0;39m [36mo.s.b.a.o.j.JpaBaseConfiguration$JpaWebConfiguration[0;39m - [32mspring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+[0;39m[33m19:40:39.378[0;39m [main] [34mINFO [0;39m [36mo.s.s.c.ThreadPoolTaskExecutor[0;39m - [32mInitializing ExecutorService 'applicationTaskExecutor'
+[0;39m[33m19:40:40.176[0;39m [main] [34mINFO [0;39m [36mo.s.c.n.e.c.DiscoveryClientOptionalArgsConfiguration[0;39m - [32mEureka HTTP Client uses RestTemplate.
+[0;39m[33m19:40:40.603[0;39m [main] [31mWARN [0;39m [36mo.s.c.l.c.LoadBalancerCacheAutoConfiguration$LoadBalancerCaffeineWarnLogger[0;39m - [32mSpring Cloud LoadBalancer is currently working with the default cache. You can switch to using Caffeine cache, by adding it to the classpath.
+[0;39m[33m19:40:40.633[0;39m [main] [34mINFO [0;39m [36mo.s.c.n.eureka.InstanceInfoFactory[0;39m - [32mSetting initial instance status as: STARTING
+[0;39m[33m19:40:40.697[0;39m [main] [34mINFO [0;39m [36mc.netflix.discovery.DiscoveryClient[0;39m - [32mInitializing Eureka in region us-east-1
+[0;39m[33m19:40:40.701[0;39m [main] [34mINFO [0;39m [36mc.n.d.s.r.aws.ConfigClusterResolver[0;39m - [32mResolving eureka endpoints via configuration
+[0;39m[33m19:40:40.997[0;39m [main] [34mINFO [0;39m [36mc.netflix.discovery.DiscoveryClient[0;39m - [32mDisable delta property : false
+[0;39m[33m19:40:40.997[0;39m [main] [34mINFO [0;39m [36mc.netflix.discovery.DiscoveryClient[0;39m - [32mSingle vip registry refresh property : null
+[0;39m[33m19:40:40.997[0;39m [main] [34mINFO [0;39m [36mc.netflix.discovery.DiscoveryClient[0;39m - [32mForce full registry fetch : false
+[0;39m[33m19:40:40.997[0;39m [main] [34mINFO [0;39m [36mc.netflix.discovery.DiscoveryClient[0;39m - [32mApplication is null : false
+[0;39m[33m19:40:40.997[0;39m [main] [34mINFO [0;39m [36mc.netflix.discovery.DiscoveryClient[0;39m - [32mRegistered Applications size is zero : true
+[0;39m[33m19:40:41.001[0;39m [main] [34mINFO [0;39m [36mc.netflix.discovery.DiscoveryClient[0;39m - [32mApplication version is -1: true
+[0;39m[33m19:40:41.001[0;39m [main] [34mINFO [0;39m [36mc.netflix.discovery.DiscoveryClient[0;39m - [32mGetting all instance registry info from the eureka server
+[0;39m[33m19:40:41.320[0;39m [main] [34mINFO [0;39m [36mc.netflix.discovery.DiscoveryClient[0;39m - [32mThe response status is 200
+[0;39m[33m19:40:41.332[0;39m [main] [34mINFO [0;39m [36mc.netflix.discovery.DiscoveryClient[0;39m - [32mStarting heartbeat executor: renew interval is: 30
+[0;39m[33m19:40:41.336[0;39m [main] [34mINFO [0;39m [36mc.n.discovery.InstanceInfoReplicator[0;39m - [32mInstanceInfoReplicator onDemand update allowed rate per min is 4
+[0;39m[33m19:40:41.342[0;39m [main] [34mINFO [0;39m [36mc.netflix.discovery.DiscoveryClient[0;39m - [32mDiscovery Client initialized at timestamp 1622124641340 with initial instances count: 2
+[0;39m[33m19:40:41.358[0;39m [main] [34mINFO [0;39m [36mo.s.c.n.e.s.EurekaServiceRegistry[0;39m - [32mRegistering application RATING-SERVICE with eureka with status UP
+[0;39m[33m19:40:41.359[0;39m [main] [34mINFO [0;39m [36mc.netflix.discovery.DiscoveryClient[0;39m - [32mSaw local status change event StatusChangeEvent [timestamp=1622124641359, current=UP, previous=STARTING]
+[0;39m[33m19:40:41.363[0;39m [DiscoveryClient-InstanceInfoReplicator-0] [34mINFO [0;39m [36mc.netflix.discovery.DiscoveryClient[0;39m - [32mDiscoveryClient_RATING-SERVICE/LAPTOP-F31M9K39:rating-service:5002: registering service...
+[0;39m[33m19:40:41.426[0;39m [main] [34mINFO [0;39m [36mo.s.b.w.e.tomcat.TomcatWebServer[0;39m - [32mTomcat started on port(s): 5002 (http) with context path ''
+[0;39m[33m19:40:41.427[0;39m [main] [34mINFO [0;39m [36mo.s.c.n.e.s.EurekaAutoServiceRegistration[0;39m - [32mUpdating port to 5002
+[0;39m[33m19:40:41.564[0;39m [DiscoveryClient-InstanceInfoReplicator-0] [34mINFO [0;39m [36mc.netflix.discovery.DiscoveryClient[0;39m - [32mDiscoveryClient_RATING-SERVICE/LAPTOP-F31M9K39:rating-service:5002 - registration status: 204
+[0;39m[33m19:40:41.902[0;39m [main] [34mINFO [0;39m [36mr.RatingServiceApplication[0;39m - [32mStarted RatingServiceApplication in 11.918 seconds (JVM running for 13.114)
+[0;39m[33m19:40:53.930[0;39m [http-nio-5002-exec-2] [34mINFO [0;39m [36mo.a.c.c.C.[Tomcat].[localhost].[/][0;39m - [32mInitializing Spring DispatcherServlet 'dispatcherServlet'
+[0;39m[33m19:40:53.931[0;39m [http-nio-5002-exec-2] [34mINFO [0;39m [36mo.s.web.servlet.DispatcherServlet[0;39m - [32mInitializing Servlet 'dispatcherServlet'
+[0;39m[33m19:40:53.932[0;39m [http-nio-5002-exec-2] [34mINFO [0;39m [36mo.s.web.servlet.DispatcherServlet[0;39m - [32mCompleted initialization in 1 ms
+[0;39m[33m19:40:54.351[0;39m [http-nio-5002-exec-2] [31mWARN [0;39m [36mo.h.e.jdbc.spi.SqlExceptionHelper[0;39m - [32mSQL Error: 1722, SQLState: 42000
+[0;39m[33m19:40:54.352[0;39m [http-nio-5002-exec-2] [1;31mERROR[0;39m [36mo.h.e.jdbc.spi.SqlExceptionHelper[0;39m - [32mORA-01722: invalid number
+
+[0;39m[33m19:40:54.407[0;39m [http-nio-5002-exec-2] [1;31mERROR[0;39m [36mo.a.c.c.C.[.[.[.[dispatcherServlet][0;39m - [32mServlet.service() for servlet [dispatcherServlet] in context with path [] threw exception [Request processing failed; nested exception is org.springframework.dao.InvalidDataAccessResourceUsageException: could not execute statement; SQL [n/a]; nested exception is org.hibernate.exception.SQLGrammarException: could not execute statement] with root cause
+[0;39moracle.jdbc.OracleDatabaseException: ORA-01722: invalid number
+
+	at oracle.jdbc.driver.T4CTTIoer11.processError(T4CTTIoer11.java:513)
+	at oracle.jdbc.driver.T4CTTIoer11.processError(T4CTTIoer11.java:461)
+	at oracle.jdbc.driver.T4C8Oall.processError(T4C8Oall.java:1104)
+	at oracle.jdbc.driver.T4CTTIfun.receive(T4CTTIfun.java:553)
+	at oracle.jdbc.driver.T4CTTIfun.doRPC(T4CTTIfun.java:269)
+	at oracle.jdbc.driver.T4C8Oall.doOALL(T4C8Oall.java:655)
+	at oracle.jdbc.driver.T4CPreparedStatement.doOall8(T4CPreparedStatement.java:270)
+	at oracle.jdbc.driver.T4CPreparedStatement.doOall8(T4CPreparedStatement.java:91)
+	at oracle.jdbc.driver.T4CPreparedStatement.executeForRows(T4CPreparedStatement.java:970)
+	at oracle.jdbc.driver.OracleStatement.doExecuteWithTimeout(OracleStatement.java:1205)
+	at oracle.jdbc.driver.OraclePreparedStatement.executeInternal(OraclePreparedStatement.java:3666)
+	at oracle.jdbc.driver.T4CPreparedStatement.executeInternal(T4CPreparedStatement.java:1426)
+	at oracle.jdbc.driver.OraclePreparedStatement.executeLargeUpdate(OraclePreparedStatement.java:3756)
+	at oracle.jdbc.driver.OraclePreparedStatement.executeUpdate(OraclePreparedStatement.java:3736)
+	at oracle.jdbc.driver.OraclePreparedStatementWrapper.executeUpdate(OraclePreparedStatementWrapper.java:1063)
+	at com.zaxxer.hikari.pool.ProxyPreparedStatement.executeUpdate(ProxyPreparedStatement.java:61)
+	at com.zaxxer.hikari.pool.HikariProxyPreparedStatement.executeUpdate(HikariProxyPreparedStatement.java)
+	at org.hibernate.engine.jdbc.internal.ResultSetReturnImpl.executeUpdate(ResultSetReturnImpl.java:197)
+	at org.hibernate.persister.entity.AbstractEntityPersister.insert(AbstractEntityPersister.java:3297)
+	at org.hibernate.persister.entity.AbstractEntityPersister.insert(AbstractEntityPersister.java:3824)
+	at org.hibernate.action.internal.EntityInsertAction.execute(EntityInsertAction.java:107)
+	at org.hibernate.engine.spi.ActionQueue.executeActions(ActionQueue.java:604)
+	at org.hibernate.engine.spi.ActionQueue.lambda$executeActions$1(ActionQueue.java:478)
+	at java.util.LinkedHashMap.forEach(LinkedHashMap.java:684)
+	at org.hibernate.engine.spi.ActionQueue.executeActions(ActionQueue.java:475)
+	at org.hibernate.event.internal.AbstractFlushingEventListener.performExecutions(AbstractFlushingEventListener.java:345)
+	at org.hibernate.event.internal.DefaultFlushEventListener.onFlush(DefaultFlushEventListener.java:40)
+	at org.hibernate.event.service.internal.EventListenerGroupImpl.fireEventOnEachListener(EventListenerGroupImpl.java:93)
+	at org.hibernate.internal.SessionImpl.doFlush(SessionImpl.java:1362)
+	at org.hibernate.internal.SessionImpl.managedFlush(SessionImpl.java:453)
+	at org.hibernate.internal.SessionImpl.flushBeforeTransactionCompletion(SessionImpl.java:3212)
+	at org.hibernate.internal.SessionImpl.beforeTransactionCompletion(SessionImpl.java:2380)
+	at org.hibernate.engine.jdbc.internal.JdbcCoordinatorImpl.beforeTransactionCompletion(JdbcCoordinatorImpl.java:447)
+	at org.hibernate.resource.transaction.backend.jdbc.internal.JdbcResourceLocalTransactionCoordinatorImpl.beforeCompletionCallback(JdbcResourceLocalTransactionCoordinatorImpl.java:183)
+	at org.hibernate.resource.transaction.backend.jdbc.internal.JdbcResourceLocalTransactionCoordinatorImpl.access$300(JdbcResourceLocalTransactionCoordinatorImpl.java:40)
+	at org.hibernate.resource.transaction.backend.jdbc.internal.JdbcResourceLocalTransactionCoordinatorImpl$TransactionDriverControlImpl.commit(JdbcResourceLocalTransactionCoordinatorImpl.java:281)
+	at org.hibernate.engine.transaction.internal.TransactionImpl.commit(TransactionImpl.java:101)
+	at org.springframework.orm.jpa.JpaTransactionManager.doCommit(JpaTransactionManager.java:562)
+	at org.springframework.transaction.support.AbstractPlatformTransactionManager.processCommit(AbstractPlatformTransactionManager.java:743)
+	at org.springframework.transaction.support.AbstractPlatformTransactionManager.commit(AbstractPlatformTransactionManager.java:711)
+	at org.springframework.transaction.interceptor.TransactionAspectSupport.commitTransactionAfterReturning(TransactionAspectSupport.java:654)
+	at org.springframework.transaction.interceptor.TransactionAspectSupport.invokeWithinTransaction(TransactionAspectSupport.java:407)
+	at org.springframework.transaction.interceptor.TransactionInterceptor.invoke(TransactionInterceptor.java:119)
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:186)
+	at org.springframework.dao.support.PersistenceExceptionTranslationInterceptor.invoke(PersistenceExceptionTranslationInterceptor.java:137)
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:186)
+	at org.springframework.data.jpa.repository.support.CrudMethodMetadataPostProcessor$CrudMethodMetadataPopulatingMethodInterceptor.invoke(CrudMethodMetadataPostProcessor.java:174)
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:186)
+	at org.springframework.aop.interceptor.ExposeInvocationInterceptor.invoke(ExposeInvocationInterceptor.java:97)
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:186)
+	at org.springframework.aop.framework.JdkDynamicAopProxy.invoke(JdkDynamicAopProxy.java:215)
+	at com.sun.proxy.$Proxy103.save(Unknown Source)
+	at ratingService.services.RatingService.addRating(RatingService.java:46)
+	at ratingService.controllers.RatingController.addNewRating(RatingController.java:50)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.springframework.web.method.support.InvocableHandlerMethod.doInvoke(InvocableHandlerMethod.java:197)
+	at org.springframework.web.method.support.InvocableHandlerMethod.invokeForRequest(InvocableHandlerMethod.java:141)
+	at org.springframework.web.servlet.mvc.method.annotation.ServletInvocableHandlerMethod.invokeAndHandle(ServletInvocableHandlerMethod.java:106)
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.invokeHandlerMethod(RequestMappingHandlerAdapter.java:894)
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.handleInternal(RequestMappingHandlerAdapter.java:808)
+	at org.springframework.web.servlet.mvc.method.AbstractHandlerMethodAdapter.handle(AbstractHandlerMethodAdapter.java:87)
+	at org.springframework.web.servlet.DispatcherServlet.doDispatch(DispatcherServlet.java:1060)
+	at org.springframework.web.servlet.DispatcherServlet.doService(DispatcherServlet.java:962)
+	at org.springframework.web.servlet.FrameworkServlet.processRequest(FrameworkServlet.java:1006)
+	at org.springframework.web.servlet.FrameworkServlet.doPost(FrameworkServlet.java:909)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:652)
+	at org.springframework.web.servlet.FrameworkServlet.service(FrameworkServlet.java:883)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:733)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:227)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162)
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:53)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:189)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162)
+	at org.springframework.web.filter.RequestContextFilter.doFilterInternal(RequestContextFilter.java:100)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:119)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:189)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162)
+	at org.springframework.web.filter.FormContentFilter.doFilterInternal(FormContentFilter.java:93)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:119)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:189)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162)
+	at org.springframework.web.filter.CharacterEncodingFilter.doFilterInternal(CharacterEncodingFilter.java:201)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:119)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:189)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:202)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:97)
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:542)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:143)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:92)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:78)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:357)
+	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:374)
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:65)
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:893)
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1707)
+	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:49)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+	at java.lang.Thread.run(Thread.java:748)
+[33m19:41:44.310[0;39m [main] [34mINFO [0;39m [36mr.RatingServiceApplication[0;39m - [32mStarting RatingServiceApplication using Java 1.8.0_291 on LAPTOP-F31M9K39 with PID 21392 (D:\Java Projects\rating-service\target\classes started by lenono in D:\Java Projects\rating-service)
+[0;39m[33m19:41:44.316[0;39m [main] [34mINFO [0;39m [36mr.RatingServiceApplication[0;39m - [32mNo active profile set, falling back to default profiles: default
+[0;39m[33m19:41:45.311[0;39m [main] [34mINFO [0;39m [36mo.s.d.r.c.RepositoryConfigurationDelegate[0;39m - [32mMultiple Spring Data modules found, entering strict repository configuration mode!
+[0;39m[33m19:41:45.313[0;39m [main] [34mINFO [0;39m [36mo.s.d.r.c.RepositoryConfigurationDelegate[0;39m - [32mBootstrapping Spring Data JDBC repositories in DEFAULT mode.
+[0;39m[33m19:41:45.349[0;39m [main] [34mINFO [0;39m [36mo.s.d.r.c.RepositoryConfigurationExtensionSupport[0;39m - [32mSpring Data JDBC - Could not safely identify store assignment for repository candidate interface ratingService.repositories.RatingRepository. If you want this repository to be a JDBC repository, consider annotating your entities with one of these annotations: org.springframework.data.relational.core.mapping.Table.
+[0;39m[33m19:41:45.350[0;39m [main] [34mINFO [0;39m [36mo.s.d.r.c.RepositoryConfigurationDelegate[0;39m - [32mFinished Spring Data repository scanning in 32 ms. Found 0 JDBC repository interfaces.
+[0;39m[33m19:41:45.360[0;39m [main] [34mINFO [0;39m [36mo.s.d.r.c.RepositoryConfigurationDelegate[0;39m - [32mMultiple Spring Data modules found, entering strict repository configuration mode!
+[0;39m[33m19:41:45.362[0;39m [main] [34mINFO [0;39m [36mo.s.d.r.c.RepositoryConfigurationDelegate[0;39m - [32mBootstrapping Spring Data JPA repositories in DEFAULT mode.
+[0;39m[33m19:41:45.569[0;39m [main] [34mINFO [0;39m [36mo.s.d.r.c.RepositoryConfigurationDelegate[0;39m - [32mFinished Spring Data repository scanning in 201 ms. Found 1 JPA repository interfaces.
+[0;39m[33m19:41:45.895[0;39m [main] [34mINFO [0;39m [36mo.s.cloud.context.scope.GenericScope[0;39m - [32mBeanFactory id=fd63b7b5-b92b-315c-a725-6e14b42855ab
+[0;39m[33m19:41:46.630[0;39m [main] [34mINFO [0;39m [36mo.s.b.w.e.tomcat.TomcatWebServer[0;39m - [32mTomcat initialized with port(s): 5002 (http)
+[0;39m[33m19:41:46.642[0;39m [main] [34mINFO [0;39m [36mo.a.catalina.core.StandardService[0;39m - [32mStarting service [Tomcat]
+[0;39m[33m19:41:46.642[0;39m [main] [34mINFO [0;39m [36mo.a.catalina.core.StandardEngine[0;39m - [32mStarting Servlet engine: [Apache Tomcat/9.0.45]
+[0;39m[33m19:41:46.820[0;39m [main] [34mINFO [0;39m [36mo.a.c.c.C.[Tomcat].[localhost].[/][0;39m - [32mInitializing Spring embedded WebApplicationContext
+[0;39m[33m19:41:46.820[0;39m [main] [34mINFO [0;39m [36mo.s.b.w.s.c.ServletWebServerApplicationContext[0;39m - [32mRoot WebApplicationContext: initialization completed in 2432 ms
+[0;39m[33m19:41:47.099[0;39m [main] [34mINFO [0;39m [36mo.h.jpa.internal.util.LogHelper[0;39m - [32mHHH000204: Processing PersistenceUnitInfo [name: default]
+[0;39m[33m19:41:47.172[0;39m [main] [34mINFO [0;39m [36morg.hibernate.Version[0;39m - [32mHHH000412: Hibernate ORM core version 5.4.30.Final
+[0;39m[33m19:41:47.328[0;39m [main] [34mINFO [0;39m [36mo.h.annotations.common.Version[0;39m - [32mHCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+[0;39m[33m19:41:47.477[0;39m [main] [34mINFO [0;39m [36mcom.zaxxer.hikari.HikariDataSource[0;39m - [32mHikariPool-1 - Starting...
+[0;39m[33m19:41:48.146[0;39m [main] [34mINFO [0;39m [36mcom.zaxxer.hikari.HikariDataSource[0;39m - [32mHikariPool-1 - Start completed.
+[0;39m[33m19:41:48.158[0;39m [main] [34mINFO [0;39m [36morg.hibernate.dialect.Dialect[0;39m - [32mHHH000400: Using dialect: org.hibernate.dialect.Oracle10gDialect
+[0;39m[33m19:42:00.070[0;39m [main] [34mINFO [0;39m [36mo.h.e.t.j.p.i.JtaPlatformInitiator[0;39m - [32mHHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+[0;39m[33m19:42:00.092[0;39m [main] [34mINFO [0;39m [36mo.s.o.j.LocalContainerEntityManagerFactoryBean[0;39m - [32mInitialized JPA EntityManagerFactory for persistence unit 'default'
+[0;39m[33m19:42:00.589[0;39m [main] [31mWARN [0;39m [36mo.s.b.a.o.j.JpaBaseConfiguration$JpaWebConfiguration[0;39m - [32mspring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+[0;39m[33m19:42:00.709[0;39m [main] [34mINFO [0;39m [36mo.s.s.c.ThreadPoolTaskExecutor[0;39m - [32mInitializing ExecutorService 'applicationTaskExecutor'
+[0;39m[33m19:42:01.811[0;39m [main] [34mINFO [0;39m [36mo.s.c.n.e.c.DiscoveryClientOptionalArgsConfiguration[0;39m - [32mEureka HTTP Client uses RestTemplate.
+[0;39m[33m19:42:02.267[0;39m [main] [31mWARN [0;39m [36mo.s.c.l.c.LoadBalancerCacheAutoConfiguration$LoadBalancerCaffeineWarnLogger[0;39m - [32mSpring Cloud LoadBalancer is currently working with the default cache. You can switch to using Caffeine cache, by adding it to the classpath.
+[0;39m[33m19:42:02.295[0;39m [main] [34mINFO [0;39m [36mo.s.c.n.eureka.InstanceInfoFactory[0;39m - [32mSetting initial instance status as: STARTING
+[0;39m[33m19:42:02.365[0;39m [main] [34mINFO [0;39m [36mc.netflix.discovery.DiscoveryClient[0;39m - [32mInitializing Eureka in region us-east-1
+[0;39m[33m19:42:02.369[0;39m [main] [34mINFO [0;39m [36mc.n.d.s.r.aws.ConfigClusterResolver[0;39m - [32mResolving eureka endpoints via configuration
+[0;39m[33m19:42:02.679[0;39m [main] [34mINFO [0;39m [36mc.netflix.discovery.DiscoveryClient[0;39m - [32mDisable delta property : false
+[0;39m[33m19:42:02.679[0;39m [main] [34mINFO [0;39m [36mc.netflix.discovery.DiscoveryClient[0;39m - [32mSingle vip registry refresh property : null
+[0;39m[33m19:42:02.679[0;39m [main] [34mINFO [0;39m [36mc.netflix.discovery.DiscoveryClient[0;39m - [32mForce full registry fetch : false
+[0;39m[33m19:42:02.679[0;39m [main] [34mINFO [0;39m [36mc.netflix.discovery.DiscoveryClient[0;39m - [32mApplication is null : false
+[0;39m[33m19:42:02.679[0;39m [main] [34mINFO [0;39m [36mc.netflix.discovery.DiscoveryClient[0;39m - [32mRegistered Applications size is zero : true
+[0;39m[33m19:42:02.679[0;39m [main] [34mINFO [0;39m [36mc.netflix.discovery.DiscoveryClient[0;39m - [32mApplication version is -1: true
+[0;39m[33m19:42:02.682[0;39m [main] [34mINFO [0;39m [36mc.netflix.discovery.DiscoveryClient[0;39m - [32mGetting all instance registry info from the eureka server
+[0;39m[33m19:42:02.974[0;39m [main] [34mINFO [0;39m [36mc.netflix.discovery.DiscoveryClient[0;39m - [32mThe response status is 200
+[0;39m[33m19:42:02.979[0;39m [main] [34mINFO [0;39m [36mc.netflix.discovery.DiscoveryClient[0;39m - [32mStarting heartbeat executor: renew interval is: 30
+[0;39m[33m19:42:02.985[0;39m [main] [34mINFO [0;39m [36mc.n.discovery.InstanceInfoReplicator[0;39m - [32mInstanceInfoReplicator onDemand update allowed rate per min is 4
+[0;39m[33m19:42:02.993[0;39m [main] [34mINFO [0;39m [36mc.netflix.discovery.DiscoveryClient[0;39m - [32mDiscovery Client initialized at timestamp 1622124722992 with initial instances count: 2
+[0;39m[33m19:42:02.996[0;39m [main] [34mINFO [0;39m [36mo.s.c.n.e.s.EurekaServiceRegistry[0;39m - [32mRegistering application RATING-SERVICE with eureka with status UP
+[0;39m[33m19:42:02.996[0;39m [main] [34mINFO [0;39m [36mc.netflix.discovery.DiscoveryClient[0;39m - [32mSaw local status change event StatusChangeEvent [timestamp=1622124722996, current=UP, previous=STARTING]
+[0;39m[33m19:42:03.000[0;39m [DiscoveryClient-InstanceInfoReplicator-0] [34mINFO [0;39m [36mc.netflix.discovery.DiscoveryClient[0;39m - [32mDiscoveryClient_RATING-SERVICE/LAPTOP-F31M9K39:rating-service:5002: registering service...
+[0;39m[33m19:42:03.033[0;39m [main] [34mINFO [0;39m [36mo.s.b.w.e.tomcat.TomcatWebServer[0;39m - [32mTomcat started on port(s): 5002 (http) with context path ''
+[0;39m[33m19:42:03.036[0;39m [main] [34mINFO [0;39m [36mo.s.c.n.e.s.EurekaAutoServiceRegistration[0;39m - [32mUpdating port to 5002
+[0;39m[33m19:42:03.128[0;39m [DiscoveryClient-InstanceInfoReplicator-0] [34mINFO [0;39m [36mc.netflix.discovery.DiscoveryClient[0;39m - [32mDiscoveryClient_RATING-SERVICE/LAPTOP-F31M9K39:rating-service:5002 - registration status: 204
+[0;39m[33m19:42:03.569[0;39m [main] [34mINFO [0;39m [36mr.RatingServiceApplication[0;39m - [32mStarted RatingServiceApplication in 20.435 seconds (JVM running for 21.184)
+[0;39m[33m19:42:14.098[0;39m [http-nio-5002-exec-2] [34mINFO [0;39m [36mo.a.c.c.C.[Tomcat].[localhost].[/][0;39m - [32mInitializing Spring DispatcherServlet 'dispatcherServlet'
+[0;39m[33m19:42:14.098[0;39m [http-nio-5002-exec-2] [34mINFO [0;39m [36mo.s.web.servlet.DispatcherServlet[0;39m - [32mInitializing Servlet 'dispatcherServlet'
+[0;39m[33m19:42:14.098[0;39m [http-nio-5002-exec-2] [34mINFO [0;39m [36mo.s.web.servlet.DispatcherServlet[0;39m - [32mCompleted initialization in 0 ms
+[0;39m
