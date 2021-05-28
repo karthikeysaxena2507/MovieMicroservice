@@ -1,5 +1,6 @@
 package movieDataService.services;
 
+import movieDataService.exceptions.BusinessException;
 import movieDataService.models.Movie;
 import movieDataService.models.Review;
 import movieDataService.repositories.MovieRepository;
@@ -9,7 +10,6 @@ import org.slf4j.LoggerFactory;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 
-import java.util.ArrayList;
 import java.util.List;
 
 @Service
@@ -32,7 +32,6 @@ public class ReviewService {
      * @return ALL MOVIE REVIEWS
      */
     public List<Review> getAllReviews() {
-
         return reviewRepository.findAll();
     }
 
@@ -43,11 +42,23 @@ public class ReviewService {
      */
     public List<Review> getReviewsByMovieId(Long movieId) {
         Movie movie = movieRepository.findById(movieId).orElse(null);
-        List<Review> reviews = new ArrayList<>();
-        if(movie != null) {
-            reviews = movie.getReviews();
+        if(movie != null)
+        {
+            if(movie.getReviews().isEmpty()) throw new BusinessException("601", movie.getTitle() + " doesn't have any reviews");
+            else return reviewRepository.findReviewsByMovieId(movieId);
         }
-        return reviews;
+        else throw new BusinessException("601", "Movie with Id " + movieId + " doesn't exists");
+    }
+
+    /**
+     * SERVICE TO GET ALL REVIEWS OF A USER
+     * @param username THE USERNAME WHOSE REVIEWS ARE ACCESSED
+     * @return THE REQUIRED MOVIE REVIEWS
+     */
+    public List<Review> getReviewsByUsername(String username) {
+        List<Review> reviews = reviewRepository.findByUsername(username);
+        if(reviews.isEmpty()) throw new BusinessException("601", username + " hasn't given any reviews");
+        else return reviews;
     }
 
     /**
@@ -56,7 +67,9 @@ public class ReviewService {
      * @return THE REQUIRED REVIEW
      */
     public Review getReviewById(Long reviewId) {
-        return reviewRepository.findById(reviewId).orElse(null);
+        Review review = reviewRepository.findById(reviewId).orElse(null);
+        if(review == null) throw new BusinessException("601", "Review with Id " + reviewId + " doesn't exists");
+        return review;
     }
 
     /**
@@ -66,12 +79,8 @@ public class ReviewService {
      */
     public Review addNewReview(Review review) {
         Movie movie = movieRepository.findById(review.getMovieId()).orElse(null);
-        if(movie != null) {
-            return reviewRepository.save(review);
-        }
-        else {
-            return review;
-        }
+        if(movie != null) return reviewRepository.save(review);
+        else throw new BusinessException("601", "Movie with Id " + review.getMovieId() + " doesn't exists");
     }
 
     /**
@@ -81,10 +90,8 @@ public class ReviewService {
      */
     public Review updateReview(Review review) {
         Movie movie = movieRepository.findById(review.getMovieId()).orElse(null);
-        if(movie != null) {
-            return reviewRepository.save(review);
-        }
-        return review;
+        if(movie != null) return reviewRepository.save(review);
+        else throw new BusinessException("601", "Movie with Id " + review.getMovieId() + " doesn't exists");
     }
 
     /**
@@ -92,7 +99,9 @@ public class ReviewService {
      * @param reviewId THE ID OF THE REVIEW TO BE DELETED
      */
     public void deleteReview(Long reviewId) {
-        reviewRepository.deleteById(reviewId);
+        Review review = reviewRepository.findById(reviewId).orElse(null);
+        if(review != null) reviewRepository.deleteById(reviewId);
+        else throw new BusinessException("601", "Review with Id " + reviewId + " doesn't exists");
     }
 
 }

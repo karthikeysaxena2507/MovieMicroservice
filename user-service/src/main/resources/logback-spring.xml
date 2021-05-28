@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="WINDOWS-1252"?>
+<?xml version="1.0" encoding="UTF-8"?>
 <configuration>
     <include resource="org/springframework/boot/logging/logback/defaults.xml"/>
     <property name="LOG_FILE" value="logs/app.log"/>
@@ -40,7 +40,7 @@
         <appender-ref ref="FILE-ROLLING"/>
     </root>
 
-    <logger name="movieDataService" level="debug" additivity="false">
+    <logger name="UserServiceApplication" level="debug" additivity="false">
         <appender-ref ref="CONSOLE"/>
     </logger>
 

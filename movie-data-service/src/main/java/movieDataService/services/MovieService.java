@@ -1,7 +1,7 @@
 package movieDataService.services;
 
+import movieDataService.exceptions.BusinessException;
 import movieDataService.models.Movie;
-import movieDataService.models.Review;
 import movieDataService.repositories.MovieRepository;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
@@ -23,17 +23,18 @@ public class MovieService {
     }
 
     public Movie addNewMovie(Movie movie) {
-        List<Review> reviews = new ArrayList<>();
-        Movie newMovie = new Movie(movie.getTitle(), movie.getDescription(), movie.getGenre(), reviews);
-        return movieRepository.save(newMovie);
+        Movie existingMovie = movieRepository.findByTitle(movie.getTitle());
+        if(existingMovie == null) {
+            Movie newMovie = new Movie(movie.getTitle(), movie.getDescription(), movie.getGenre(), new ArrayList<>());
+            return movieRepository.save(newMovie);
+        }
+        else throw new BusinessException("606", "Movie with given title already exists");
     }
 
-    public Movie getMovieById(long movieId) {
+    public Movie getMovieById(Long movieId) {
         Movie movie = movieRepository.findById(movieId).orElse(null);
-        if(movie != null) {
-            return movie;
-        }
-        return new Movie();
+        if(movie != null) return movie;
+        else throw new BusinessException("601", "Movie with id = " + movieId + " Does not exists");
     }
 
     public List<Movie> getAllMovies() {
@@ -41,10 +42,15 @@ public class MovieService {
     }
 
     public Movie updateMovie(Movie movie) {
-        return movieRepository.save(movie);
+        Movie existingMovie = movieRepository.findById(movie.getId()).orElse(null);
+        if(existingMovie != null) return movieRepository.save(movie);
+        else throw new BusinessException("601", "Movie with id = " + movie.getId() + " Does not exists");
     }
 
     public void deleteMovie(Long movieId) {
-        movieRepository.deleteById(movieId);
+        if(movieId == null) throw new BusinessException("603", "Movie Id cannot be null");
+        Movie movie = movieRepository.findById(movieId).orElse(null);
+        if(movie != null) movieRepository.deleteById(movieId);
+        else throw new BusinessException("601", "Movie with id = " + movieId + " Does not exists");
     }
 }

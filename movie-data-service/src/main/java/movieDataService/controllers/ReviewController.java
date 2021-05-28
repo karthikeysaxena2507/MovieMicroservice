@@ -1,5 +1,7 @@
 package movieDataService.controllers;
 
+import movieDataService.exceptions.BusinessException;
+import movieDataService.exceptions.ControllerException;
 import movieDataService.models.Review;
 import movieDataService.services.ReviewService;
 import org.slf4j.Logger;
@@ -7,12 +9,10 @@ import org.slf4j.LoggerFactory;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Controller;
 
+import javax.validation.Valid;
 import javax.ws.rs.*;
 import javax.ws.rs.core.MediaType;
 import javax.ws.rs.core.Response;
-import java.util.ArrayList;
-import java.util.List;
-
 
 @Controller
 @Path("/api/reviews")
@@ -32,17 +32,33 @@ public class ReviewController {
     @Produces(MediaType.APPLICATION_JSON)
     public Response getAllReviews() {
         try {
-            List<Review> reviews = new ArrayList<>();
-            reviews = reviewService.getAllReviews();
-            return Response.status(200).entity(reviews).build();
+            return Response
+                    .status(Response.Status.OK)
+                    .entity(reviewService.getAllReviews())
+                    .build();
         }
-        catch(Exception e) {
-            return Response.status(500).entity(e.getMessage()).build();
+        catch(BusinessException exc) {
+            logger.error(exc.getErrorMessage());
+            ControllerException ex = new ControllerException(exc.getErrorMessage(), exc.getErrorCode());
+            return Response
+                    .status(Response.Status.BAD_REQUEST)
+                    .entity(ex)
+                    .type(MediaType.APPLICATION_JSON_TYPE)
+                    .build();
+        }
+        catch(Exception exc) {
+            logger.error(exc.getMessage());
+            ControllerException ex = new ControllerException("Some Error Occurred with the server", "610");
+            return Response
+                    .status(Response.Status.INTERNAL_SERVER_ERROR)
+                    .entity(ex)
+                    .type(MediaType.APPLICATION_JSON_TYPE)
+                    .build();
         }
     }
 
     /**
-     * API TE GET ALL REVIEWS OF A MOVIE
+     * API TO GET ALL REVIEWS OF A MOVIE
      * @param movieId ID OF THE MOVIE WHOSE REVIEWS ARE ACCESSED
      * @return LIST OF REQUIRED REVIEWS
      */
@@ -51,17 +67,33 @@ public class ReviewController {
     @Produces(MediaType.APPLICATION_JSON)
     public Response getReviewsByMovieId(@PathParam("id") Long movieId) {
         try {
-            List<Review> reviews = new ArrayList<>();
-            reviews = reviewService.getReviewsByMovieId(movieId);
-            return Response.status(200).entity(reviews).build();
+            return Response
+                    .status(Response.Status.OK)
+                    .entity(reviewService.getReviewsByMovieId(movieId))
+                    .build();
         }
-        catch(Exception e) {
-            return Response.status(500).entity(e.getMessage()).build();
+        catch(BusinessException exc) {
+            logger.error(exc.getErrorMessage());
+            ControllerException ex = new ControllerException(exc.getErrorMessage(), exc.getErrorCode());
+            return Response
+                    .status(Response.Status.BAD_REQUEST)
+                    .entity(ex)
+                    .type(MediaType.APPLICATION_JSON_TYPE)
+                    .build();
+        }
+        catch(Exception exc) {
+            logger.error(exc.getMessage());
+            ControllerException ex = new ControllerException("Some Error Occurred with the server", "610");
+            return Response
+                    .status(Response.Status.INTERNAL_SERVER_ERROR)
+                    .entity(ex)
+                    .type(MediaType.APPLICATION_JSON_TYPE)
+                    .build();
         }
     }
 
     /**
-     * API TE GET A REVIEW BY ITS ID
+     * API TO GET A REVIEW BY ITS ID
      * @param reviewId THE ID OF THE MOVIE REVIEW TO BE ACCESSED
      * @return THE REQUIRED MOVIE REVIEW
      */
@@ -70,11 +102,63 @@ public class ReviewController {
     @Produces(MediaType.APPLICATION_JSON)
     public Response getReviewById(@PathParam("id") Long reviewId) {
         try {
-            Review review = reviewService.getReviewById(reviewId);
-            return Response.status(200).entity(review).build();
+            return Response
+                    .status(Response.Status.OK)
+                    .entity(reviewService.getReviewById(reviewId))
+                    .build();
         }
-        catch(Exception e) {
-            return Response.status(500).entity(e.getMessage()).build();
+        catch(BusinessException exc) {
+            logger.error(exc.getErrorMessage());
+            ControllerException ex = new ControllerException(exc.getErrorMessage(), exc.getErrorCode());
+            return Response
+                    .status(Response.Status.BAD_REQUEST)
+                    .entity(ex)
+                    .type(MediaType.APPLICATION_JSON_TYPE)
+                    .build();
+        }
+        catch(Exception exc) {
+            logger.error(exc.getMessage());
+            ControllerException ex = new ControllerException("Some Error Occurred with the server", "610");
+            return Response
+                    .status(Response.Status.INTERNAL_SERVER_ERROR)
+                    .entity(ex)
+                    .type(MediaType.APPLICATION_JSON_TYPE)
+                    .build();
+        }
+    }
+
+    /**
+     * API TO GET ALL REVIEWS OF A USER
+     * @param username THE USERNAME WHOSE REVIEWS ARE ACCESSED
+     * @return THE REQUIRED MOVIE REVIEWS
+     */
+    @GET
+    @Path("/user/{username}")
+    @Produces(MediaType.APPLICATION_JSON)
+    public Response getReviewsByUsername(@PathParam("username") String username) {
+        try {
+            return Response
+                    .status(Response.Status.OK)
+                    .entity(reviewService.getReviewsByUsername(username))
+                    .build();
+        }
+        catch(BusinessException exc) {
+            logger.error(exc.getErrorMessage());
+            ControllerException ex = new ControllerException(exc.getErrorMessage(), exc.getErrorCode());
+            return Response
+                    .status(Response.Status.BAD_REQUEST)
+                    .entity(ex)
+                    .type(MediaType.APPLICATION_JSON_TYPE)
+                    .build();
+        }
+        catch(Exception exc) {
+            logger.error(exc.getMessage());
+            ControllerException ex = new ControllerException("Some Error Occurred with the server", "610");
+            return Response
+                    .status(Response.Status.INTERNAL_SERVER_ERROR)
+                    .entity(ex)
+                    .type(MediaType.APPLICATION_JSON_TYPE)
+                    .build();
         }
     }
 
@@ -86,13 +170,30 @@ public class ReviewController {
     @Path("/add")
     @Consumes(MediaType.APPLICATION_JSON)
     @Produces(MediaType.APPLICATION_JSON)
-    public Response addNewReview(Review review) {
+    public Response addNewReview(@Valid Review review) {
         try {
-            Review addedReview = reviewService.addNewReview(review);
-            return Response.status(200).entity(addedReview).build();
+            return Response
+                    .status(Response.Status.OK)
+                    .entity(reviewService.addNewReview(review))
+                    .build();
         }
-        catch(Exception e) {
-            return Response.status(500).entity(e.getMessage()).build();
+        catch(BusinessException exc) {
+            logger.error(exc.getErrorMessage());
+            ControllerException ex = new ControllerException(exc.getErrorMessage(), exc.getErrorCode());
+            return Response
+                    .status(Response.Status.BAD_REQUEST)
+                    .entity(ex)
+                    .type(MediaType.APPLICATION_JSON_TYPE)
+                    .build();
+        }
+        catch(Exception exc) {
+            logger.error(exc.getMessage());
+            ControllerException ex = new ControllerException("Some Error Occurred with the server", "610");
+            return Response
+                    .status(Response.Status.INTERNAL_SERVER_ERROR)
+                    .entity(ex)
+                    .type(MediaType.APPLICATION_JSON_TYPE)
+                    .build();
         }
     }
 
@@ -105,13 +206,30 @@ public class ReviewController {
     @Path("/update")
     @Consumes(MediaType.APPLICATION_JSON)
     @Produces(MediaType.APPLICATION_JSON)
-    public Response updateReview(Review review) {
+    public Response updateReview(@Valid Review review) {
         try {
-            Review updatedReview = reviewService.updateReview(review);
-            return Response.status(200).entity(updatedReview).build();
+            return Response
+                    .status(Response.Status.OK)
+                    .entity(reviewService.updateReview(review))
+                    .build();
         }
-        catch(Exception e) {
-            return Response.status(500).entity(e.getMessage()).build();
+        catch(BusinessException exc) {
+            logger.error(exc.getErrorMessage());
+            ControllerException ex = new ControllerException(exc.getErrorMessage(), exc.getErrorCode());
+            return Response
+                    .status(Response.Status.BAD_REQUEST)
+                    .entity(ex)
+                    .type(MediaType.APPLICATION_JSON_TYPE)
+                    .build();
+        }
+        catch(Exception exc) {
+            logger.error(exc.getMessage());
+            ControllerException ex = new ControllerException("Some Error Occurred with the server", "610");
+            return Response
+                    .status(Response.Status.INTERNAL_SERVER_ERROR)
+                    .entity(ex)
+                    .type(MediaType.APPLICATION_JSON_TYPE)
+                    .build();
         }
     }
 
@@ -125,10 +243,28 @@ public class ReviewController {
     public Response deleteReview(@PathParam("id") Long id) {
         try {
             reviewService.deleteReview(id);
-            return Response.status(200).entity("SUCCESS: REVIEW DELETED SUCCESSFULLY").build();
+            return Response
+                    .status(Response.Status.OK)
+                    .entity("SUCCESS: REVIEW DELETED SUCCESSFULLY")
+                    .build();
         }
-        catch(Exception e) {
-            return Response.status(500).entity(e.getMessage()).build();
+        catch(BusinessException exc) {
+            logger.error(exc.getErrorMessage());
+            ControllerException ex = new ControllerException(exc.getErrorMessage(), exc.getErrorCode());
+            return Response
+                    .status(Response.Status.BAD_REQUEST)
+                    .entity(ex)
+                    .type(MediaType.APPLICATION_JSON_TYPE)
+                    .build();
+        }
+        catch(Exception exc) {
+            logger.error(exc.getMessage());
+            ControllerException ex = new ControllerException("Some Error Occurred with the server", "610");
+            return Response
+                    .status(Response.Status.INTERNAL_SERVER_ERROR)
+                    .entity(ex)
+                    .type(MediaType.APPLICATION_JSON_TYPE)
+                    .build();
         }
     }
 
