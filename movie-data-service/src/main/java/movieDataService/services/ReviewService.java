@@ -31,7 +31,7 @@ public class ReviewService {
      * SERVICE TO GET ALL REVIEWS
      * @return ALL MOVIE REVIEWS
      */
-    public List<Review> getAllReviews() {
+    public List<Review> getAllReviews() throws BusinessException {
         return reviewRepository.findAll();
     }
 
@@ -40,7 +40,7 @@ public class ReviewService {
      * @param movieId THE ID OF THE MOVIE WHOSE REVIEWS ARE ACCESSED
      * @return THE REQUIRED MOVIE REVIEWS
      */
-    public List<Review> getReviewsByMovieId(Long movieId) {
+    public List<Review> getReviewsByMovieId(Long movieId) throws BusinessException {
         Movie movie = movieRepository.findById(movieId).orElse(null);
         if(movie != null)
         {
@@ -55,7 +55,7 @@ public class ReviewService {
      * @param username THE USERNAME WHOSE REVIEWS ARE ACCESSED
      * @return THE REQUIRED MOVIE REVIEWS
      */
-    public List<Review> getReviewsByUsername(String username) {
+    public List<Review> getReviewsByUsername(String username) throws BusinessException{
         List<Review> reviews = reviewRepository.findByUsername(username);
         if(reviews.isEmpty()) throw new BusinessException("601", username + " hasn't given any reviews");
         else return reviews;
@@ -66,7 +66,7 @@ public class ReviewService {
      * @param reviewId THE ID OF THE REVIEW TO BE ACCESSED
      * @return THE REQUIRED REVIEW
      */
-    public Review getReviewById(Long reviewId) {
+    public Review getReviewById(Long reviewId) throws BusinessException {
         Review review = reviewRepository.findById(reviewId).orElse(null);
         if(review == null) throw new BusinessException("601", "Review with Id " + reviewId + " doesn't exists");
         return review;
@@ -77,7 +77,7 @@ public class ReviewService {
      * @param review THE REVIEW TO BE ADDED
      * @return THE ADDED MOVIE REVIEW
      */
-    public Review addNewReview(Review review) {
+    public Review addNewReview(Review review) throws BusinessException {
         Movie movie = movieRepository.findById(review.getMovieId()).orElse(null);
         if(movie != null) return reviewRepository.save(review);
         else throw new BusinessException("601", "Movie with Id " + review.getMovieId() + " doesn't exists");
@@ -88,7 +88,7 @@ public class ReviewService {
      * @param review NEW REVIEW DATA
      * @return UPDATED REVIEW DATA
      */
-    public Review updateReview(Review review) {
+    public Review updateReview(Review review) throws BusinessException {
         Movie movie = movieRepository.findById(review.getMovieId()).orElse(null);
         if(movie != null) return reviewRepository.save(review);
         else throw new BusinessException("601", "Movie with Id " + review.getMovieId() + " doesn't exists");
@@ -98,7 +98,7 @@ public class ReviewService {
      * SERVICE TO DELETE A REVIEW
      * @param reviewId THE ID OF THE REVIEW TO BE DELETED
      */
-    public void deleteReview(Long reviewId) {
+    public void deleteReview(Long reviewId) throws BusinessException {
         Review review = reviewRepository.findById(reviewId).orElse(null);
         if(review != null) reviewRepository.deleteById(reviewId);
         else throw new BusinessException("601", "Review with Id " + reviewId + " doesn't exists");

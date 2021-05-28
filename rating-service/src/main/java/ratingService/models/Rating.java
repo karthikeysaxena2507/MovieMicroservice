@@ -1,6 +1,10 @@
 package ratingService.models;
 
 import javax.persistence.*;
+import javax.validation.constraints.Max;
+import javax.validation.constraints.Min;
+import javax.validation.constraints.NotBlank;
+import javax.validation.constraints.NotNull;
 
 @Entity
 @Table(name = "ratings")
@@ -12,12 +16,18 @@ public class Rating {
     private Long id;
 
     @Column(nullable = false)
+    @Min(1)
+    @Max(10)
+    @NotNull
     private Long rating;
 
     @Column(nullable = false)
+    @NotNull
     private Long movieId;
 
     @Column(nullable = false)
+    @NotNull
+    @NotBlank
     private String username;
 
     public Rating() {

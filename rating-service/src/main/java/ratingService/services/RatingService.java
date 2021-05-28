@@ -4,6 +4,8 @@ import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
+import ratingService.exceptions.NoSuchElementFoundException;
+import ratingService.helpers.RatingHelper;
 import ratingService.models.Rating;
 import ratingService.repositories.RatingRepository;
 
@@ -17,9 +19,12 @@ public class RatingService {
 
     private final RatingRepository ratingRepository;
 
+    private final RatingHelper ratingHelper;
+
     @Autowired
-    private RatingService(RatingRepository ratingRepository) {
+    private RatingService(RatingRepository ratingRepository, RatingHelper ratingHelper) {
         this.ratingRepository = ratingRepository;
+        this.ratingHelper = ratingHelper;
     }
 
     public List<Rating> getAllRatings() {
@@ -27,31 +32,38 @@ public class RatingService {
     }
 
     public List<Rating> getRatingsByMovieId(Long movieId) {
-        List<Rating> ratings = ratingRepository.findAll();
-        List<Rating> filteredRatings = new ArrayList<>();
-        for(Rating rating: ratings) {
-            if(rating.getMovieId().equals(movieId)) {
-                filteredRatings.add(rating);
-            }
+        if(ratingHelper.isMovieIdValid(movieId)) {
+            return ratingRepository.findRatingsByMovieId(movieId);
         }
-        return filteredRatings;
+        else throw new NoSuchElementFoundException();
+
     }
 
     public Rating getRatingById(Long ratingId) {
-        return ratingRepository.findById(ratingId).orElse(null);
+        Rating rating = ratingRepository.findById(ratingId).orElse(null);
+        if(rating != null) return rating;
+        else throw new NoSuchElementFoundException();
+
     }
 
     public Rating addRating(Rating rating) {
-        Rating newRating = new Rating(rating.getRating(), rating.getMovieId(), rating.getUsername());
-        return ratingRepository.save(newRating);
+        if(ratingHelper.isMovieIdValid(rating.getMovieId())) return ratingRepository.save(rating);
+        else throw new NoSuchElementFoundException();
     }
 
     public Rating updateRating(Rating rating) {
-        return ratingRepository.save(rating);
+        Rating existingRating = ratingRepository.findById(rating.getId()).orElse(null);
+        if(existingRating != null) {
+            if(ratingHelper.isMovieIdValid(rating.getMovieId())) return ratingRepository.save(rating);
+            else throw new NoSuchElementFoundException();
+        }
+        else throw new NoSuchElementFoundException();
     }
 
     public void deleteRating(Long ratingId) {
-        ratingRepository.deleteById(ratingId);
+        Rating rating = ratingRepository.findById(ratingId).orElse(null);
+        if(rating != null) ratingRepository.deleteById(rating.getId());
+        else throw new NoSuchElementFoundException();
     }
 
 }

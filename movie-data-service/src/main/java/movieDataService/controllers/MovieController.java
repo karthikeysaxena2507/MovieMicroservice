@@ -68,7 +68,11 @@ public class MovieController {
     @Path("/error")
     @Produces(MediaType.APPLICATION_JSON)
     public Response getErrorResponse() {
-        return Response.status(Response.Status.NOT_FOUND).entity("Not Found").type(MediaType.APPLICATION_JSON_TYPE).build();
+        return Response
+                .status(Response.Status.NOT_FOUND)
+                .entity("Not Found")
+                .type(MediaType.APPLICATION_JSON_TYPE)
+                .build();
     }
 
 

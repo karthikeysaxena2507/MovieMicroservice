@@ -20,8 +20,12 @@ public class ReviewController {
 
     Logger logger = LoggerFactory.getLogger(ReviewController.class);
 
+    private final ReviewService reviewService;
+
     @Autowired
-    private ReviewService reviewService;
+    public ReviewController(ReviewService reviewService) {
+        this.reviewService = reviewService;
+    }
 
     /**
      * API TO GET ALL REVIEWS
