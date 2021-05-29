@@ -1,0 +1,620 @@
+[33m00:21:05.459[0;39m [restartedMain] [34mINFO [0;39m [36mm.MovieDataServiceApplication[0;39m - [32mStarting MovieDataServiceApplication using Java 1.8.0_291 on LAPTOP-F31M9K39 with PID 18276 (D:\Java Projects\movie-microservices\movie-data-service\target\classes started by lenono in D:\Java Projects\movie-microservices\movie-data-service)
+[0;39m[33m00:21:05.686[0;39m [restartedMain] [39mDEBUG[0;39m [36mm.MovieDataServiceApplication[0;39m - [32mRunning with Spring Boot v2.4.5, Spring v5.3.6
+[0;39m[33m00:21:05.686[0;39m [restartedMain] [34mINFO [0;39m [36mm.MovieDataServiceApplication[0;39m - [32mNo active profile set, falling back to default profiles: default
+[0;39m[33m00:21:05.796[0;39m [restartedMain] [34mINFO [0;39m [36mo.s.b.d.restart.ChangeableUrls[0;39m - [32mThe Class-Path manifest attribute in C:\Users\lenono\.m2\repository\org\glassfish\hk2\hk2\2.6.1\hk2-2.6.1.jar referenced one or more files that do not exist: file:/C:/Users/lenono/.m2/repository/org/glassfish/hk2/hk2/2.6.1/hk2-utils.jar,file:/C:/Users/lenono/.m2/repository/org/glassfish/hk2/hk2/2.6.1/jakarta.annotation-api.jar,file:/C:/Users/lenono/.m2/repository/org/glassfish/hk2/hk2/2.6.1/jakarta.inject.jar,file:/C:/Users/lenono/.m2/repository/org/glassfish/hk2/hk2/2.6.1/hk2-api.jar,file:/C:/Users/lenono/.m2/repository/org/glassfish/hk2/hk2/2.6.1/aopalliance-repackaged.jar,file:/C:/Users/lenono/.m2/repository/org/glassfish/hk2/hk2/2.6.1/hk2-core.jar,file:/C:/Users/lenono/.m2/repository/org/glassfish/hk2/hk2/2.6.1/hk2-locator.jar,file:/C:/Users/lenono/.m2/repository/org/glassfish/hk2/hk2/2.6.1/javassist.jar,file:/C:/Users/lenono/.m2/repository/org/glassfish/hk2/hk2/2.6.1/hk2-runlevel.jar,file:/C:/Users/lenono/.m2/repository/org/glassfish/hk2/hk2/2.6.1/class-model.jar,file:/C:/Users/lenono/.m2/repository/org/glassfish/hk2/hk2/2.6.1/asm.jar,file:/C:/Users/lenono/.m2/repository/org/glassfish/hk2/hk2/2.6.1/asm-analysis.jar,file:/C:/Users/lenono/.m2/repository/org/glassfish/hk2/hk2/2.6.1/asm-commons.jar,file:/C:/Users/lenono/.m2/repository/org/glassfish/hk2/hk2/2.6.1/asm-tree.jar,file:/C:/Users/lenono/.m2/repository/org/glassfish/hk2/hk2/2.6.1/asm-util.jar
+[0;39m[33m00:21:05.807[0;39m [restartedMain] [34mINFO [0;39m [36mo.s.b.d.restart.ChangeableUrls[0;39m - [32mThe Class-Path manifest attribute in C:\Users\lenono\.m2\repository\com\oracle\database\jdbc\ojdbc8\19.8.0.0\ojdbc8-19.8.0.0.jar referenced one or more files that do not exist: file:/C:/Users/lenono/.m2/repository/com/oracle/database/jdbc/ojdbc8/19.8.0.0/oraclepki.jar
+[0;39m[33m00:21:05.808[0;39m [restartedMain] [34mINFO [0;39m [36mo.s.b.d.e.DevToolsPropertyDefaultsPostProcessor[0;39m - [32mDevtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+[0;39m[33m00:21:05.808[0;39m [restartedMain] [34mINFO [0;39m [36mo.s.b.d.e.DevToolsPropertyDefaultsPostProcessor[0;39m - [32mFor additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+[0;39m[33m00:21:06.747[0;39m [restartedMain] [34mINFO [0;39m [36mo.s.d.r.c.RepositoryConfigurationDelegate[0;39m - [32mMultiple Spring Data modules found, entering strict repository configuration mode!
+[0;39m[33m00:21:06.748[0;39m [restartedMain] [34mINFO [0;39m [36mo.s.d.r.c.RepositoryConfigurationDelegate[0;39m - [32mBootstrapping Spring Data JDBC repositories in DEFAULT mode.
+[0;39m[33m00:21:06.781[0;39m [restartedMain] [34mINFO [0;39m [36mo.s.d.r.c.RepositoryConfigurationExtensionSupport[0;39m - [32mSpring Data JDBC - Could not safely identify store assignment for repository candidate interface movieDataService.repositories.MovieRepository. If you want this repository to be a JDBC repository, consider annotating your entities with one of these annotations: org.springframework.data.relational.core.mapping.Table.
+[0;39m[33m00:21:06.803[0;39m [restartedMain] [34mINFO [0;39m [36mo.s.d.r.c.RepositoryConfigurationExtensionSupport[0;39m - [32mSpring Data JDBC - Could not safely identify store assignment for repository candidate interface movieDataService.repositories.ReviewRepository. If you want this repository to be a JDBC repository, consider annotating your entities with one of these annotations: org.springframework.data.relational.core.mapping.Table.
+[0;39m[33m00:21:06.804[0;39m [restartedMain] [34mINFO [0;39m [36mo.s.d.r.c.RepositoryConfigurationDelegate[0;39m - [32mFinished Spring Data repository scanning in 50 ms. Found 0 JDBC repository interfaces.
+[0;39m[33m00:21:06.812[0;39m [restartedMain] [34mINFO [0;39m [36mo.s.d.r.c.RepositoryConfigurationDelegate[0;39m - [32mMultiple Spring Data modules found, entering strict repository configuration mode!
+[0;39m[33m00:21:06.812[0;39m [restartedMain] [34mINFO [0;39m [36mo.s.d.r.c.RepositoryConfigurationDelegate[0;39m - [32mBootstrapping Spring Data JPA repositories in DEFAULT mode.
+[0;39m[33m00:21:06.865[0;39m [restartedMain] [34mINFO [0;39m [36mo.s.d.r.c.RepositoryConfigurationDelegate[0;39m - [32mFinished Spring Data repository scanning in 48 ms. Found 2 JPA repository interfaces.
+[0;39m[33m00:21:07.105[0;39m [restartedMain] [34mINFO [0;39m [36mo.s.cloud.context.scope.GenericScope[0;39m - [32mBeanFactory id=493eace5-130a-3b11-b77e-13958bf6c841
+[0;39m[33m00:21:08.076[0;39m [restartedMain] [34mINFO [0;39m [36mo.s.b.w.e.tomcat.TomcatWebServer[0;39m - [32mTomcat initialized with port(s): 5001 (http)
+[0;39m[33m00:21:08.096[0;39m [restartedMain] [34mINFO [0;39m [36mo.a.catalina.core.StandardService[0;39m - [32mStarting service [Tomcat]
+[0;39m[33m00:21:08.097[0;39m [restartedMain] [34mINFO [0;39m [36mo.a.catalina.core.StandardEngine[0;39m - [32mStarting Servlet engine: [Apache Tomcat/9.0.45]
+[0;39m[33m00:21:08.255[0;39m [restartedMain] [34mINFO [0;39m [36mo.a.c.c.C.[Tomcat].[localhost].[/][0;39m - [32mInitializing Spring embedded WebApplicationContext
+[0;39m[33m00:21:08.256[0;39m [restartedMain] [34mINFO [0;39m [36mo.s.b.w.s.c.ServletWebServerApplicationContext[0;39m - [32mRoot WebApplicationContext: initialization completed in 2447 ms
+[0;39m[33m00:21:08.751[0;39m [restartedMain] [34mINFO [0;39m [36mo.h.jpa.internal.util.LogHelper[0;39m - [32mHHH000204: Processing PersistenceUnitInfo [name: default]
+[0;39m[33m00:21:08.802[0;39m [restartedMain] [34mINFO [0;39m [36morg.hibernate.Version[0;39m - [32mHHH000412: Hibernate ORM core version 5.4.30.Final
+[0;39m[33m00:21:08.933[0;39m [restartedMain] [34mINFO [0;39m [36mo.h.annotations.common.Version[0;39m - [32mHCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+[0;39m[33m00:21:09.094[0;39m [restartedMain] [34mINFO [0;39m [36mcom.zaxxer.hikari.HikariDataSource[0;39m - [32mHikariPool-1 - Starting...
+[0;39m[33m00:21:10.761[0;39m [restartedMain] [34mINFO [0;39m [36mcom.zaxxer.hikari.HikariDataSource[0;39m - [32mHikariPool-1 - Start completed.
+[0;39m[33m00:21:10.782[0;39m [restartedMain] [34mINFO [0;39m [36morg.hibernate.dialect.Dialect[0;39m - [32mHHH000400: Using dialect: org.hibernate.dialect.Oracle10gDialect
+[0;39m[33m00:21:18.567[0;39m [restartedMain] [34mINFO [0;39m [36mo.h.e.t.j.p.i.JtaPlatformInitiator[0;39m - [32mHHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+[0;39m[33m00:21:18.580[0;39m [restartedMain] [34mINFO [0;39m [36mo.s.o.j.LocalContainerEntityManagerFactoryBean[0;39m - [32mInitialized JPA EntityManagerFactory for persistence unit 'default'
+[0;39m[33m00:21:18.659[0;39m [restartedMain] [34mINFO [0;39m [36mo.s.b.d.a.OptionalLiveReloadServer[0;39m - [32mLiveReload server is running on port 35729
+[0;39m[33m00:21:19.156[0;39m [restartedMain] [31mWARN [0;39m [36mo.s.b.a.o.j.JpaBaseConfiguration$JpaWebConfiguration[0;39m - [32mspring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+[0;39m[33m00:21:19.211[0;39m [restartedMain] [34mINFO [0;39m [36mo.s.s.c.ThreadPoolTaskExecutor[0;39m - [32mInitializing ExecutorService 'applicationTaskExecutor'
+[0;39m[33m00:21:20.007[0;39m [restartedMain] [34mINFO [0;39m [36mo.s.c.n.e.c.DiscoveryClientOptionalArgsConfiguration[0;39m - [32mEureka HTTP Client uses RestTemplate.
+[0;39m[33m00:21:20.350[0;39m [restartedMain] [31mWARN [0;39m [36mo.s.c.l.c.LoadBalancerCacheAutoConfiguration$LoadBalancerCaffeineWarnLogger[0;39m - [32mSpring Cloud LoadBalancer is currently working with the default cache. You can switch to using Caffeine cache, by adding it to the classpath.
+[0;39m[33m00:21:20.368[0;39m [restartedMain] [34mINFO [0;39m [36mo.s.c.n.eureka.InstanceInfoFactory[0;39m - [32mSetting initial instance status as: STARTING
+[0;39m[33m00:21:20.476[0;39m [restartedMain] [34mINFO [0;39m [36mc.netflix.discovery.DiscoveryClient[0;39m - [32mInitializing Eureka in region us-east-1
+[0;39m[33m00:21:20.481[0;39m [restartedMain] [34mINFO [0;39m [36mc.n.d.s.r.aws.ConfigClusterResolver[0;39m - [32mResolving eureka endpoints via configuration
+[0;39m[33m00:21:20.714[0;39m [restartedMain] [34mINFO [0;39m [36mc.netflix.discovery.DiscoveryClient[0;39m - [32mDisable delta property : false
+[0;39m[33m00:21:20.715[0;39m [restartedMain] [34mINFO [0;39m [36mc.netflix.discovery.DiscoveryClient[0;39m - [32mSingle vip registry refresh property : null
+[0;39m[33m00:21:20.716[0;39m [restartedMain] [34mINFO [0;39m [36mc.netflix.discovery.DiscoveryClient[0;39m - [32mForce full registry fetch : false
+[0;39m[33m00:21:20.716[0;39m [restartedMain] [34mINFO [0;39m [36mc.netflix.discovery.DiscoveryClient[0;39m - [32mApplication is null : false
+[0;39m[33m00:21:20.717[0;39m [restartedMain] [34mINFO [0;39m [36mc.netflix.discovery.DiscoveryClient[0;39m - [32mRegistered Applications size is zero : true
+[0;39m[33m00:21:20.717[0;39m [restartedMain] [34mINFO [0;39m [36mc.netflix.discovery.DiscoveryClient[0;39m - [32mApplication version is -1: true
+[0;39m[33m00:21:20.717[0;39m [restartedMain] [34mINFO [0;39m [36mc.netflix.discovery.DiscoveryClient[0;39m - [32mGetting all instance registry info from the eureka server
+[0;39m[33m00:21:21.179[0;39m [restartedMain] [34mINFO [0;39m [36mc.netflix.discovery.DiscoveryClient[0;39m - [32mThe response status is 200
+[0;39m[33m00:21:21.183[0;39m [restartedMain] [34mINFO [0;39m [36mc.netflix.discovery.DiscoveryClient[0;39m - [32mStarting heartbeat executor: renew interval is: 30
+[0;39m[33m00:21:21.187[0;39m [restartedMain] [34mINFO [0;39m [36mc.n.discovery.InstanceInfoReplicator[0;39m - [32mInstanceInfoReplicator onDemand update allowed rate per min is 4
+[0;39m[33m00:21:21.194[0;39m [restartedMain] [34mINFO [0;39m [36mc.netflix.discovery.DiscoveryClient[0;39m - [32mDiscovery Client initialized at timestamp 1622314281191 with initial instances count: 2
+[0;39m[33m00:21:21.197[0;39m [restartedMain] [34mINFO [0;39m [36mo.s.c.n.e.s.EurekaServiceRegistry[0;39m - [32mRegistering application MOVIE-DATA-SERVICE with eureka with status UP
+[0;39m[33m00:21:21.198[0;39m [restartedMain] [34mINFO [0;39m [36mc.netflix.discovery.DiscoveryClient[0;39m - [32mSaw local status change event StatusChangeEvent [timestamp=1622314281198, current=UP, previous=STARTING]
+[0;39m[33m00:21:21.201[0;39m [DiscoveryClient-InstanceInfoReplicator-0] [34mINFO [0;39m [36mc.netflix.discovery.DiscoveryClient[0;39m - [32mDiscoveryClient_MOVIE-DATA-SERVICE/LAPTOP-F31M9K39:movie-data-service:5001: registering service...
+[0;39m[33m00:21:21.558[0;39m [restartedMain] [34mINFO [0;39m [36mo.s.b.w.e.tomcat.TomcatWebServer[0;39m - [32mTomcat started on port(s): 5001 (http) with context path ''
+[0;39m[33m00:21:21.559[0;39m [restartedMain] [34mINFO [0;39m [36mo.s.c.n.e.s.EurekaAutoServiceRegistration[0;39m - [32mUpdating port to 5001
+[0;39m[33m00:21:21.864[0;39m [restartedMain] [34mINFO [0;39m [36mm.MovieDataServiceApplication[0;39m - [32mStarted MovieDataServiceApplication in 18.412 seconds (JVM running for 19.422)
+[0;39m[33m00:21:21.935[0;39m [DiscoveryClient-InstanceInfoReplicator-0] [34mINFO [0;39m [36mc.netflix.discovery.DiscoveryClient[0;39m - [32mDiscoveryClient_MOVIE-DATA-SERVICE/LAPTOP-F31M9K39:movie-data-service:5001 - registration status: 204
+[0;39m[33m00:26:20.733[0;39m [AsyncResolver-bootstrap-executor-0] [34mINFO [0;39m [36mc.n.d.s.r.aws.ConfigClusterResolver[0;39m - [32mResolving eureka endpoints via configuration
+[0;39m[33m00:31:20.740[0;39m [AsyncResolver-bootstrap-executor-0] [34mINFO [0;39m [36mc.n.d.s.r.aws.ConfigClusterResolver[0;39m - [32mResolving eureka endpoints via configuration
+[0;39m[33m00:31:23.932[0;39m [DiscoveryClient-CacheRefreshExecutor-0] [34mINFO [0;39m [36mc.n.d.s.t.d.RedirectingEurekaHttpClient[0;39m - [32mRequest execution error. endpoint=DefaultEndpoint{ serviceUrl='http://localhost:8761/eureka/} exception=I/O error on GET request for "http://localhost:8761/eureka/apps/delta": Connection refused: connect; nested exception is java.net.ConnectException: Connection refused: connect stacktrace=org.springframework.web.client.ResourceAccessException: I/O error on GET request for "http://localhost:8761/eureka/apps/delta": Connection refused: connect; nested exception is java.net.ConnectException: Connection refused: connect
+	at org.springframework.web.client.RestTemplate.doExecute(RestTemplate.java:785)
+	at org.springframework.web.client.RestTemplate.execute(RestTemplate.java:711)
+	at org.springframework.web.client.RestTemplate.exchange(RestTemplate.java:602)
+	at org.springframework.cloud.netflix.eureka.http.RestTemplateEurekaHttpClient.getApplicationsInternal(RestTemplateEurekaHttpClient.java:145)
+	at org.springframework.cloud.netflix.eureka.http.RestTemplateEurekaHttpClient.getDelta(RestTemplateEurekaHttpClient.java:155)
+	at com.netflix.discovery.shared.transport.decorator.EurekaHttpClientDecorator$7.execute(EurekaHttpClientDecorator.java:152)
+	at com.netflix.discovery.shared.transport.decorator.RedirectingEurekaHttpClient.execute(RedirectingEurekaHttpClient.java:91)
+	at com.netflix.discovery.shared.transport.decorator.EurekaHttpClientDecorator.getDelta(EurekaHttpClientDecorator.java:149)
+	at com.netflix.discovery.shared.transport.decorator.EurekaHttpClientDecorator$7.execute(EurekaHttpClientDecorator.java:152)
+	at com.netflix.discovery.shared.transport.decorator.RetryableEurekaHttpClient.execute(RetryableEurekaHttpClient.java:120)
+	at com.netflix.discovery.shared.transport.decorator.EurekaHttpClientDecorator.getDelta(EurekaHttpClientDecorator.java:149)
+	at com.netflix.discovery.shared.transport.decorator.EurekaHttpClientDecorator$7.execute(EurekaHttpClientDecorator.java:152)
+	at com.netflix.discovery.shared.transport.decorator.SessionedEurekaHttpClient.execute(SessionedEurekaHttpClient.java:77)
+	at com.netflix.discovery.shared.transport.decorator.EurekaHttpClientDecorator.getDelta(EurekaHttpClientDecorator.java:149)
+	at com.netflix.discovery.DiscoveryClient.getAndUpdateDelta(DiscoveryClient.java:1135)
+	at com.netflix.discovery.DiscoveryClient.fetchRegistry(DiscoveryClient.java:1016)
+	at com.netflix.discovery.DiscoveryClient.refreshRegistry(DiscoveryClient.java:1535)
+	at com.netflix.discovery.DiscoveryClient$CacheRefreshThread.run(DiscoveryClient.java:1502)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at java.lang.Thread.run(Thread.java:748)
+Caused by: java.net.ConnectException: Connection refused: connect
+	at java.net.DualStackPlainSocketImpl.connect0(Native Method)
+	at java.net.DualStackPlainSocketImpl.socketConnect(DualStackPlainSocketImpl.java:75)
+	at java.net.AbstractPlainSocketImpl.doConnect(AbstractPlainSocketImpl.java:476)
+	at java.net.AbstractPlainSocketImpl.connectToAddress(AbstractPlainSocketImpl.java:218)
+	at java.net.AbstractPlainSocketImpl.connect(AbstractPlainSocketImpl.java:200)
+	at java.net.PlainSocketImpl.connect(PlainSocketImpl.java:162)
+	at java.net.SocksSocketImpl.connect(SocksSocketImpl.java:394)
+	at java.net.Socket.connect(Socket.java:606)
+	at java.net.Socket.connect(Socket.java:555)
+	at sun.net.NetworkClient.doConnect(NetworkClient.java:180)
+	at sun.net.www.http.HttpClient.openServer(HttpClient.java:463)
+	at sun.net.www.http.HttpClient.openServer(HttpClient.java:558)
+	at sun.net.www.http.HttpClient.<init>(HttpClient.java:242)
+	at sun.net.www.http.HttpClient.New(HttpClient.java:339)
+	at sun.net.www.http.HttpClient.New(HttpClient.java:371)
+	at sun.net.www.protocol.http.HttpURLConnection.setNewClient(HttpURLConnection.java:776)
+	at sun.net.www.protocol.http.HttpURLConnection.setNewClient(HttpURLConnection.java:764)
+	at sun.net.www.protocol.http.HttpURLConnection.writeRequests(HttpURLConnection.java:706)
+	at sun.net.www.protocol.http.HttpURLConnection.getInputStream0(HttpURLConnection.java:1591)
+	at sun.net.www.protocol.http.HttpURLConnection.getInputStream(HttpURLConnection.java:1498)
+	at java.net.HttpURLConnection.getResponseCode(HttpURLConnection.java:480)
+	at org.springframework.http.client.SimpleBufferingClientHttpRequest.executeInternal(SimpleBufferingClientHttpRequest.java:82)
+	at org.springframework.http.client.AbstractBufferingClientHttpRequest.executeInternal(AbstractBufferingClientHttpRequest.java:48)
+	at org.springframework.http.client.AbstractClientHttpRequest.execute(AbstractClientHttpRequest.java:66)
+	at org.springframework.web.client.RestTemplate.doExecute(RestTemplate.java:776)
+	... 22 more
+
+[0;39m[33m00:31:23.932[0;39m [DiscoveryClient-HeartbeatExecutor-0] [34mINFO [0;39m [36mc.n.d.s.t.d.RedirectingEurekaHttpClient[0;39m - [32mRequest execution error. endpoint=DefaultEndpoint{ serviceUrl='http://localhost:8761/eureka/} exception=I/O error on PUT request for "http://localhost:8761/eureka/apps/MOVIE-DATA-SERVICE/LAPTOP-F31M9K39:movie-data-service:5001": Connection refused: connect; nested exception is java.net.ConnectException: Connection refused: connect stacktrace=org.springframework.web.client.ResourceAccessException: I/O error on PUT request for "http://localhost:8761/eureka/apps/MOVIE-DATA-SERVICE/LAPTOP-F31M9K39:movie-data-service:5001": Connection refused: connect; nested exception is java.net.ConnectException: Connection refused: connect
+	at org.springframework.web.client.RestTemplate.doExecute(RestTemplate.java:785)
+	at org.springframework.web.client.RestTemplate.execute(RestTemplate.java:711)
+	at org.springframework.web.client.RestTemplate.exchange(RestTemplate.java:602)
+	at org.springframework.cloud.netflix.eureka.http.RestTemplateEurekaHttpClient.sendHeartBeat(RestTemplateEurekaHttpClient.java:99)
+	at com.netflix.discovery.shared.transport.decorator.EurekaHttpClientDecorator$3.execute(EurekaHttpClientDecorator.java:92)
+	at com.netflix.discovery.shared.transport.decorator.RedirectingEurekaHttpClient.execute(RedirectingEurekaHttpClient.java:91)
+	at com.netflix.discovery.shared.transport.decorator.EurekaHttpClientDecorator.sendHeartBeat(EurekaHttpClientDecorator.java:89)
+	at com.netflix.discovery.shared.transport.decorator.EurekaHttpClientDecorator$3.execute(EurekaHttpClientDecorator.java:92)
+	at com.netflix.discovery.shared.transport.decorator.RetryableEurekaHttpClient.execute(RetryableEurekaHttpClient.java:120)
+	at com.netflix.discovery.shared.transport.decorator.EurekaHttpClientDecorator.sendHeartBeat(EurekaHttpClientDecorator.java:89)
+	at com.netflix.discovery.shared.transport.decorator.EurekaHttpClientDecorator$3.execute(EurekaHttpClientDecorator.java:92)
+	at com.netflix.discovery.shared.transport.decorator.SessionedEurekaHttpClient.execute(SessionedEurekaHttpClient.java:77)
+	at com.netflix.discovery.shared.transport.decorator.EurekaHttpClientDecorator.sendHeartBeat(EurekaHttpClientDecorator.java:89)
+	at com.netflix.discovery.DiscoveryClient.renew(DiscoveryClient.java:893)
+	at com.netflix.discovery.DiscoveryClient$HeartbeatThread.run(DiscoveryClient.java:1461)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at java.lang.Thread.run(Thread.java:748)
+Caused by: java.net.ConnectException: Connection refused: connect
+	at java.net.DualStackPlainSocketImpl.connect0(Native Method)
+	at java.net.DualStackPlainSocketImpl.socketConnect(DualStackPlainSocketImpl.java:75)
+	at java.net.AbstractPlainSocketImpl.doConnect(AbstractPlainSocketImpl.java:476)
+	at java.net.AbstractPlainSocketImpl.connectToAddress(AbstractPlainSocketImpl.java:218)
+	at java.net.AbstractPlainSocketImpl.connect(AbstractPlainSocketImpl.java:200)
+	at java.net.PlainSocketImpl.connect(PlainSocketImpl.java:162)
+	at java.net.SocksSocketImpl.connect(SocksSocketImpl.java:394)
+	at java.net.Socket.connect(Socket.java:606)
+	at java.net.Socket.connect(Socket.java:555)
+	at sun.net.NetworkClient.doConnect(NetworkClient.java:180)
+	at sun.net.www.http.HttpClient.openServer(HttpClient.java:463)
+	at sun.net.www.http.HttpClient.openServer(HttpClient.java:558)
+	at sun.net.www.http.HttpClient.<init>(HttpClient.java:242)
+	at sun.net.www.http.HttpClient.New(HttpClient.java:339)
+	at sun.net.www.http.HttpClient.New(HttpClient.java:357)
+	at sun.net.www.protocol.http.HttpURLConnection.getNewHttpClient(HttpURLConnection.java:1226)
+	at sun.net.www.protocol.http.HttpURLConnection.plainConnect0(HttpURLConnection.java:1162)
+	at sun.net.www.protocol.http.HttpURLConnection.plainConnect(HttpURLConnection.java:1056)
+	at sun.net.www.protocol.http.HttpURLConnection.connect(HttpURLConnection.java:990)
+	at org.springframework.http.client.SimpleBufferingClientHttpRequest.executeInternal(SimpleBufferingClientHttpRequest.java:76)
+	at org.springframework.http.client.AbstractBufferingClientHttpRequest.executeInternal(AbstractBufferingClientHttpRequest.java:48)
+	at org.springframework.http.client.AbstractClientHttpRequest.execute(AbstractClientHttpRequest.java:66)
+	at org.springframework.web.client.RestTemplate.doExecute(RestTemplate.java:776)
+	... 19 more
+
+[0;39m[33m00:31:23.940[0;39m [DiscoveryClient-CacheRefreshExecutor-0] [31mWARN [0;39m [36mc.n.d.s.t.d.RetryableEurekaHttpClient[0;39m - [32mRequest execution failed with message: I/O error on GET request for "http://localhost:8761/eureka/apps/delta": Connection refused: connect; nested exception is java.net.ConnectException: Connection refused: connect
+[0;39m[33m00:31:23.945[0;39m [DiscoveryClient-HeartbeatExecutor-0] [31mWARN [0;39m [36mc.n.d.s.t.d.RetryableEurekaHttpClient[0;39m - [32mRequest execution failed with message: I/O error on PUT request for "http://localhost:8761/eureka/apps/MOVIE-DATA-SERVICE/LAPTOP-F31M9K39:movie-data-service:5001": Connection refused: connect; nested exception is java.net.ConnectException: Connection refused: connect
+[0;39m[33m00:31:26.002[0;39m [DiscoveryClient-HeartbeatExecutor-0] [34mINFO [0;39m [36mc.n.d.s.t.d.RedirectingEurekaHttpClient[0;39m - [32mRequest execution error. endpoint=DefaultEndpoint{ serviceUrl='http://localhost:8761/eureka/}, exception=I/O error on PUT request for "http://localhost:8761/eureka/apps/MOVIE-DATA-SERVICE/LAPTOP-F31M9K39:movie-data-service:5001": Connection refused: connect; nested exception is java.net.ConnectException: Connection refused: connect stacktrace=org.springframework.web.client.ResourceAccessException: I/O error on PUT request for "http://localhost:8761/eureka/apps/MOVIE-DATA-SERVICE/LAPTOP-F31M9K39:movie-data-service:5001": Connection refused: connect; nested exception is java.net.ConnectException: Connection refused: connect
+	at org.springframework.web.client.RestTemplate.doExecute(RestTemplate.java:785)
+	at org.springframework.web.client.RestTemplate.execute(RestTemplate.java:711)
+	at org.springframework.web.client.RestTemplate.exchange(RestTemplate.java:602)
+	at org.springframework.cloud.netflix.eureka.http.RestTemplateEurekaHttpClient.sendHeartBeat(RestTemplateEurekaHttpClient.java:99)
+	at com.netflix.discovery.shared.transport.decorator.EurekaHttpClientDecorator$3.execute(EurekaHttpClientDecorator.java:92)
+	at com.netflix.discovery.shared.transport.decorator.RedirectingEurekaHttpClient.executeOnNewServer(RedirectingEurekaHttpClient.java:121)
+	at com.netflix.discovery.shared.transport.decorator.RedirectingEurekaHttpClient.execute(RedirectingEurekaHttpClient.java:80)
+	at com.netflix.discovery.shared.transport.decorator.EurekaHttpClientDecorator.sendHeartBeat(EurekaHttpClientDecorator.java:89)
+	at com.netflix.discovery.shared.transport.decorator.EurekaHttpClientDecorator$3.execute(EurekaHttpClientDecorator.java:92)
+	at com.netflix.discovery.shared.transport.decorator.RetryableEurekaHttpClient.execute(RetryableEurekaHttpClient.java:120)
+	at com.netflix.discovery.shared.transport.decorator.EurekaHttpClientDecorator.sendHeartBeat(EurekaHttpClientDecorator.java:89)
+	at com.netflix.discovery.shared.transport.decorator.EurekaHttpClientDecorator$3.execute(EurekaHttpClientDecorator.java:92)
+	at com.netflix.discovery.shared.transport.decorator.SessionedEurekaHttpClient.execute(SessionedEurekaHttpClient.java:77)
+	at com.netflix.discovery.shared.transport.decorator.EurekaHttpClientDecorator.sendHeartBeat(EurekaHttpClientDecorator.java:89)
+	at com.netflix.discovery.DiscoveryClient.renew(DiscoveryClient.java:893)
+	at com.netflix.discovery.DiscoveryClient$HeartbeatThread.run(DiscoveryClient.java:1461)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at java.lang.Thread.run(Thread.java:748)
+Caused by: java.net.ConnectException: Connection refused: connect
+	at java.net.DualStackPlainSocketImpl.connect0(Native Method)
+	at java.net.DualStackPlainSocketImpl.socketConnect(DualStackPlainSocketImpl.java:75)
+	at java.net.AbstractPlainSocketImpl.doConnect(AbstractPlainSocketImpl.java:476)
+	at java.net.AbstractPlainSocketImpl.connectToAddress(AbstractPlainSocketImpl.java:218)
+	at java.net.AbstractPlainSocketImpl.connect(AbstractPlainSocketImpl.java:200)
+	at java.net.PlainSocketImpl.connect(PlainSocketImpl.java:162)
+	at java.net.SocksSocketImpl.connect(SocksSocketImpl.java:394)
+	at java.net.Socket.connect(Socket.java:606)
+	at java.net.Socket.connect(Socket.java:555)
+	at sun.net.NetworkClient.doConnect(NetworkClient.java:180)
+	at sun.net.www.http.HttpClient.openServer(HttpClient.java:463)
+	at sun.net.www.http.HttpClient.openServer(HttpClient.java:558)
+	at sun.net.www.http.HttpClient.<init>(HttpClient.java:242)
+	at sun.net.www.http.HttpClient.New(HttpClient.java:339)
+	at sun.net.www.http.HttpClient.New(HttpClient.java:357)
+	at sun.net.www.protocol.http.HttpURLConnection.getNewHttpClient(HttpURLConnection.java:1226)
+	at sun.net.www.protocol.http.HttpURLConnection.plainConnect0(HttpURLConnection.java:1162)
+	at sun.net.www.protocol.http.HttpURLConnection.plainConnect(HttpURLConnection.java:1056)
+	at sun.net.www.protocol.http.HttpURLConnection.connect(HttpURLConnection.java:990)
+	at org.springframework.http.client.SimpleBufferingClientHttpRequest.executeInternal(SimpleBufferingClientHttpRequest.java:76)
+	at org.springframework.http.client.AbstractBufferingClientHttpRequest.executeInternal(AbstractBufferingClientHttpRequest.java:48)
+	at org.springframework.http.client.AbstractClientHttpRequest.execute(AbstractClientHttpRequest.java:66)
+	at org.springframework.web.client.RestTemplate.doExecute(RestTemplate.java:776)
+	... 20 more
+
+[0;39m[33m00:31:26.011[0;39m [DiscoveryClient-HeartbeatExecutor-0] [31mWARN [0;39m [36mc.n.d.s.t.d.RetryableEurekaHttpClient[0;39m - [32mRequest execution failed with message: I/O error on PUT request for "http://localhost:8761/eureka/apps/MOVIE-DATA-SERVICE/LAPTOP-F31M9K39:movie-data-service:5001": Connection refused: connect; nested exception is java.net.ConnectException: Connection refused: connect
+[0;39m[33m00:31:26.013[0;39m [DiscoveryClient-HeartbeatExecutor-0] [1;31mERROR[0;39m [36mc.netflix.discovery.DiscoveryClient[0;39m - [32mDiscoveryClient_MOVIE-DATA-SERVICE/LAPTOP-F31M9K39:movie-data-service:5001 - was unable to send heartbeat!
+[0;39mcom.netflix.discovery.shared.transport.TransportException: Cannot execute request on any known server
+	at com.netflix.discovery.shared.transport.decorator.RetryableEurekaHttpClient.execute(RetryableEurekaHttpClient.java:112)
+	at com.netflix.discovery.shared.transport.decorator.EurekaHttpClientDecorator.sendHeartBeat(EurekaHttpClientDecorator.java:89)
+	at com.netflix.discovery.shared.transport.decorator.EurekaHttpClientDecorator$3.execute(EurekaHttpClientDecorator.java:92)
+	at com.netflix.discovery.shared.transport.decorator.SessionedEurekaHttpClient.execute(SessionedEurekaHttpClient.java:77)
+	at com.netflix.discovery.shared.transport.decorator.EurekaHttpClientDecorator.sendHeartBeat(EurekaHttpClientDecorator.java:89)
+	at com.netflix.discovery.DiscoveryClient.renew(DiscoveryClient.java:893)
+	at com.netflix.discovery.DiscoveryClient$HeartbeatThread.run(DiscoveryClient.java:1461)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at java.lang.Thread.run(Thread.java:748)
+[33m00:31:26.017[0;39m [DiscoveryClient-CacheRefreshExecutor-0] [34mINFO [0;39m [36mc.n.d.s.t.d.RedirectingEurekaHttpClient[0;39m - [32mRequest execution error. endpoint=DefaultEndpoint{ serviceUrl='http://localhost:8761/eureka/}, exception=I/O error on GET request for "http://localhost:8761/eureka/apps/delta": Connection refused: connect; nested exception is java.net.ConnectException: Connection refused: connect stacktrace=org.springframework.web.client.ResourceAccessException: I/O error on GET request for "http://localhost:8761/eureka/apps/delta": Connection refused: connect; nested exception is java.net.ConnectException: Connection refused: connect
+	at org.springframework.web.client.RestTemplate.doExecute(RestTemplate.java:785)
+	at org.springframework.web.client.RestTemplate.execute(RestTemplate.java:711)
+	at org.springframework.web.client.RestTemplate.exchange(RestTemplate.java:602)
+	at org.springframework.cloud.netflix.eureka.http.RestTemplateEurekaHttpClient.getApplicationsInternal(RestTemplateEurekaHttpClient.java:145)
+	at org.springframework.cloud.netflix.eureka.http.RestTemplateEurekaHttpClient.getDelta(RestTemplateEurekaHttpClient.java:155)
+	at com.netflix.discovery.shared.transport.decorator.EurekaHttpClientDecorator$7.execute(EurekaHttpClientDecorator.java:152)
+	at com.netflix.discovery.shared.transport.decorator.RedirectingEurekaHttpClient.executeOnNewServer(RedirectingEurekaHttpClient.java:121)
+	at com.netflix.discovery.shared.transport.decorator.RedirectingEurekaHttpClient.execute(RedirectingEurekaHttpClient.java:80)
+	at com.netflix.discovery.shared.transport.decorator.EurekaHttpClientDecorator.getDelta(EurekaHttpClientDecorator.java:149)
+	at com.netflix.discovery.shared.transport.decorator.EurekaHttpClientDecorator$7.execute(EurekaHttpClientDecorator.java:152)
+	at com.netflix.discovery.shared.transport.decorator.RetryableEurekaHttpClient.execute(RetryableEurekaHttpClient.java:120)
+	at com.netflix.discovery.shared.transport.decorator.EurekaHttpClientDecorator.getDelta(EurekaHttpClientDecorator.java:149)
+	at com.netflix.discovery.shared.transport.decorator.EurekaHttpClientDecorator$7.execute(EurekaHttpClientDecorator.java:152)
+	at com.netflix.discovery.shared.transport.decorator.SessionedEurekaHttpClient.execute(SessionedEurekaHttpClient.java:77)
+	at com.netflix.discovery.shared.transport.decorator.EurekaHttpClientDecorator.getDelta(EurekaHttpClientDecorator.java:149)
+	at com.netflix.discovery.DiscoveryClient.getAndUpdateDelta(DiscoveryClient.java:1135)
+	at com.netflix.discovery.DiscoveryClient.fetchRegistry(DiscoveryClient.java:1016)
+	at com.netflix.discovery.DiscoveryClient.refreshRegistry(DiscoveryClient.java:1535)
+	at com.netflix.discovery.DiscoveryClient$CacheRefreshThread.run(DiscoveryClient.java:1502)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at java.lang.Thread.run(Thread.java:748)
+Caused by: java.net.ConnectException: Connection refused: connect
+	at java.net.DualStackPlainSocketImpl.connect0(Native Method)
+	at java.net.DualStackPlainSocketImpl.socketConnect(DualStackPlainSocketImpl.java:75)
+	at java.net.AbstractPlainSocketImpl.doConnect(AbstractPlainSocketImpl.java:476)
+	at java.net.AbstractPlainSocketImpl.connectToAddress(AbstractPlainSocketImpl.java:218)
+	at java.net.AbstractPlainSocketImpl.connect(AbstractPlainSocketImpl.java:200)
+	at java.net.PlainSocketImpl.connect(PlainSocketImpl.java:162)
+	at java.net.SocksSocketImpl.connect(SocksSocketImpl.java:394)
+	at java.net.Socket.connect(Socket.java:606)
+	at java.net.Socket.connect(Socket.java:555)
+	at sun.net.NetworkClient.doConnect(NetworkClient.java:180)
+	at sun.net.www.http.HttpClient.openServer(HttpClient.java:463)
+	at sun.net.www.http.HttpClient.openServer(HttpClient.java:558)
+	at sun.net.www.http.HttpClient.<init>(HttpClient.java:242)
+	at sun.net.www.http.HttpClient.New(HttpClient.java:339)
+	at sun.net.www.http.HttpClient.New(HttpClient.java:357)
+	at sun.net.www.protocol.http.HttpURLConnection.getNewHttpClient(HttpURLConnection.java:1226)
+	at sun.net.www.protocol.http.HttpURLConnection.plainConnect0(HttpURLConnection.java:1162)
+	at sun.net.www.protocol.http.HttpURLConnection.plainConnect(HttpURLConnection.java:1056)
+	at sun.net.www.protocol.http.HttpURLConnection.connect(HttpURLConnection.java:990)
+	at org.springframework.http.client.SimpleBufferingClientHttpRequest.executeInternal(SimpleBufferingClientHttpRequest.java:76)
+	at org.springframework.http.client.AbstractBufferingClientHttpRequest.executeInternal(AbstractBufferingClientHttpRequest.java:48)
+	at org.springframework.http.client.AbstractClientHttpRequest.execute(AbstractClientHttpRequest.java:66)
+	at org.springframework.web.client.RestTemplate.doExecute(RestTemplate.java:776)
+	... 23 more
+
+[0;39m[33m00:31:26.023[0;39m [DiscoveryClient-CacheRefreshExecutor-0] [31mWARN [0;39m [36mc.n.d.s.t.d.RetryableEurekaHttpClient[0;39m - [32mRequest execution failed with message: I/O error on GET request for "http://localhost:8761/eureka/apps/delta": Connection refused: connect; nested exception is java.net.ConnectException: Connection refused: connect
+[0;39m[33m00:31:26.024[0;39m [DiscoveryClient-CacheRefreshExecutor-0] [34mINFO [0;39m [36mc.netflix.discovery.DiscoveryClient[0;39m - [32mDiscoveryClient_MOVIE-DATA-SERVICE/LAPTOP-F31M9K39:movie-data-service:5001 - was unable to refresh its cache! This periodic background refresh will be retried in 30 seconds. status = Cannot execute request on any known server stacktrace = com.netflix.discovery.shared.transport.TransportException: Cannot execute request on any known server
+	at com.netflix.discovery.shared.transport.decorator.RetryableEurekaHttpClient.execute(RetryableEurekaHttpClient.java:112)
+	at com.netflix.discovery.shared.transport.decorator.EurekaHttpClientDecorator.getDelta(EurekaHttpClientDecorator.java:149)
+	at com.netflix.discovery.shared.transport.decorator.EurekaHttpClientDecorator$7.execute(EurekaHttpClientDecorator.java:152)
+	at com.netflix.discovery.shared.transport.decorator.SessionedEurekaHttpClient.execute(SessionedEurekaHttpClient.java:77)
+	at com.netflix.discovery.shared.transport.decorator.EurekaHttpClientDecorator.getDelta(EurekaHttpClientDecorator.java:149)
+	at com.netflix.discovery.DiscoveryClient.getAndUpdateDelta(DiscoveryClient.java:1135)
+	at com.netflix.discovery.DiscoveryClient.fetchRegistry(DiscoveryClient.java:1016)
+	at com.netflix.discovery.DiscoveryClient.refreshRegistry(DiscoveryClient.java:1535)
+	at com.netflix.discovery.DiscoveryClient$CacheRefreshThread.run(DiscoveryClient.java:1502)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at java.lang.Thread.run(Thread.java:748)
+
+[0;39m[33m00:31:28.558[0;39m [SpringContextShutdownHook] [34mINFO [0;39m [36mo.s.c.n.e.s.EurekaServiceRegistry[0;39m - [32mUnregistering application MOVIE-DATA-SERVICE with eureka with status DOWN
+[0;39m[33m00:31:28.559[0;39m [SpringContextShutdownHook] [1;31mERROR[0;39m [36mc.netflix.discovery.DiscoveryClient[0;39m - [32mSaw local status change event StatusChangeEvent [timestamp=1622314888559, current=DOWN, previous=UP]
+[0;39m[33m00:31:28.560[0;39m [DiscoveryClient-InstanceInfoReplicator-0] [34mINFO [0;39m [36mc.netflix.discovery.DiscoveryClient[0;39m - [32mDiscoveryClient_MOVIE-DATA-SERVICE/LAPTOP-F31M9K39:movie-data-service:5001: registering service...
+[0;39m[33m00:31:29.741[0;39m [SpringContextShutdownHook] [34mINFO [0;39m [36mo.s.s.c.ThreadPoolTaskExecutor[0;39m - [32mShutting down ExecutorService 'applicationTaskExecutor'
+[0;39m[33m00:31:29.744[0;39m [SpringContextShutdownHook] [34mINFO [0;39m [36mo.s.o.j.LocalContainerEntityManagerFactoryBean[0;39m - [32mClosing JPA EntityManagerFactory for persistence unit 'default'
+[0;39m[33m00:31:29.874[0;39m [SpringContextShutdownHook] [34mINFO [0;39m [36mcom.zaxxer.hikari.HikariDataSource[0;39m - [32mHikariPool-1 - Shutdown initiated...
+[0;39m[33m00:31:30.580[0;39m [DiscoveryClient-InstanceInfoReplicator-0] [34mINFO [0;39m [36mc.n.d.s.t.d.RedirectingEurekaHttpClient[0;39m - [32mRequest execution error. endpoint=DefaultEndpoint{ serviceUrl='http://localhost:8761/eureka/}, exception=I/O error on POST request for "http://localhost:8761/eureka/apps/MOVIE-DATA-SERVICE": Connection refused: connect; nested exception is java.net.ConnectException: Connection refused: connect stacktrace=org.springframework.web.client.ResourceAccessException: I/O error on POST request for "http://localhost:8761/eureka/apps/MOVIE-DATA-SERVICE": Connection refused: connect; nested exception is java.net.ConnectException: Connection refused: connect
+	at org.springframework.web.client.RestTemplate.doExecute(RestTemplate.java:785)
+	at org.springframework.web.client.RestTemplate.execute(RestTemplate.java:711)
+	at org.springframework.web.client.RestTemplate.exchange(RestTemplate.java:602)
+	at org.springframework.cloud.netflix.eureka.http.RestTemplateEurekaHttpClient.register(RestTemplateEurekaHttpClient.java:77)
+	at com.netflix.discovery.shared.transport.decorator.EurekaHttpClientDecorator$1.execute(EurekaHttpClientDecorator.java:59)
+	at com.netflix.discovery.shared.transport.decorator.RedirectingEurekaHttpClient.executeOnNewServer(RedirectingEurekaHttpClient.java:121)
+	at com.netflix.discovery.shared.transport.decorator.RedirectingEurekaHttpClient.execute(RedirectingEurekaHttpClient.java:80)
+	at com.netflix.discovery.shared.transport.decorator.EurekaHttpClientDecorator.register(EurekaHttpClientDecorator.java:56)
+	at com.netflix.discovery.shared.transport.decorator.EurekaHttpClientDecorator$1.execute(EurekaHttpClientDecorator.java:59)
+	at com.netflix.discovery.shared.transport.decorator.RetryableEurekaHttpClient.execute(RetryableEurekaHttpClient.java:120)
+	at com.netflix.discovery.shared.transport.decorator.EurekaHttpClientDecorator.register(EurekaHttpClientDecorator.java:56)
+	at com.netflix.discovery.shared.transport.decorator.EurekaHttpClientDecorator$1.execute(EurekaHttpClientDecorator.java:59)
+	at com.netflix.discovery.shared.transport.decorator.SessionedEurekaHttpClient.execute(SessionedEurekaHttpClient.java:77)
+	at com.netflix.discovery.shared.transport.decorator.EurekaHttpClientDecorator.register(EurekaHttpClientDecorator.java:56)
+	at com.netflix.discovery.DiscoveryClient.register(DiscoveryClient.java:876)
+	at com.netflix.discovery.InstanceInfoReplicator.run(InstanceInfoReplicator.java:121)
+	at com.netflix.discovery.InstanceInfoReplicator$1.run(InstanceInfoReplicator.java:101)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.access$201(ScheduledThreadPoolExecutor.java:180)
+	at java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.run(ScheduledThreadPoolExecutor.java:293)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at java.lang.Thread.run(Thread.java:748)
+Caused by: java.net.ConnectException: Connection refused: connect
+	at java.net.DualStackPlainSocketImpl.connect0(Native Method)
+	at java.net.DualStackPlainSocketImpl.socketConnect(DualStackPlainSocketImpl.java:75)
+	at java.net.AbstractPlainSocketImpl.doConnect(AbstractPlainSocketImpl.java:476)
+	at java.net.AbstractPlainSocketImpl.connectToAddress(AbstractPlainSocketImpl.java:218)
+	at java.net.AbstractPlainSocketImpl.connect(AbstractPlainSocketImpl.java:200)
+	at java.net.PlainSocketImpl.connect(PlainSocketImpl.java:162)
+	at java.net.SocksSocketImpl.connect(SocksSocketImpl.java:394)
+	at java.net.Socket.connect(Socket.java:606)
+	at java.net.Socket.connect(Socket.java:555)
+	at sun.net.NetworkClient.doConnect(NetworkClient.java:180)
+	at sun.net.www.http.HttpClient.openServer(HttpClient.java:463)
+	at sun.net.www.http.HttpClient.openServer(HttpClient.java:558)
+	at sun.net.www.http.HttpClient.<init>(HttpClient.java:242)
+	at sun.net.www.http.HttpClient.New(HttpClient.java:339)
+	at sun.net.www.http.HttpClient.New(HttpClient.java:357)
+	at sun.net.www.protocol.http.HttpURLConnection.getNewHttpClient(HttpURLConnection.java:1226)
+	at sun.net.www.protocol.http.HttpURLConnection.plainConnect0(HttpURLConnection.java:1162)
+	at sun.net.www.protocol.http.HttpURLConnection.plainConnect(HttpURLConnection.java:1056)
+	at sun.net.www.protocol.http.HttpURLConnection.connect(HttpURLConnection.java:990)
+	at org.springframework.http.client.SimpleBufferingClientHttpRequest.executeInternal(SimpleBufferingClientHttpRequest.java:76)
+	at org.springframework.http.client.AbstractBufferingClientHttpRequest.executeInternal(AbstractBufferingClientHttpRequest.java:48)
+	at org.springframework.http.client.AbstractClientHttpRequest.execute(AbstractClientHttpRequest.java:66)
+	at org.springframework.web.client.RestTemplate.doExecute(RestTemplate.java:776)
+	... 23 more
+
+[0;39m[33m00:31:30.594[0;39m [DiscoveryClient-InstanceInfoReplicator-0] [31mWARN [0;39m [36mc.n.d.s.t.d.RetryableEurekaHttpClient[0;39m - [32mRequest execution failed with message: I/O error on POST request for "http://localhost:8761/eureka/apps/MOVIE-DATA-SERVICE": Connection refused: connect; nested exception is java.net.ConnectException: Connection refused: connect
+[0;39m[33m00:31:30.594[0;39m [DiscoveryClient-InstanceInfoReplicator-0] [31mWARN [0;39m [36mc.netflix.discovery.DiscoveryClient[0;39m - [32mDiscoveryClient_MOVIE-DATA-SERVICE/LAPTOP-F31M9K39:movie-data-service:5001 - registration failed Cannot execute request on any known server
+[0;39mcom.netflix.discovery.shared.transport.TransportException: Cannot execute request on any known server
+	at com.netflix.discovery.shared.transport.decorator.RetryableEurekaHttpClient.execute(RetryableEurekaHttpClient.java:112)
+	at com.netflix.discovery.shared.transport.decorator.EurekaHttpClientDecorator.register(EurekaHttpClientDecorator.java:56)
+	at com.netflix.discovery.shared.transport.decorator.EurekaHttpClientDecorator$1.execute(EurekaHttpClientDecorator.java:59)
+	at com.netflix.discovery.shared.transport.decorator.SessionedEurekaHttpClient.execute(SessionedEurekaHttpClient.java:77)
+	at com.netflix.discovery.shared.transport.decorator.EurekaHttpClientDecorator.register(EurekaHttpClientDecorator.java:56)
+	at com.netflix.discovery.DiscoveryClient.register(DiscoveryClient.java:876)
+	at com.netflix.discovery.InstanceInfoReplicator.run(InstanceInfoReplicator.java:121)
+	at com.netflix.discovery.InstanceInfoReplicator$1.run(InstanceInfoReplicator.java:101)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.access$201(ScheduledThreadPoolExecutor.java:180)
+	at java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.run(ScheduledThreadPoolExecutor.java:293)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at java.lang.Thread.run(Thread.java:748)
+[33m00:31:30.698[0;39m [DiscoveryClient-InstanceInfoReplicator-0] [31mWARN [0;39m [36mc.n.discovery.InstanceInfoReplicator[0;39m - [32mThere was a problem with the instance info replicator
+[0;39mcom.netflix.discovery.shared.transport.TransportException: Cannot execute request on any known server
+	at com.netflix.discovery.shared.transport.decorator.RetryableEurekaHttpClient.execute(RetryableEurekaHttpClient.java:112)
+	at com.netflix.discovery.shared.transport.decorator.EurekaHttpClientDecorator.register(EurekaHttpClientDecorator.java:56)
+	at com.netflix.discovery.shared.transport.decorator.EurekaHttpClientDecorator$1.execute(EurekaHttpClientDecorator.java:59)
+	at com.netflix.discovery.shared.transport.decorator.SessionedEurekaHttpClient.execute(SessionedEurekaHttpClient.java:77)
+	at com.netflix.discovery.shared.transport.decorator.EurekaHttpClientDecorator.register(EurekaHttpClientDecorator.java:56)
+	at com.netflix.discovery.DiscoveryClient.register(DiscoveryClient.java:876)
+	at com.netflix.discovery.InstanceInfoReplicator.run(InstanceInfoReplicator.java:121)
+	at com.netflix.discovery.InstanceInfoReplicator$1.run(InstanceInfoReplicator.java:101)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.access$201(ScheduledThreadPoolExecutor.java:180)
+	at java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.run(ScheduledThreadPoolExecutor.java:293)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at java.lang.Thread.run(Thread.java:748)
+[33m00:52:06.510[0;39m [restartedMain] [34mINFO [0;39m [36mm.MovieDataServiceApplication[0;39m - [32mStarting MovieDataServiceApplication using Java 1.8.0_291 on LAPTOP-F31M9K39 with PID 1640 (D:\Java Projects\movie-microservices\movie-data-service\target\classes started by lenono in D:\Java Projects\movie-microservices\movie-data-service)
+[0;39m[33m00:52:06.548[0;39m [restartedMain] [39mDEBUG[0;39m [36mm.MovieDataServiceApplication[0;39m - [32mRunning with Spring Boot v2.4.5, Spring v5.3.6
+[0;39m[33m00:52:06.548[0;39m [restartedMain] [34mINFO [0;39m [36mm.MovieDataServiceApplication[0;39m - [32mNo active profile set, falling back to default profiles: default
+[0;39m[33m00:52:06.594[0;39m [restartedMain] [34mINFO [0;39m [36mo.s.b.d.restart.ChangeableUrls[0;39m - [32mThe Class-Path manifest attribute in C:\Users\lenono\.m2\repository\org\glassfish\hk2\hk2\2.6.1\hk2-2.6.1.jar referenced one or more files that do not exist: file:/C:/Users/lenono/.m2/repository/org/glassfish/hk2/hk2/2.6.1/hk2-utils.jar,file:/C:/Users/lenono/.m2/repository/org/glassfish/hk2/hk2/2.6.1/jakarta.annotation-api.jar,file:/C:/Users/lenono/.m2/repository/org/glassfish/hk2/hk2/2.6.1/jakarta.inject.jar,file:/C:/Users/lenono/.m2/repository/org/glassfish/hk2/hk2/2.6.1/hk2-api.jar,file:/C:/Users/lenono/.m2/repository/org/glassfish/hk2/hk2/2.6.1/aopalliance-repackaged.jar,file:/C:/Users/lenono/.m2/repository/org/glassfish/hk2/hk2/2.6.1/hk2-core.jar,file:/C:/Users/lenono/.m2/repository/org/glassfish/hk2/hk2/2.6.1/hk2-locator.jar,file:/C:/Users/lenono/.m2/repository/org/glassfish/hk2/hk2/2.6.1/javassist.jar,file:/C:/Users/lenono/.m2/repository/org/glassfish/hk2/hk2/2.6.1/hk2-runlevel.jar,file:/C:/Users/lenono/.m2/repository/org/glassfish/hk2/hk2/2.6.1/class-model.jar,file:/C:/Users/lenono/.m2/repository/org/glassfish/hk2/hk2/2.6.1/asm.jar,file:/C:/Users/lenono/.m2/repository/org/glassfish/hk2/hk2/2.6.1/asm-analysis.jar,file:/C:/Users/lenono/.m2/repository/org/glassfish/hk2/hk2/2.6.1/asm-commons.jar,file:/C:/Users/lenono/.m2/repository/org/glassfish/hk2/hk2/2.6.1/asm-tree.jar,file:/C:/Users/lenono/.m2/repository/org/glassfish/hk2/hk2/2.6.1/asm-util.jar
+[0;39m[33m00:52:06.643[0;39m [restartedMain] [34mINFO [0;39m [36mo.s.b.d.restart.ChangeableUrls[0;39m - [32mThe Class-Path manifest attribute in C:\Users\lenono\.m2\repository\com\oracle\database\jdbc\ojdbc8\19.8.0.0\ojdbc8-19.8.0.0.jar referenced one or more files that do not exist: file:/C:/Users/lenono/.m2/repository/com/oracle/database/jdbc/ojdbc8/19.8.0.0/oraclepki.jar
+[0;39m[33m00:52:06.644[0;39m [restartedMain] [34mINFO [0;39m [36mo.s.b.d.e.DevToolsPropertyDefaultsPostProcessor[0;39m - [32mDevtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+[0;39m[33m00:52:06.645[0;39m [restartedMain] [34mINFO [0;39m [36mo.s.b.d.e.DevToolsPropertyDefaultsPostProcessor[0;39m - [32mFor additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+[0;39m[33m00:52:07.567[0;39m [restartedMain] [34mINFO [0;39m [36mo.s.d.r.c.RepositoryConfigurationDelegate[0;39m - [32mMultiple Spring Data modules found, entering strict repository configuration mode!
+[0;39m[33m00:52:07.569[0;39m [restartedMain] [34mINFO [0;39m [36mo.s.d.r.c.RepositoryConfigurationDelegate[0;39m - [32mBootstrapping Spring Data JDBC repositories in DEFAULT mode.
+[0;39m[33m00:52:07.882[0;39m [restartedMain] [34mINFO [0;39m [36mo.s.d.r.c.RepositoryConfigurationExtensionSupport[0;39m - [32mSpring Data JDBC - Could not safely identify store assignment for repository candidate interface movieDataService.repositories.MovieRepository. If you want this repository to be a JDBC repository, consider annotating your entities with one of these annotations: org.springframework.data.relational.core.mapping.Table.
+[0;39m[33m00:52:07.904[0;39m [restartedMain] [34mINFO [0;39m [36mo.s.d.r.c.RepositoryConfigurationExtensionSupport[0;39m - [32mSpring Data JDBC - Could not safely identify store assignment for repository candidate interface movieDataService.repositories.ReviewRepository. If you want this repository to be a JDBC repository, consider annotating your entities with one of these annotations: org.springframework.data.relational.core.mapping.Table.
+[0;39m[33m00:52:07.938[0;39m [restartedMain] [34mINFO [0;39m [36mo.s.d.r.c.RepositoryConfigurationDelegate[0;39m - [32mFinished Spring Data repository scanning in 364 ms. Found 0 JDBC repository interfaces.
+[0;39m[33m00:52:07.954[0;39m [restartedMain] [34mINFO [0;39m [36mo.s.d.r.c.RepositoryConfigurationDelegate[0;39m - [32mMultiple Spring Data modules found, entering strict repository configuration mode!
+[0;39m[33m00:52:07.955[0;39m [restartedMain] [34mINFO [0;39m [36mo.s.d.r.c.RepositoryConfigurationDelegate[0;39m - [32mBootstrapping Spring Data JPA repositories in DEFAULT mode.
+[0;39m[33m00:52:08.180[0;39m [restartedMain] [34mINFO [0;39m [36mo.s.d.r.c.RepositoryConfigurationDelegate[0;39m - [32mFinished Spring Data repository scanning in 216 ms. Found 2 JPA repository interfaces.
+[0;39m[33m00:52:09.586[0;39m [restartedMain] [34mINFO [0;39m [36mo.s.cloud.context.scope.GenericScope[0;39m - [32mBeanFactory id=493eace5-130a-3b11-b77e-13958bf6c841
+[0;39m[33m00:52:17.423[0;39m [restartedMain] [34mINFO [0;39m [36mo.s.b.w.e.tomcat.TomcatWebServer[0;39m - [32mTomcat initialized with port(s): 5001 (http)
+[0;39m[33m00:52:17.431[0;39m [restartedMain] [34mINFO [0;39m [36mo.a.catalina.core.StandardService[0;39m - [32mStarting service [Tomcat]
+[0;39m[33m00:52:17.432[0;39m [restartedMain] [34mINFO [0;39m [36mo.a.catalina.core.StandardEngine[0;39m - [32mStarting Servlet engine: [Apache Tomcat/9.0.45]
+[0;39m[33m00:52:17.556[0;39m [restartedMain] [34mINFO [0;39m [36mo.a.c.c.C.[Tomcat].[localhost].[/][0;39m - [32mInitializing Spring embedded WebApplicationContext
+[0;39m[33m00:52:17.557[0;39m [restartedMain] [34mINFO [0;39m [36mo.s.b.w.s.c.ServletWebServerApplicationContext[0;39m - [32mRoot WebApplicationContext: initialization completed in 10911 ms
+[0;39m[33m00:52:19.739[0;39m [restartedMain] [34mINFO [0;39m [36mo.h.jpa.internal.util.LogHelper[0;39m - [32mHHH000204: Processing PersistenceUnitInfo [name: default]
+[0;39m[33m00:52:19.770[0;39m [restartedMain] [34mINFO [0;39m [36morg.hibernate.Version[0;39m - [32mHHH000412: Hibernate ORM core version 5.4.30.Final
+[0;39m[33m00:52:19.848[0;39m [restartedMain] [34mINFO [0;39m [36mo.h.annotations.common.Version[0;39m - [32mHCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+[0;39m[33m00:52:19.930[0;39m [restartedMain] [34mINFO [0;39m [36mcom.zaxxer.hikari.HikariDataSource[0;39m - [32mHikariPool-1 - Starting...
+[0;39m[33m00:52:40.729[0;39m [restartedMain] [34mINFO [0;39m [36mcom.zaxxer.hikari.HikariDataSource[0;39m - [32mHikariPool-1 - Start completed.
+[0;39m[33m00:52:40.821[0;39m [restartedMain] [34mINFO [0;39m [36morg.hibernate.dialect.Dialect[0;39m - [32mHHH000400: Using dialect: org.hibernate.dialect.Oracle10gDialect
+[0;39m[33m00:53:09.790[0;39m [restartedMain] [34mINFO [0;39m [36mo.h.e.t.j.p.i.JtaPlatformInitiator[0;39m - [32mHHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+[0;39m[33m00:53:09.799[0;39m [restartedMain] [34mINFO [0;39m [36mo.s.o.j.LocalContainerEntityManagerFactoryBean[0;39m - [32mInitialized JPA EntityManagerFactory for persistence unit 'default'
+[0;39m[33m00:53:10.464[0;39m [restartedMain] [34mINFO [0;39m [36mo.s.b.d.a.OptionalLiveReloadServer[0;39m - [32mLiveReload server is running on port 35729
+[0;39m[33m00:53:11.434[0;39m [restartedMain] [31mWARN [0;39m [36mo.s.b.a.o.j.JpaBaseConfiguration$JpaWebConfiguration[0;39m - [32mspring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+[0;39m[33m00:53:11.491[0;39m [restartedMain] [34mINFO [0;39m [36mo.s.s.c.ThreadPoolTaskExecutor[0;39m - [32mInitializing ExecutorService 'applicationTaskExecutor'
+[0;39m[33m00:53:13.711[0;39m [restartedMain] [34mINFO [0;39m [36mo.s.c.n.e.c.DiscoveryClientOptionalArgsConfiguration[0;39m - [32mEureka HTTP Client uses RestTemplate.
+[0;39m[33m00:53:14.642[0;39m [restartedMain] [31mWARN [0;39m [36mo.s.c.l.c.LoadBalancerCacheAutoConfiguration$LoadBalancerCaffeineWarnLogger[0;39m - [32mSpring Cloud LoadBalancer is currently working with the default cache. You can switch to using Caffeine cache, by adding it to the classpath.
+[0;39m[33m00:53:14.707[0;39m [restartedMain] [34mINFO [0;39m [36mo.s.c.n.eureka.InstanceInfoFactory[0;39m - [32mSetting initial instance status as: STARTING
+[0;39m[33m00:53:15.101[0;39m [restartedMain] [34mINFO [0;39m [36mc.netflix.discovery.DiscoveryClient[0;39m - [32mInitializing Eureka in region us-east-1
+[0;39m[33m00:53:15.107[0;39m [restartedMain] [34mINFO [0;39m [36mc.n.d.s.r.aws.ConfigClusterResolver[0;39m - [32mResolving eureka endpoints via configuration
+[0;39m[33m00:53:16.047[0;39m [restartedMain] [34mINFO [0;39m [36mc.netflix.discovery.DiscoveryClient[0;39m - [32mDisable delta property : false
+[0;39m[33m00:53:16.047[0;39m [restartedMain] [34mINFO [0;39m [36mc.netflix.discovery.DiscoveryClient[0;39m - [32mSingle vip registry refresh property : null
+[0;39m[33m00:53:16.048[0;39m [restartedMain] [34mINFO [0;39m [36mc.netflix.discovery.DiscoveryClient[0;39m - [32mForce full registry fetch : false
+[0;39m[33m00:53:16.048[0;39m [restartedMain] [34mINFO [0;39m [36mc.netflix.discovery.DiscoveryClient[0;39m - [32mApplication is null : false
+[0;39m[33m00:53:16.049[0;39m [restartedMain] [34mINFO [0;39m [36mc.netflix.discovery.DiscoveryClient[0;39m - [32mRegistered Applications size is zero : true
+[0;39m[33m00:53:16.049[0;39m [restartedMain] [34mINFO [0;39m [36mc.netflix.discovery.DiscoveryClient[0;39m - [32mApplication version is -1: true
+[0;39m[33m00:53:16.608[0;39m [restartedMain] [34mINFO [0;39m [36mc.netflix.discovery.DiscoveryClient[0;39m - [32mGetting all instance registry info from the eureka server
+[0;39m[33m00:53:21.962[0;39m [restartedMain] [34mINFO [0;39m [36mc.netflix.discovery.DiscoveryClient[0;39m - [32mThe response status is 200
+[0;39m[33m00:53:22.243[0;39m [restartedMain] [34mINFO [0;39m [36mc.netflix.discovery.DiscoveryClient[0;39m - [32mStarting heartbeat executor: renew interval is: 30
+[0;39m[33m00:53:22.247[0;39m [restartedMain] [34mINFO [0;39m [36mc.n.discovery.InstanceInfoReplicator[0;39m - [32mInstanceInfoReplicator onDemand update allowed rate per min is 4
+[0;39m[33m00:53:22.473[0;39m [restartedMain] [34mINFO [0;39m [36mc.netflix.discovery.DiscoveryClient[0;39m - [32mDiscovery Client initialized at timestamp 1622316202252 with initial instances count: 1
+[0;39m[33m00:53:22.476[0;39m [restartedMain] [34mINFO [0;39m [36mo.s.c.n.e.s.EurekaServiceRegistry[0;39m - [32mRegistering application MOVIE-DATA-SERVICE with eureka with status UP
+[0;39m[33m00:53:22.477[0;39m [restartedMain] [34mINFO [0;39m [36mc.netflix.discovery.DiscoveryClient[0;39m - [32mSaw local status change event StatusChangeEvent [timestamp=1622316202477, current=UP, previous=STARTING]
+[0;39m[33m00:53:22.480[0;39m [DiscoveryClient-InstanceInfoReplicator-0] [34mINFO [0;39m [36mc.netflix.discovery.DiscoveryClient[0;39m - [32mDiscoveryClient_MOVIE-DATA-SERVICE/LAPTOP-F31M9K39:MOVIE-DATA-SERVICE:5001: registering service...
+[0;39m[33m00:53:23.990[0;39m [restartedMain] [34mINFO [0;39m [36mo.s.b.w.e.tomcat.TomcatWebServer[0;39m - [32mTomcat started on port(s): 5001 (http) with context path ''
+[0;39m[33m00:53:23.991[0;39m [restartedMain] [34mINFO [0;39m [36mo.s.c.n.e.s.EurekaAutoServiceRegistration[0;39m - [32mUpdating port to 5001
+[0;39m[33m00:53:24.315[0;39m [restartedMain] [34mINFO [0;39m [36mm.MovieDataServiceApplication[0;39m - [32mStarted MovieDataServiceApplication in 80.818 seconds (JVM running for 81.749)
+[0;39m[33m00:53:32.562[0;39m [DiscoveryClient-InstanceInfoReplicator-0] [34mINFO [0;39m [36mc.netflix.discovery.DiscoveryClient[0;39m - [32mDiscoveryClient_MOVIE-DATA-SERVICE/LAPTOP-F31M9K39:MOVIE-DATA-SERVICE:5001 - registration status: 204
+[0;39m[33m19:42:57.242[0;39m [restartedMain] [34mINFO [0;39m [36mm.MovieDataServiceApplication[0;39m - [32mStarting MovieDataServiceApplication using Java 1.8.0_291 on LAPTOP-F31M9K39 with PID 5104 (D:\Java Projects\movie-microservices\movie-data-service\target\classes started by lenono in D:\Java Projects\movie-microservices\movie-data-service)
+[0;39m[33m19:42:57.273[0;39m [restartedMain] [39mDEBUG[0;39m [36mm.MovieDataServiceApplication[0;39m - [32mRunning with Spring Boot v2.4.5, Spring v5.3.6
+[0;39m[33m19:42:57.273[0;39m [restartedMain] [34mINFO [0;39m [36mm.MovieDataServiceApplication[0;39m - [32mNo active profile set, falling back to default profiles: default
+[0;39m[33m19:42:57.533[0;39m [restartedMain] [34mINFO [0;39m [36mo.s.b.d.restart.ChangeableUrls[0;39m - [32mThe Class-Path manifest attribute in C:\Users\lenono\.m2\repository\org\glassfish\hk2\hk2\2.6.1\hk2-2.6.1.jar referenced one or more files that do not exist: file:/C:/Users/lenono/.m2/repository/org/glassfish/hk2/hk2/2.6.1/hk2-utils.jar,file:/C:/Users/lenono/.m2/repository/org/glassfish/hk2/hk2/2.6.1/jakarta.annotation-api.jar,file:/C:/Users/lenono/.m2/repository/org/glassfish/hk2/hk2/2.6.1/jakarta.inject.jar,file:/C:/Users/lenono/.m2/repository/org/glassfish/hk2/hk2/2.6.1/hk2-api.jar,file:/C:/Users/lenono/.m2/repository/org/glassfish/hk2/hk2/2.6.1/aopalliance-repackaged.jar,file:/C:/Users/lenono/.m2/repository/org/glassfish/hk2/hk2/2.6.1/hk2-core.jar,file:/C:/Users/lenono/.m2/repository/org/glassfish/hk2/hk2/2.6.1/hk2-locator.jar,file:/C:/Users/lenono/.m2/repository/org/glassfish/hk2/hk2/2.6.1/javassist.jar,file:/C:/Users/lenono/.m2/repository/org/glassfish/hk2/hk2/2.6.1/hk2-runlevel.jar,file:/C:/Users/lenono/.m2/repository/org/glassfish/hk2/hk2/2.6.1/class-model.jar,file:/C:/Users/lenono/.m2/repository/org/glassfish/hk2/hk2/2.6.1/asm.jar,file:/C:/Users/lenono/.m2/repository/org/glassfish/hk2/hk2/2.6.1/asm-analysis.jar,file:/C:/Users/lenono/.m2/repository/org/glassfish/hk2/hk2/2.6.1/asm-commons.jar,file:/C:/Users/lenono/.m2/repository/org/glassfish/hk2/hk2/2.6.1/asm-tree.jar,file:/C:/Users/lenono/.m2/repository/org/glassfish/hk2/hk2/2.6.1/asm-util.jar
+[0;39m[33m19:42:57.533[0;39m [restartedMain] [34mINFO [0;39m [36mo.s.b.d.restart.ChangeableUrls[0;39m - [32mThe Class-Path manifest attribute in C:\Users\lenono\.m2\repository\com\oracle\database\jdbc\ojdbc8\19.8.0.0\ojdbc8-19.8.0.0.jar referenced one or more files that do not exist: file:/C:/Users/lenono/.m2/repository/com/oracle/database/jdbc/ojdbc8/19.8.0.0/oraclepki.jar
+[0;39m[33m19:42:57.533[0;39m [restartedMain] [34mINFO [0;39m [36mo.s.b.d.e.DevToolsPropertyDefaultsPostProcessor[0;39m - [32mDevtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+[0;39m[33m19:42:57.533[0;39m [restartedMain] [34mINFO [0;39m [36mo.s.b.d.e.DevToolsPropertyDefaultsPostProcessor[0;39m - [32mFor additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+[0;39m[33m19:42:59.600[0;39m [restartedMain] [34mINFO [0;39m [36mo.s.d.r.c.RepositoryConfigurationDelegate[0;39m - [32mMultiple Spring Data modules found, entering strict repository configuration mode!
+[0;39m[33m19:42:59.600[0;39m [restartedMain] [34mINFO [0;39m [36mo.s.d.r.c.RepositoryConfigurationDelegate[0;39m - [32mBootstrapping Spring Data JDBC repositories in DEFAULT mode.
+[0;39m[33m19:42:59.678[0;39m [restartedMain] [34mINFO [0;39m [36mo.s.d.r.c.RepositoryConfigurationExtensionSupport[0;39m - [32mSpring Data JDBC - Could not safely identify store assignment for repository candidate interface movieDataService.repositories.MovieRepository. If you want this repository to be a JDBC repository, consider annotating your entities with one of these annotations: org.springframework.data.relational.core.mapping.Table.
+[0;39m[33m19:42:59.678[0;39m [restartedMain] [34mINFO [0;39m [36mo.s.d.r.c.RepositoryConfigurationExtensionSupport[0;39m - [32mSpring Data JDBC - Could not safely identify store assignment for repository candidate interface movieDataService.repositories.ReviewRepository. If you want this repository to be a JDBC repository, consider annotating your entities with one of these annotations: org.springframework.data.relational.core.mapping.Table.
+[0;39m[33m19:42:59.678[0;39m [restartedMain] [34mINFO [0;39m [36mo.s.d.r.c.RepositoryConfigurationDelegate[0;39m - [32mFinished Spring Data repository scanning in 77 ms. Found 0 JDBC repository interfaces.
+[0;39m[33m19:42:59.709[0;39m [restartedMain] [34mINFO [0;39m [36mo.s.d.r.c.RepositoryConfigurationDelegate[0;39m - [32mMultiple Spring Data modules found, entering strict repository configuration mode!
+[0;39m[33m19:42:59.709[0;39m [restartedMain] [34mINFO [0;39m [36mo.s.d.r.c.RepositoryConfigurationDelegate[0;39m - [32mBootstrapping Spring Data JPA repositories in DEFAULT mode.
+[0;39m[33m19:43:00.116[0;39m [restartedMain] [34mINFO [0;39m [36mo.s.d.r.c.RepositoryConfigurationDelegate[0;39m - [32mFinished Spring Data repository scanning in 382 ms. Found 2 JPA repository interfaces.
+[0;39m[33m19:43:00.935[0;39m [restartedMain] [34mINFO [0;39m [36mo.s.cloud.context.scope.GenericScope[0;39m - [32mBeanFactory id=493eace5-130a-3b11-b77e-13958bf6c841
+[0;39m[33m19:43:03.318[0;39m [restartedMain] [34mINFO [0;39m [36mo.s.b.w.e.tomcat.TomcatWebServer[0;39m - [32mTomcat initialized with port(s): 5001 (http)
+[0;39m[33m19:43:03.333[0;39m [restartedMain] [34mINFO [0;39m [36mo.a.catalina.core.StandardService[0;39m - [32mStarting service [Tomcat]
+[0;39m[33m19:43:03.333[0;39m [restartedMain] [34mINFO [0;39m [36mo.a.catalina.core.StandardEngine[0;39m - [32mStarting Servlet engine: [Apache Tomcat/9.0.45]
+[0;39m[33m19:43:03.773[0;39m [restartedMain] [34mINFO [0;39m [36mo.a.c.c.C.[Tomcat].[localhost].[/][0;39m - [32mInitializing Spring embedded WebApplicationContext
+[0;39m[33m19:43:03.774[0;39m [restartedMain] [34mINFO [0;39m [36mo.s.b.w.s.c.ServletWebServerApplicationContext[0;39m - [32mRoot WebApplicationContext: initialization completed in 6241 ms
+[0;39m[33m19:43:04.988[0;39m [restartedMain] [34mINFO [0;39m [36mo.h.jpa.internal.util.LogHelper[0;39m - [32mHHH000204: Processing PersistenceUnitInfo [name: default]
+[0;39m[33m19:43:05.192[0;39m [restartedMain] [34mINFO [0;39m [36morg.hibernate.Version[0;39m - [32mHHH000412: Hibernate ORM core version 5.4.30.Final
+[0;39m[33m19:43:06.033[0;39m [restartedMain] [34mINFO [0;39m [36mo.h.annotations.common.Version[0;39m - [32mHCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+[0;39m[33m19:43:06.720[0;39m [restartedMain] [34mINFO [0;39m [36mcom.zaxxer.hikari.HikariDataSource[0;39m - [32mHikariPool-1 - Starting...
+[0;39m[33m19:43:10.829[0;39m [restartedMain] [34mINFO [0;39m [36mcom.zaxxer.hikari.HikariDataSource[0;39m - [32mHikariPool-1 - Start completed.
+[0;39m[33m19:43:10.891[0;39m [restartedMain] [34mINFO [0;39m [36morg.hibernate.dialect.Dialect[0;39m - [32mHHH000400: Using dialect: org.hibernate.dialect.Oracle10gDialect
+[0;39m[33m19:43:15.131[0;39m [restartedMain] [34mINFO [0;39m [36mo.h.e.t.j.p.i.JtaPlatformInitiator[0;39m - [32mHHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+[0;39m[33m19:43:15.147[0;39m [restartedMain] [34mINFO [0;39m [36mo.s.o.j.LocalContainerEntityManagerFactoryBean[0;39m - [32mInitialized JPA EntityManagerFactory for persistence unit 'default'
+[0;39m[33m19:43:15.178[0;39m [restartedMain] [34mINFO [0;39m [36mo.s.b.d.a.OptionalLiveReloadServer[0;39m - [32mLiveReload server is running on port 35729
+[0;39m[33m19:43:17.100[0;39m [restartedMain] [31mWARN [0;39m [36mo.s.b.a.o.j.JpaBaseConfiguration$JpaWebConfiguration[0;39m - [32mspring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+[0;39m[33m19:43:17.395[0;39m [restartedMain] [34mINFO [0;39m [36mo.s.s.c.ThreadPoolTaskExecutor[0;39m - [32mInitializing ExecutorService 'applicationTaskExecutor'
+[0;39m[33m19:43:19.481[0;39m [restartedMain] [34mINFO [0;39m [36mo.s.c.n.e.c.DiscoveryClientOptionalArgsConfiguration[0;39m - [32mEureka HTTP Client uses RestTemplate.
+[0;39m[33m19:43:20.340[0;39m [restartedMain] [31mWARN [0;39m [36mo.s.c.l.c.LoadBalancerCacheAutoConfiguration$LoadBalancerCaffeineWarnLogger[0;39m - [32mSpring Cloud LoadBalancer is currently working with the default cache. You can switch to using Caffeine cache, by adding it to the classpath.
+[0;39m[33m19:43:20.418[0;39m [restartedMain] [34mINFO [0;39m [36mo.s.c.n.eureka.InstanceInfoFactory[0;39m - [32mSetting initial instance status as: STARTING
+[0;39m[33m19:43:20.496[0;39m [restartedMain] [34mINFO [0;39m [36mc.netflix.discovery.DiscoveryClient[0;39m - [32mInitializing Eureka in region us-east-1
+[0;39m[33m19:43:20.512[0;39m [restartedMain] [34mINFO [0;39m [36mc.n.d.s.r.aws.ConfigClusterResolver[0;39m - [32mResolving eureka endpoints via configuration
+[0;39m[33m19:43:21.035[0;39m [restartedMain] [34mINFO [0;39m [36mc.netflix.discovery.DiscoveryClient[0;39m - [32mDisable delta property : false
+[0;39m[33m19:43:21.035[0;39m [restartedMain] [34mINFO [0;39m [36mc.netflix.discovery.DiscoveryClient[0;39m - [32mSingle vip registry refresh property : null
+[0;39m[33m19:43:21.035[0;39m [restartedMain] [34mINFO [0;39m [36mc.netflix.discovery.DiscoveryClient[0;39m - [32mForce full registry fetch : false
+[0;39m[33m19:43:21.035[0;39m [restartedMain] [34mINFO [0;39m [36mc.netflix.discovery.DiscoveryClient[0;39m - [32mApplication is null : false
+[0;39m[33m19:43:21.035[0;39m [restartedMain] [34mINFO [0;39m [36mc.netflix.discovery.DiscoveryClient[0;39m - [32mRegistered Applications size is zero : true
+[0;39m[33m19:43:21.035[0;39m [restartedMain] [34mINFO [0;39m [36mc.netflix.discovery.DiscoveryClient[0;39m - [32mApplication version is -1: true
+[0;39m[33m19:43:21.035[0;39m [restartedMain] [34mINFO [0;39m [36mc.netflix.discovery.DiscoveryClient[0;39m - [32mGetting all instance registry info from the eureka server
+[0;39m[33m19:43:21.473[0;39m [restartedMain] [34mINFO [0;39m [36mc.netflix.discovery.DiscoveryClient[0;39m - [32mThe response status is 200
+[0;39m[33m19:43:21.488[0;39m [restartedMain] [34mINFO [0;39m [36mc.netflix.discovery.DiscoveryClient[0;39m - [32mStarting heartbeat executor: renew interval is: 30
+[0;39m[33m19:43:21.488[0;39m [restartedMain] [34mINFO [0;39m [36mc.n.discovery.InstanceInfoReplicator[0;39m - [32mInstanceInfoReplicator onDemand update allowed rate per min is 4
+[0;39m[33m19:43:21.519[0;39m [restartedMain] [34mINFO [0;39m [36mc.netflix.discovery.DiscoveryClient[0;39m - [32mDiscovery Client initialized at timestamp 1622297601519 with initial instances count: 1
+[0;39m[33m19:43:21.519[0;39m [restartedMain] [34mINFO [0;39m [36mo.s.c.n.e.s.EurekaServiceRegistry[0;39m - [32mRegistering application MOVIE-DATA-SERVICE with eureka with status UP
+[0;39m[33m19:43:21.519[0;39m [restartedMain] [34mINFO [0;39m [36mc.netflix.discovery.DiscoveryClient[0;39m - [32mSaw local status change event StatusChangeEvent [timestamp=1622297601519, current=UP, previous=STARTING]
+[0;39m[33m19:43:21.582[0;39m [DiscoveryClient-InstanceInfoReplicator-0] [34mINFO [0;39m [36mc.netflix.discovery.DiscoveryClient[0;39m - [32mDiscoveryClient_MOVIE-DATA-SERVICE/LAPTOP-F31M9K39:MOVIE-DATA-SERVICE:5001: registering service...
+[0;39m[33m19:43:21.660[0;39m [restartedMain] [34mINFO [0;39m [36mo.s.b.w.e.tomcat.TomcatWebServer[0;39m - [32mTomcat started on port(s): 5001 (http) with context path ''
+[0;39m[33m19:43:21.660[0;39m [restartedMain] [34mINFO [0;39m [36mo.s.c.n.e.s.EurekaAutoServiceRegistration[0;39m - [32mUpdating port to 5001
+[0;39m[33m19:43:21.896[0;39m [DiscoveryClient-InstanceInfoReplicator-0] [34mINFO [0;39m [36mc.netflix.discovery.DiscoveryClient[0;39m - [32mDiscoveryClient_MOVIE-DATA-SERVICE/LAPTOP-F31M9K39:MOVIE-DATA-SERVICE:5001 - registration status: 204
+[0;39m[33m19:43:22.423[0;39m [restartedMain] [34mINFO [0;39m [36mm.MovieDataServiceApplication[0;39m - [32mStarted MovieDataServiceApplication in 27.445 seconds (JVM running for 29.816)
+[0;39m[33m19:47:26.924[0;39m [restartedMain] [34mINFO [0;39m [36mm.MovieDataServiceApplication[0;39m - [32mStarting MovieDataServiceApplication using Java 1.8.0_291 on LAPTOP-F31M9K39 with PID 13732 (D:\Java Projects\movie-microservices\movie-data-service\target\classes started by lenono in D:\Java Projects\movie-microservices\movie-data-service)
+[0;39m[33m19:47:26.930[0;39m [restartedMain] [39mDEBUG[0;39m [36mm.MovieDataServiceApplication[0;39m - [32mRunning with Spring Boot v2.4.5, Spring v5.3.6
+[0;39m[33m19:47:26.930[0;39m [restartedMain] [34mINFO [0;39m [36mm.MovieDataServiceApplication[0;39m - [32mNo active profile set, falling back to default profiles: default
+[0;39m[33m19:47:27.044[0;39m [restartedMain] [34mINFO [0;39m [36mo.s.b.d.restart.ChangeableUrls[0;39m - [32mThe Class-Path manifest attribute in C:\Users\lenono\.m2\repository\org\glassfish\hk2\hk2\2.6.1\hk2-2.6.1.jar referenced one or more files that do not exist: file:/C:/Users/lenono/.m2/repository/org/glassfish/hk2/hk2/2.6.1/hk2-utils.jar,file:/C:/Users/lenono/.m2/repository/org/glassfish/hk2/hk2/2.6.1/jakarta.annotation-api.jar,file:/C:/Users/lenono/.m2/repository/org/glassfish/hk2/hk2/2.6.1/jakarta.inject.jar,file:/C:/Users/lenono/.m2/repository/org/glassfish/hk2/hk2/2.6.1/hk2-api.jar,file:/C:/Users/lenono/.m2/repository/org/glassfish/hk2/hk2/2.6.1/aopalliance-repackaged.jar,file:/C:/Users/lenono/.m2/repository/org/glassfish/hk2/hk2/2.6.1/hk2-core.jar,file:/C:/Users/lenono/.m2/repository/org/glassfish/hk2/hk2/2.6.1/hk2-locator.jar,file:/C:/Users/lenono/.m2/repository/org/glassfish/hk2/hk2/2.6.1/javassist.jar,file:/C:/Users/lenono/.m2/repository/org/glassfish/hk2/hk2/2.6.1/hk2-runlevel.jar,file:/C:/Users/lenono/.m2/repository/org/glassfish/hk2/hk2/2.6.1/class-model.jar,file:/C:/Users/lenono/.m2/repository/org/glassfish/hk2/hk2/2.6.1/asm.jar,file:/C:/Users/lenono/.m2/repository/org/glassfish/hk2/hk2/2.6.1/asm-analysis.jar,file:/C:/Users/lenono/.m2/repository/org/glassfish/hk2/hk2/2.6.1/asm-commons.jar,file:/C:/Users/lenono/.m2/repository/org/glassfish/hk2/hk2/2.6.1/asm-tree.jar,file:/C:/Users/lenono/.m2/repository/org/glassfish/hk2/hk2/2.6.1/asm-util.jar
+[0;39m[33m19:47:27.044[0;39m [restartedMain] [34mINFO [0;39m [36mo.s.b.d.restart.ChangeableUrls[0;39m - [32mThe Class-Path manifest attribute in C:\Users\lenono\.m2\repository\com\oracle\database\jdbc\ojdbc8\19.8.0.0\ojdbc8-19.8.0.0.jar referenced one or more files that do not exist: file:/C:/Users/lenono/.m2/repository/com/oracle/database/jdbc/ojdbc8/19.8.0.0/oraclepki.jar
+[0;39m[33m19:47:27.045[0;39m [restartedMain] [34mINFO [0;39m [36mo.s.b.d.e.DevToolsPropertyDefaultsPostProcessor[0;39m - [32mDevtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+[0;39m[33m19:47:27.045[0;39m [restartedMain] [34mINFO [0;39m [36mo.s.b.d.e.DevToolsPropertyDefaultsPostProcessor[0;39m - [32mFor additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+[0;39m[33m19:47:29.128[0;39m [restartedMain] [34mINFO [0;39m [36mo.s.d.r.c.RepositoryConfigurationDelegate[0;39m - [32mMultiple Spring Data modules found, entering strict repository configuration mode!
+[0;39m[33m19:47:29.130[0;39m [restartedMain] [34mINFO [0;39m [36mo.s.d.r.c.RepositoryConfigurationDelegate[0;39m - [32mBootstrapping Spring Data JDBC repositories in DEFAULT mode.
+[0;39m[33m19:47:29.189[0;39m [restartedMain] [34mINFO [0;39m [36mo.s.d.r.c.RepositoryConfigurationExtensionSupport[0;39m - [32mSpring Data JDBC - Could not safely identify store assignment for repository candidate interface movieDataService.repositories.MovieRepository. If you want this repository to be a JDBC repository, consider annotating your entities with one of these annotations: org.springframework.data.relational.core.mapping.Table.
+[0;39m[33m19:47:29.195[0;39m [restartedMain] [34mINFO [0;39m [36mo.s.d.r.c.RepositoryConfigurationExtensionSupport[0;39m - [32mSpring Data JDBC - Could not safely identify store assignment for repository candidate interface movieDataService.repositories.ReviewRepository. If you want this repository to be a JDBC repository, consider annotating your entities with one of these annotations: org.springframework.data.relational.core.mapping.Table.
+[0;39m[33m19:47:29.196[0;39m [restartedMain] [34mINFO [0;39m [36mo.s.d.r.c.RepositoryConfigurationDelegate[0;39m - [32mFinished Spring Data repository scanning in 60 ms. Found 0 JDBC repository interfaces.
+[0;39m[33m19:47:29.219[0;39m [restartedMain] [34mINFO [0;39m [36mo.s.d.r.c.RepositoryConfigurationDelegate[0;39m - [32mMultiple Spring Data modules found, entering strict repository configuration mode!
+[0;39m[33m19:47:29.220[0;39m [restartedMain] [34mINFO [0;39m [36mo.s.d.r.c.RepositoryConfigurationDelegate[0;39m - [32mBootstrapping Spring Data JPA repositories in DEFAULT mode.
+[0;39m[33m19:47:29.645[0;39m [restartedMain] [34mINFO [0;39m [36mo.s.d.r.c.RepositoryConfigurationDelegate[0;39m - [32mFinished Spring Data repository scanning in 414 ms. Found 2 JPA repository interfaces.
+[0;39m[33m19:47:30.134[0;39m [restartedMain] [34mINFO [0;39m [36mo.s.cloud.context.scope.GenericScope[0;39m - [32mBeanFactory id=493eace5-130a-3b11-b77e-13958bf6c841
+[0;39m[33m19:47:32.105[0;39m [restartedMain] [34mINFO [0;39m [36mo.s.b.w.e.tomcat.TomcatWebServer[0;39m - [32mTomcat initialized with port(s): 5001 (http)
+[0;39m[33m19:47:32.133[0;39m [restartedMain] [34mINFO [0;39m [36mo.a.catalina.core.StandardService[0;39m - [32mStarting service [Tomcat]
+[0;39m[33m19:47:32.133[0;39m [restartedMain] [34mINFO [0;39m [36mo.a.catalina.core.StandardEngine[0;39m - [32mStarting Servlet engine: [Apache Tomcat/9.0.45]
+[0;39m[33m19:47:32.466[0;39m [restartedMain] [34mINFO [0;39m [36mo.a.c.c.C.[Tomcat].[localhost].[/][0;39m - [32mInitializing Spring embedded WebApplicationContext
+[0;39m[33m19:47:32.466[0;39m [restartedMain] [34mINFO [0;39m [36mo.s.b.w.s.c.ServletWebServerApplicationContext[0;39m - [32mRoot WebApplicationContext: initialization completed in 5420 ms
+[0;39m[33m19:47:33.228[0;39m [restartedMain] [34mINFO [0;39m [36mo.h.jpa.internal.util.LogHelper[0;39m - [32mHHH000204: Processing PersistenceUnitInfo [name: default]
+[0;39m[33m19:47:33.422[0;39m [restartedMain] [34mINFO [0;39m [36morg.hibernate.Version[0;39m - [32mHHH000412: Hibernate ORM core version 5.4.30.Final
+[0;39m[33m19:47:33.740[0;39m [restartedMain] [34mINFO [0;39m [36mo.h.annotations.common.Version[0;39m - [32mHCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+[0;39m[33m19:47:34.037[0;39m [restartedMain] [34mINFO [0;39m [36mcom.zaxxer.hikari.HikariDataSource[0;39m - [32mHikariPool-1 - Starting...
+[0;39m[33m19:47:35.494[0;39m [restartedMain] [34mINFO [0;39m [36mcom.zaxxer.hikari.HikariDataSource[0;39m - [32mHikariPool-1 - Start completed.
+[0;39m[33m19:47:35.550[0;39m [restartedMain] [34mINFO [0;39m [36morg.hibernate.dialect.Dialect[0;39m - [32mHHH000400: Using dialect: org.hibernate.dialect.Oracle10gDialect
+[0;39m[33m19:47:38.308[0;39m [restartedMain] [34mINFO [0;39m [36mo.h.e.t.j.p.i.JtaPlatformInitiator[0;39m - [32mHHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+[0;39m[33m19:47:38.319[0;39m [restartedMain] [34mINFO [0;39m [36mo.s.o.j.LocalContainerEntityManagerFactoryBean[0;39m - [32mInitialized JPA EntityManagerFactory for persistence unit 'default'
+[0;39m[33m19:47:38.420[0;39m [restartedMain] [34mINFO [0;39m [36mo.s.b.d.a.OptionalLiveReloadServer[0;39m - [32mLiveReload server is running on port 35729
+[0;39m[33m19:47:39.188[0;39m [restartedMain] [31mWARN [0;39m [36mo.s.b.a.o.j.JpaBaseConfiguration$JpaWebConfiguration[0;39m - [32mspring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+[0;39m[33m19:47:39.279[0;39m [restartedMain] [34mINFO [0;39m [36mo.s.s.c.ThreadPoolTaskExecutor[0;39m - [32mInitializing ExecutorService 'applicationTaskExecutor'
+[0;39m[33m19:47:40.298[0;39m [restartedMain] [34mINFO [0;39m [36mo.s.c.n.e.c.DiscoveryClientOptionalArgsConfiguration[0;39m - [32mEureka HTTP Client uses RestTemplate.
+[0;39m[33m19:47:40.935[0;39m [restartedMain] [31mWARN [0;39m [36mo.s.c.l.c.LoadBalancerCacheAutoConfiguration$LoadBalancerCaffeineWarnLogger[0;39m - [32mSpring Cloud LoadBalancer is currently working with the default cache. You can switch to using Caffeine cache, by adding it to the classpath.
+[0;39m[33m19:47:40.981[0;39m [restartedMain] [34mINFO [0;39m [36mo.s.c.n.eureka.InstanceInfoFactory[0;39m - [32mSetting initial instance status as: STARTING
+[0;39m[33m19:47:41.061[0;39m [restartedMain] [34mINFO [0;39m [36mc.netflix.discovery.DiscoveryClient[0;39m - [32mInitializing Eureka in region us-east-1
+[0;39m[33m19:47:41.069[0;39m [restartedMain] [34mINFO [0;39m [36mc.n.d.s.r.aws.ConfigClusterResolver[0;39m - [32mResolving eureka endpoints via configuration
+[0;39m[33m19:47:41.399[0;39m [restartedMain] [34mINFO [0;39m [36mc.netflix.discovery.DiscoveryClient[0;39m - [32mDisable delta property : false
+[0;39m[33m19:47:41.399[0;39m [restartedMain] [34mINFO [0;39m [36mc.netflix.discovery.DiscoveryClient[0;39m - [32mSingle vip registry refresh property : null
+[0;39m[33m19:47:41.399[0;39m [restartedMain] [34mINFO [0;39m [36mc.netflix.discovery.DiscoveryClient[0;39m - [32mForce full registry fetch : false
+[0;39m[33m19:47:41.399[0;39m [restartedMain] [34mINFO [0;39m [36mc.netflix.discovery.DiscoveryClient[0;39m - [32mApplication is null : false
+[0;39m[33m19:47:41.400[0;39m [restartedMain] [34mINFO [0;39m [36mc.netflix.discovery.DiscoveryClient[0;39m - [32mRegistered Applications size is zero : true
+[0;39m[33m19:47:41.400[0;39m [restartedMain] [34mINFO [0;39m [36mc.netflix.discovery.DiscoveryClient[0;39m - [32mApplication version is -1: true
+[0;39m[33m19:47:41.400[0;39m [restartedMain] [34mINFO [0;39m [36mc.netflix.discovery.DiscoveryClient[0;39m - [32mGetting all instance registry info from the eureka server
+[0;39m[33m19:47:41.665[0;39m [restartedMain] [34mINFO [0;39m [36mc.netflix.discovery.DiscoveryClient[0;39m - [32mThe response status is 200
+[0;39m[33m19:47:41.670[0;39m [restartedMain] [34mINFO [0;39m [36mc.netflix.discovery.DiscoveryClient[0;39m - [32mStarting heartbeat executor: renew interval is: 30
+[0;39m[33m19:47:41.676[0;39m [restartedMain] [34mINFO [0;39m [36mc.n.discovery.InstanceInfoReplicator[0;39m - [32mInstanceInfoReplicator onDemand update allowed rate per min is 4
+[0;39m[33m19:47:41.686[0;39m [restartedMain] [34mINFO [0;39m [36mc.netflix.discovery.DiscoveryClient[0;39m - [32mDiscovery Client initialized at timestamp 1622297861684 with initial instances count: 1
+[0;39m[33m19:47:41.690[0;39m [restartedMain] [34mINFO [0;39m [36mo.s.c.n.e.s.EurekaServiceRegistry[0;39m - [32mRegistering application MOVIE-DATA-SERVICE with eureka with status UP
+[0;39m[33m19:47:41.691[0;39m [restartedMain] [34mINFO [0;39m [36mc.netflix.discovery.DiscoveryClient[0;39m - [32mSaw local status change event StatusChangeEvent [timestamp=1622297861691, current=UP, previous=STARTING]
+[0;39m[33m19:47:41.694[0;39m [DiscoveryClient-InstanceInfoReplicator-0] [34mINFO [0;39m [36mc.netflix.discovery.DiscoveryClient[0;39m - [32mDiscoveryClient_MOVIE-DATA-SERVICE/LAPTOP-F31M9K39:MOVIE-DATA-SERVICE:5001: registering service...
+[0;39m[33m19:47:41.727[0;39m [restartedMain] [34mINFO [0;39m [36mo.s.b.w.e.tomcat.TomcatWebServer[0;39m - [32mTomcat started on port(s): 5001 (http) with context path ''
+[0;39m[33m19:47:41.728[0;39m [restartedMain] [34mINFO [0;39m [36mo.s.c.n.e.s.EurekaAutoServiceRegistration[0;39m - [32mUpdating port to 5001
+[0;39m[33m19:47:41.770[0;39m [DiscoveryClient-InstanceInfoReplicator-0] [34mINFO [0;39m [36mc.netflix.discovery.DiscoveryClient[0;39m - [32mDiscoveryClient_MOVIE-DATA-SERVICE/LAPTOP-F31M9K39:MOVIE-DATA-SERVICE:5001 - registration status: 204
+[0;39m[33m19:47:42.152[0;39m [restartedMain] [34mINFO [0;39m [36mm.MovieDataServiceApplication[0;39m - [32mStarted MovieDataServiceApplication in 17.687 seconds (JVM running for 20.625)
+[0;39m[33m19:52:41.418[0;39m [AsyncResolver-bootstrap-executor-0] [34mINFO [0;39m [36mc.n.d.s.r.aws.ConfigClusterResolver[0;39m - [32mResolving eureka endpoints via configuration
+[0;39m[33m19:57:41.433[0;39m [AsyncResolver-bootstrap-executor-0] [34mINFO [0;39m [36mc.n.d.s.r.aws.ConfigClusterResolver[0;39m - [32mResolving eureka endpoints via configuration
+[0;39m[33m20:04:55.355[0;39m [restartedMain] [34mINFO [0;39m [36mm.MovieDataServiceApplication[0;39m - [32mStarting MovieDataServiceApplication using Java 1.8.0_291 on LAPTOP-F31M9K39 with PID 12724 (D:\Java Projects\movie-microservices\movie-data-service\target\classes started by lenono in D:\Java Projects\movie-microservices\movie-data-service)
+[0;39m[33m20:04:55.360[0;39m [restartedMain] [39mDEBUG[0;39m [36mm.MovieDataServiceApplication[0;39m - [32mRunning with Spring Boot v2.4.5, Spring v5.3.6
+[0;39m[33m20:04:55.360[0;39m [restartedMain] [34mINFO [0;39m [36mm.MovieDataServiceApplication[0;39m - [32mNo active profile set, falling back to default profiles: default
+[0;39m[33m20:04:55.462[0;39m [restartedMain] [34mINFO [0;39m [36mo.s.b.d.restart.ChangeableUrls[0;39m - [32mThe Class-Path manifest attribute in C:\Users\lenono\.m2\repository\org\glassfish\hk2\hk2\2.6.1\hk2-2.6.1.jar referenced one or more files that do not exist: file:/C:/Users/lenono/.m2/repository/org/glassfish/hk2/hk2/2.6.1/hk2-utils.jar,file:/C:/Users/lenono/.m2/repository/org/glassfish/hk2/hk2/2.6.1/jakarta.annotation-api.jar,file:/C:/Users/lenono/.m2/repository/org/glassfish/hk2/hk2/2.6.1/jakarta.inject.jar,file:/C:/Users/lenono/.m2/repository/org/glassfish/hk2/hk2/2.6.1/hk2-api.jar,file:/C:/Users/lenono/.m2/repository/org/glassfish/hk2/hk2/2.6.1/aopalliance-repackaged.jar,file:/C:/Users/lenono/.m2/repository/org/glassfish/hk2/hk2/2.6.1/hk2-core.jar,file:/C:/Users/lenono/.m2/repository/org/glassfish/hk2/hk2/2.6.1/hk2-locator.jar,file:/C:/Users/lenono/.m2/repository/org/glassfish/hk2/hk2/2.6.1/javassist.jar,file:/C:/Users/lenono/.m2/repository/org/glassfish/hk2/hk2/2.6.1/hk2-runlevel.jar,file:/C:/Users/lenono/.m2/repository/org/glassfish/hk2/hk2/2.6.1/class-model.jar,file:/C:/Users/lenono/.m2/repository/org/glassfish/hk2/hk2/2.6.1/asm.jar,file:/C:/Users/lenono/.m2/repository/org/glassfish/hk2/hk2/2.6.1/asm-analysis.jar,file:/C:/Users/lenono/.m2/repository/org/glassfish/hk2/hk2/2.6.1/asm-commons.jar,file:/C:/Users/lenono/.m2/repository/org/glassfish/hk2/hk2/2.6.1/asm-tree.jar,file:/C:/Users/lenono/.m2/repository/org/glassfish/hk2/hk2/2.6.1/asm-util.jar
+[0;39m[33m20:04:55.463[0;39m [restartedMain] [34mINFO [0;39m [36mo.s.b.d.restart.ChangeableUrls[0;39m - [32mThe Class-Path manifest attribute in C:\Users\lenono\.m2\repository\com\oracle\database\jdbc\ojdbc8\19.8.0.0\ojdbc8-19.8.0.0.jar referenced one or more files that do not exist: file:/C:/Users/lenono/.m2/repository/com/oracle/database/jdbc/ojdbc8/19.8.0.0/oraclepki.jar
+[0;39m[33m20:04:55.464[0;39m [restartedMain] [34mINFO [0;39m [36mo.s.b.d.e.DevToolsPropertyDefaultsPostProcessor[0;39m - [32mDevtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+[0;39m[33m20:04:55.464[0;39m [restartedMain] [34mINFO [0;39m [36mo.s.b.d.e.DevToolsPropertyDefaultsPostProcessor[0;39m - [32mFor additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+[0;39m[33m20:04:57.200[0;39m [restartedMain] [34mINFO [0;39m [36mo.s.d.r.c.RepositoryConfigurationDelegate[0;39m - [32mMultiple Spring Data modules found, entering strict repository configuration mode!
+[0;39m[33m20:04:57.202[0;39m [restartedMain] [34mINFO [0;39m [36mo.s.d.r.c.RepositoryConfigurationDelegate[0;39m - [32mBootstrapping Spring Data JDBC repositories in DEFAULT mode.
+[0;39m[33m20:04:57.304[0;39m [restartedMain] [34mINFO [0;39m [36mo.s.d.r.c.RepositoryConfigurationExtensionSupport[0;39m - [32mSpring Data JDBC - Could not safely identify store assignment for repository candidate interface movieDataService.repositories.MovieRepository. If you want this repository to be a JDBC repository, consider annotating your entities with one of these annotations: org.springframework.data.relational.core.mapping.Table.
+[0;39m[33m20:04:57.307[0;39m [restartedMain] [34mINFO [0;39m [36mo.s.d.r.c.RepositoryConfigurationExtensionSupport[0;39m - [32mSpring Data JDBC - Could not safely identify store assignment for repository candidate interface movieDataService.repositories.ReviewRepository. If you want this repository to be a JDBC repository, consider annotating your entities with one of these annotations: org.springframework.data.relational.core.mapping.Table.
+[0;39m[33m20:04:57.308[0;39m [restartedMain] [34mINFO [0;39m [36mo.s.d.r.c.RepositoryConfigurationDelegate[0;39m - [32mFinished Spring Data repository scanning in 100 ms. Found 0 JDBC repository interfaces.
+[0;39m[33m20:04:57.320[0;39m [restartedMain] [34mINFO [0;39m [36mo.s.d.r.c.RepositoryConfigurationDelegate[0;39m - [32mMultiple Spring Data modules found, entering strict repository configuration mode!
+[0;39m[33m20:04:57.322[0;39m [restartedMain] [34mINFO [0;39m [36mo.s.d.r.c.RepositoryConfigurationDelegate[0;39m - [32mBootstrapping Spring Data JPA repositories in DEFAULT mode.
+[0;39m[33m20:04:57.553[0;39m [restartedMain] [34mINFO [0;39m [36mo.s.d.r.c.RepositoryConfigurationDelegate[0;39m - [32mFinished Spring Data repository scanning in 221 ms. Found 2 JPA repository interfaces.
+[0;39m[33m20:04:58.005[0;39m [restartedMain] [34mINFO [0;39m [36mo.s.cloud.context.scope.GenericScope[0;39m - [32mBeanFactory id=493eace5-130a-3b11-b77e-13958bf6c841
+[0;39m[33m20:05:00.054[0;39m [restartedMain] [34mINFO [0;39m [36mo.s.b.w.e.tomcat.TomcatWebServer[0;39m - [32mTomcat initialized with port(s): 5001 (http)
+[0;39m[33m20:05:00.074[0;39m [restartedMain] [34mINFO [0;39m [36mo.a.catalina.core.StandardService[0;39m - [32mStarting service [Tomcat]
+[0;39m[33m20:05:00.075[0;39m [restartedMain] [34mINFO [0;39m [36mo.a.catalina.core.StandardEngine[0;39m - [32mStarting Servlet engine: [Apache Tomcat/9.0.45]
+[0;39m[33m20:05:00.450[0;39m [restartedMain] [34mINFO [0;39m [36mo.a.c.c.C.[Tomcat].[localhost].[/][0;39m - [32mInitializing Spring embedded WebApplicationContext
+[0;39m[33m20:05:00.450[0;39m [restartedMain] [34mINFO [0;39m [36mo.s.b.w.s.c.ServletWebServerApplicationContext[0;39m - [32mRoot WebApplicationContext: initialization completed in 4985 ms
+[0;39m[33m20:05:01.527[0;39m [restartedMain] [34mINFO [0;39m [36mo.h.jpa.internal.util.LogHelper[0;39m - [32mHHH000204: Processing PersistenceUnitInfo [name: default]
+[0;39m[33m20:05:01.698[0;39m [restartedMain] [34mINFO [0;39m [36morg.hibernate.Version[0;39m - [32mHHH000412: Hibernate ORM core version 5.4.30.Final
+[0;39m[33m20:05:02.088[0;39m [restartedMain] [34mINFO [0;39m [36mo.h.annotations.common.Version[0;39m - [32mHCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+[0;39m[33m20:05:02.383[0;39m [restartedMain] [34mINFO [0;39m [36mcom.zaxxer.hikari.HikariDataSource[0;39m - [32mHikariPool-1 - Starting...
+[0;39m[33m20:05:03.633[0;39m [restartedMain] [34mINFO [0;39m [36mcom.zaxxer.hikari.HikariDataSource[0;39m - [32mHikariPool-1 - Start completed.
+[0;39m[33m20:05:03.663[0;39m [restartedMain] [34mINFO [0;39m [36morg.hibernate.dialect.Dialect[0;39m - [32mHHH000400: Using dialect: org.hibernate.dialect.Oracle10gDialect
+[0;39m[33m20:05:05.922[0;39m [restartedMain] [34mINFO [0;39m [36mo.h.e.t.j.p.i.JtaPlatformInitiator[0;39m - [32mHHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+[0;39m[33m20:05:06.002[0;39m [restartedMain] [34mINFO [0;39m [36mo.s.o.j.LocalContainerEntityManagerFactoryBean[0;39m - [32mInitialized JPA EntityManagerFactory for persistence unit 'default'
+[0;39m[33m20:05:06.025[0;39m [restartedMain] [34mINFO [0;39m [36mo.s.b.d.a.OptionalLiveReloadServer[0;39m - [32mLiveReload server is running on port 35729
+[0;39m[33m20:05:07.039[0;39m [restartedMain] [31mWARN [0;39m [36mo.s.b.a.o.j.JpaBaseConfiguration$JpaWebConfiguration[0;39m - [32mspring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+[0;39m[33m20:05:07.402[0;39m [restartedMain] [34mINFO [0;39m [36mo.s.s.c.ThreadPoolTaskExecutor[0;39m - [32mInitializing ExecutorService 'applicationTaskExecutor'
+[0;39m[33m20:05:08.968[0;39m [restartedMain] [34mINFO [0;39m [36mo.s.c.n.e.c.DiscoveryClientOptionalArgsConfiguration[0;39m - [32mEureka HTTP Client uses RestTemplate.
+[0;39m[33m20:05:09.717[0;39m [restartedMain] [31mWARN [0;39m [36mo.s.c.l.c.LoadBalancerCacheAutoConfiguration$LoadBalancerCaffeineWarnLogger[0;39m - [32mSpring Cloud LoadBalancer is currently working with the default cache. You can switch to using Caffeine cache, by adding it to the classpath.
+[0;39m[33m20:05:09.793[0;39m [restartedMain] [34mINFO [0;39m [36mo.s.c.n.eureka.InstanceInfoFactory[0;39m - [32mSetting initial instance status as: STARTING
+[0;39m[33m20:05:09.928[0;39m [restartedMain] [34mINFO [0;39m [36mc.netflix.discovery.DiscoveryClient[0;39m - [32mInitializing Eureka in region us-east-1
+[0;39m[33m20:05:09.941[0;39m [restartedMain] [34mINFO [0;39m [36mc.n.d.s.r.aws.ConfigClusterResolver[0;39m - [32mResolving eureka endpoints via configuration
+[0;39m[33m20:05:10.312[0;39m [restartedMain] [34mINFO [0;39m [36mc.netflix.discovery.DiscoveryClient[0;39m - [32mDisable delta property : false
+[0;39m[33m20:05:10.312[0;39m [restartedMain] [34mINFO [0;39m [36mc.netflix.discovery.DiscoveryClient[0;39m - [32mSingle vip registry refresh property : null
+[0;39m[33m20:05:10.312[0;39m [restartedMain] [34mINFO [0;39m [36mc.netflix.discovery.DiscoveryClient[0;39m - [32mForce full registry fetch : false
+[0;39m[33m20:05:10.312[0;39m [restartedMain] [34mINFO [0;39m [36mc.netflix.discovery.DiscoveryClient[0;39m - [32mApplication is null : false
+[0;39m[33m20:05:10.312[0;39m [restartedMain] [34mINFO [0;39m [36mc.netflix.discovery.DiscoveryClient[0;39m - [32mRegistered Applications size is zero : true
+[0;39m[33m20:05:10.312[0;39m [restartedMain] [34mINFO [0;39m [36mc.netflix.discovery.DiscoveryClient[0;39m - [32mApplication version is -1: true
+[0;39m[33m20:05:10.312[0;39m [restartedMain] [34mINFO [0;39m [36mc.netflix.discovery.DiscoveryClient[0;39m - [32mGetting all instance registry info from the eureka server
+[0;39m[33m20:05:10.666[0;39m [restartedMain] [34mINFO [0;39m [36mc.netflix.discovery.DiscoveryClient[0;39m - [32mThe response status is 200
+[0;39m[33m20:05:10.670[0;39m [restartedMain] [34mINFO [0;39m [36mc.netflix.discovery.DiscoveryClient[0;39m - [32mStarting heartbeat executor: renew interval is: 30
+[0;39m[33m20:05:10.674[0;39m [restartedMain] [34mINFO [0;39m [36mc.n.discovery.InstanceInfoReplicator[0;39m - [32mInstanceInfoReplicator onDemand update allowed rate per min is 4
+[0;39m[33m20:05:10.683[0;39m [restartedMain] [34mINFO [0;39m [36mc.netflix.discovery.DiscoveryClient[0;39m - [32mDiscovery Client initialized at timestamp 1622298910681 with initial instances count: 1
+[0;39m[33m20:05:10.686[0;39m [restartedMain] [34mINFO [0;39m [36mo.s.c.n.e.s.EurekaServiceRegistry[0;39m - [32mRegistering application MOVIE-DATA-SERVICE with eureka with status UP
+[0;39m[33m20:05:10.688[0;39m [restartedMain] [34mINFO [0;39m [36mc.netflix.discovery.DiscoveryClient[0;39m - [32mSaw local status change event StatusChangeEvent [timestamp=1622298910688, current=UP, previous=STARTING]
+[0;39m[33m20:05:10.695[0;39m [DiscoveryClient-InstanceInfoReplicator-0] [34mINFO [0;39m [36mc.netflix.discovery.DiscoveryClient[0;39m - [32mDiscoveryClient_MOVIE-DATA-SERVICE/LAPTOP-F31M9K39:MOVIE-DATA-SERVICE:5001: registering service...
+[0;39m[33m20:05:10.727[0;39m [restartedMain] [34mINFO [0;39m [36mo.s.b.w.e.tomcat.TomcatWebServer[0;39m - [32mTomcat started on port(s): 5001 (http) with context path ''
+[0;39m[33m20:05:10.745[0;39m [restartedMain] [34mINFO [0;39m [36mo.s.c.n.e.s.EurekaAutoServiceRegistration[0;39m - [32mUpdating port to 5001
+[0;39m[33m20:05:11.031[0;39m [DiscoveryClient-InstanceInfoReplicator-0] [34mINFO [0;39m [36mc.netflix.discovery.DiscoveryClient[0;39m - [32mDiscoveryClient_MOVIE-DATA-SERVICE/LAPTOP-F31M9K39:MOVIE-DATA-SERVICE:5001 - registration status: 204
+[0;39m[33m20:05:11.612[0;39m [restartedMain] [34mINFO [0;39m [36mm.MovieDataServiceApplication[0;39m - [32mStarted MovieDataServiceApplication in 17.941 seconds (JVM running for 19.429)
+[0;39m[33m20:10:10.316[0;39m [AsyncResolver-bootstrap-executor-0] [34mINFO [0;39m [36mc.n.d.s.r.aws.ConfigClusterResolver[0;39m - [32mResolving eureka endpoints via configuration
+[0;39m[33m20:15:10.344[0;39m [AsyncResolver-bootstrap-executor-0] [34mINFO [0;39m [36mc.n.d.s.r.aws.ConfigClusterResolver[0;39m - [32mResolving eureka endpoints via configuration
+[0;39m[33m20:16:41.173[0;39m [DiscoveryClient-HeartbeatExecutor-0] [34mINFO [0;39m [36mc.netflix.discovery.DiscoveryClient[0;39m - [32mDiscoveryClient_MOVIE-DATA-SERVICE/LAPTOP-F31M9K39:MOVIE-DATA-SERVICE:5001 - Re-registering apps/MOVIE-DATA-SERVICE
+[0;39m[33m20:16:41.173[0;39m [DiscoveryClient-HeartbeatExecutor-0] [34mINFO [0;39m [36mc.netflix.discovery.DiscoveryClient[0;39m - [32mDiscoveryClient_MOVIE-DATA-SERVICE/LAPTOP-F31M9K39:MOVIE-DATA-SERVICE:5001: registering service...
+[0;39m[33m20:16:41.219[0;39m [DiscoveryClient-InstanceInfoReplicator-0] [34mINFO [0;39m [36mc.netflix.discovery.DiscoveryClient[0;39m - [32mDiscoveryClient_MOVIE-DATA-SERVICE/LAPTOP-F31M9K39:MOVIE-DATA-SERVICE:5001: registering service...
+[0;39m[33m20:16:41.286[0;39m [DiscoveryClient-HeartbeatExecutor-0] [34mINFO [0;39m [36mc.netflix.discovery.DiscoveryClient[0;39m - [32mDiscoveryClient_MOVIE-DATA-SERVICE/LAPTOP-F31M9K39:MOVIE-DATA-SERVICE:5001 - registration status: 204
+[0;39m[33m20:16:41.286[0;39m [DiscoveryClient-InstanceInfoReplicator-0] [34mINFO [0;39m [36mc.netflix.discovery.DiscoveryClient[0;39m - [32mDiscoveryClient_MOVIE-DATA-SERVICE/LAPTOP-F31M9K39:MOVIE-DATA-SERVICE:5001 - registration status: 204
+[0;39m[33m20:17:11.206[0;39m [DiscoveryClient-CacheRefreshExecutor-0] [34mINFO [0;39m [36mc.netflix.discovery.DiscoveryClient[0;39m - [32mDisable delta property : false
+[0;39m[33m20:17:11.206[0;39m [DiscoveryClient-CacheRefreshExecutor-0] [34mINFO [0;39m [36mc.netflix.discovery.DiscoveryClient[0;39m - [32mSingle vip registry refresh property : null
+[0;39m[33m20:17:11.210[0;39m [DiscoveryClient-CacheRefreshExecutor-0] [34mINFO [0;39m [36mc.netflix.discovery.DiscoveryClient[0;39m - [32mForce full registry fetch : false
+[0;39m[33m20:17:11.210[0;39m [DiscoveryClient-CacheRefreshExecutor-0] [34mINFO [0;39m [36mc.netflix.discovery.DiscoveryClient[0;39m - [32mApplication is null : false
+[0;39m[33m20:17:11.210[0;39m [DiscoveryClient-CacheRefreshExecutor-0] [34mINFO [0;39m [36mc.netflix.discovery.DiscoveryClient[0;39m - [32mRegistered Applications size is zero : true
+[0;39m[33m20:17:11.210[0;39m [DiscoveryClient-CacheRefreshExecutor-0] [34mINFO [0;39m [36mc.netflix.discovery.DiscoveryClient[0;39m - [32mApplication version is -1: false
+[0;39m[33m20:17:11.210[0;39m [DiscoveryClient-CacheRefreshExecutor-0] [34mINFO [0;39m [36mc.netflix.discovery.DiscoveryClient[0;39m - [32mGetting all instance registry info from the eureka server
+[0;39m[33m20:17:11.214[0;39m [DiscoveryClient-CacheRefreshExecutor-0] [34mINFO [0;39m [36mc.netflix.discovery.DiscoveryClient[0;39m - [32mThe response status is 200
+[0;39m[33m20:20:10.356[0;39m [AsyncResolver-bootstrap-executor-0] [34mINFO [0;39m [36mc.n.d.s.r.aws.ConfigClusterResolver[0;39m - [32mResolving eureka endpoints via configuration
+[0;39m

@@ -1,6 +1,6 @@
 package movieDataService.exceptions;
 
-public class ControllerException extends Throwable {
+public class ControllerException {
 
     private static final long serialVersionUID = 1L;
 

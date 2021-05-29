@@ -15,8 +15,6 @@ public class MovieDetail {
 
     private String genre;
 
-    private String averageRating;
-
     private List<Rating> ratings;
 
     private List<Review> reviews;
@@ -25,12 +23,11 @@ public class MovieDetail {
 
     }
 
-    public MovieDetail(Long id, String title, String description, String genre, String averageRating, List<Rating> ratings, List<Review> reviews) {
+    public MovieDetail(Long id, String title, String description, String genre, List<Rating> ratings, List<Review> reviews) {
         this.id = id;
         this.title = title;
         this.description = description;
         this.genre = genre;
-        this.averageRating = averageRating;
         this.ratings = ratings;
         this.reviews = reviews;
     }
@@ -65,14 +62,6 @@ public class MovieDetail {
 
     public void setGenre(String genre) {
         this.genre = genre;
-    }
-
-    public String getAverageRating() {
-        return averageRating;
-    }
-
-    public void setAverageRating(String averageRating) {
-        this.averageRating = averageRating;
     }
 
     public List<Rating> getRatings() {

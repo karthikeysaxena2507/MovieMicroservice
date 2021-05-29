@@ -3,9 +3,6 @@ package movieDataService.services;
 import movieDataService.exceptions.BusinessException;
 import movieDataService.models.Movie;
 import movieDataService.repositories.MovieRepository;
-import org.glassfish.jersey.server.ContainerException;
-import org.slf4j.Logger;
-import org.slf4j.LoggerFactory;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 import java.util.ArrayList;
@@ -13,8 +10,6 @@ import java.util.List;
 
 @Service
 public class MovieService {
-
-    Logger logger = LoggerFactory.getLogger(MovieService.class);
 
     private final MovieRepository movieRepository;
 
