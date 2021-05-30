@@ -27,7 +27,6 @@ public class Rating {
 
     @Column(nullable = false)
     @NotNull
-    @NotBlank
     private String username;
 
     public Rating() {
