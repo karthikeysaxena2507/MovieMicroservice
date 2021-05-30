@@ -32,7 +32,7 @@ public class UserService {
         return webClient
                 .build()
                 .get()
-                .uri("http://MOVIE-DATA-SERVICE/api/reviews/" + reviewId)
+                .uri("http://MOVIE-DATA-SERVICE/api/movies/reviews/" + reviewId)
                 .accept(MediaType.APPLICATION_JSON)
                 .retrieve()
                 .bodyToMono(Review.class)
@@ -64,7 +64,7 @@ public class UserService {
         return webClient
                 .build()
                 .get()
-                .uri("http://MOVIE-DATA-SERVICE/api/reviews/all")
+                .uri("http://MOVIE-DATA-SERVICE/api/movies/reviews/all")
                 .accept(MediaType.APPLICATION_JSON)
                 .retrieve()
                 .bodyToFlux(Review.class)

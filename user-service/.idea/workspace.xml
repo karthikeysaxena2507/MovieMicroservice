@@ -5,26 +5,19 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="8484d920-24a6-4edd-a592-4fd7fc1f0e6e" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/../discovery-server/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../discovery-server/pom.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../discovery-server/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/../discovery-server/src/main/resources/application.properties" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../movie-data-service/logs/app.log" beforeDir="false" afterPath="$PROJECT_DIR$/../movie-data-service/logs/app.log" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../movie-data-service/logs/archived/app.2021-05-27.0.log" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/../movie-data-service/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../movie-data-service/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../movie-data-service/src/main/java/movieDataService/exceptions/ControllerException.java" beforeDir="false" afterPath="$PROJECT_DIR$/../movie-data-service/src/main/java/movieDataService/exceptions/ControllerException.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../movie-data-service/src/main/java/movieDataService/services/MovieService.java" beforeDir="false" afterPath="$PROJECT_DIR$/../movie-data-service/src/main/java/movieDataService/services/MovieService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../movie-data-service/src/main/java/movieDataService/controllers/ReviewController.java" beforeDir="false" afterPath="$PROJECT_DIR$/../movie-data-service/src/main/java/movieDataService/controllers/ReviewController.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../movie-data-service/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/../movie-data-service/src/main/resources/application.properties" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../rating-service/logs/app.log" beforeDir="false" afterPath="$PROJECT_DIR$/../rating-service/logs/app.log" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../rating-service/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../rating-service/pom.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../rating-service/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/../rating-service/src/main/resources/application.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../rating-service/src/main/resources/logback-spring.xml" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/logs/app.log" beforeDir="false" afterPath="$PROJECT_DIR$/logs/app.log" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/userService/UserServiceApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/userService/UserServiceApplication.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/userService/controllers/UserController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/userService/controllers/UserController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/userService/models/Movie.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/userService/models/Movie.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/userService/models/MovieDetail.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/userService/models/MovieDetail.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/userService/models/Rating.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/userService/models/Rating.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/userService/models/Review.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/userService/models/Review.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/userService/services/UserService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/userService/services/UserService.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/application.properties" afterDir="false" />
     </list>

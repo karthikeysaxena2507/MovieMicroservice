@@ -1,0 +1,11 @@
+server:
+  port: 5000
+
+spring:
+  application:
+    name: USER-SERVICE
+  codec:
+    max-in-memory-size: 1MB
+  zipkin:
+    base-url: http://127.0.0.1:9411/
+

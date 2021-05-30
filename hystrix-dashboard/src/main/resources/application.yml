@@ -1,0 +1,12 @@
+server:
+  port: 5003
+
+spring:
+  application:
+    name: HYSTRIX-DASHBOARD
+
+
+hystrix:
+  dashboard:
+    proxy-stream-allow-list: "*"
+

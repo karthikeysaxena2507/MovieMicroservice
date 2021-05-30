@@ -15,7 +15,7 @@ import javax.ws.rs.core.MediaType;
 import javax.ws.rs.core.Response;
 
 @Controller
-@Path("/api/reviews")
+@Path("/api/movies")
 public class ReviewController {
 
     Logger logger = LoggerFactory.getLogger(ReviewController.class);
@@ -32,7 +32,7 @@ public class ReviewController {
      * @return LIST OF ALL REVIEWS
      */
     @GET
-    @Path("/all")
+    @Path("/reviews/all")
     @Produces(MediaType.APPLICATION_JSON)
     public Response getAllReviews() {
         try {
@@ -67,7 +67,7 @@ public class ReviewController {
      * @return LIST OF REQUIRED REVIEWS
      */
     @GET
-    @Path("/movie/{id}")
+    @Path("/reviews/movie/{id}")
     @Produces(MediaType.APPLICATION_JSON)
     public Response getReviewsByMovieId(@PathParam("id") Long movieId) {
         try {
@@ -102,7 +102,7 @@ public class ReviewController {
      * @return THE REQUIRED MOVIE REVIEW
      */
     @GET
-    @Path("/{id}")
+    @Path("/reviews/{id}")
     @Produces(MediaType.APPLICATION_JSON)
     public Response getReviewById(@PathParam("id") Long reviewId) {
         try {
@@ -137,7 +137,7 @@ public class ReviewController {
      * @return THE REQUIRED MOVIE REVIEWS
      */
     @GET
-    @Path("/user/{username}")
+    @Path("/reviews/user/{username}")
     @Produces(MediaType.APPLICATION_JSON)
     public Response getReviewsByUsername(@PathParam("username") String username) {
         try {
@@ -171,7 +171,7 @@ public class ReviewController {
      * @return THE NEWLY ADDED REVIEW
      */
     @POST
-    @Path("/add")
+    @Path("/reviews/add")
     @Consumes(MediaType.APPLICATION_JSON)
     @Produces(MediaType.APPLICATION_JSON)
     public Response addNewReview(@Valid Review review) {
@@ -207,7 +207,7 @@ public class ReviewController {
      * @return THE UPDATED MOVIE REVIEW
      */
     @PUT
-    @Path("/update")
+    @Path("/reviews/update")
     @Consumes(MediaType.APPLICATION_JSON)
     @Produces(MediaType.APPLICATION_JSON)
     public Response updateReview(@Valid Review review) {
@@ -243,7 +243,7 @@ public class ReviewController {
      * @return SUCCESS MESSAGE ON DELETION
      */
     @DELETE
-    @Path("/delete/{id}")
+    @Path("/reviews/delete/{id}")
     public Response deleteReview(@PathParam("id") Long id) {
         try {
             reviewService.deleteReview(id);
