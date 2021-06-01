@@ -11,13 +11,7 @@ spring:
     driver:
       class: oracle.jdbc.driver.OracleDriver
   jpa:
-    hibernate:
-      ddl-auto: update
     show-sql: true
-    properties:
-      hibernate:
-        format_sql: true
-        dialect: org.hibernate.dialect.Oracle10gDialect
   zipkin:
     base-url: http://127.0.0.1:9411/
 

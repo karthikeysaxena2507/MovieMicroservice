@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="WINDOWS-1252"?>
+<configuration>
+    <include resource="org/springframework/boot/logging/logback/defaults.xml"/>
+    <property name="LOG_FILE" value="logs/app.log"/>
+
+    <appender name="FILE-ROLLING" class="ch.qos.logback.core.rolling.RollingFileAppender">
+        <file>${LOG_FILE}</file>
+
+        <rollingPolicy class="ch.qos.logback.core.rolling.SizeAndTimeBasedRollingPolicy">
+            <fileNamePattern>logs/archived/app.%d{yyyy-MM-dd}.%i.log</fileNamePattern>
+            <!-- each archived file, size max 5KB -->
+            <maxFileSize>2MB</maxFileSize>
+            <!-- total size of all archive files, if total size > 20KB,
+				it will delete old archived file -->
+            <totalSizeCap>20MB</totalSizeCap>
+            <!-- 60 days to keep -->
+            <maxHistory>1</maxHistory>
+        </rollingPolicy>
+
+        <encoder>
+            <pattern>
+                %yellow(%date{HH:mm:ss.SSS}) [%t] %highlight(%-5level) %cyan(%logger{36}) - %green(%msg%n)
+            </pattern>
+        </encoder>
+    </appender>
+
+    <appender name="CONSOLE" class="ch.qos.logback.core.ConsoleAppender">
+        <layout class="ch.qos.logback.classic.PatternLayout">
+            <Pattern>
+                %yellow(%date{HH:mm:ss.SSS}) [%t] %highlight(%-5level) %cyan(%logger{36}) - %green(%msg%n)
+            </Pattern>
+        </layout>
+    </appender>
+
+    <logger name="movieDataService" level="trace" additivity="false">
+        <appender-ref ref="FILE-ROLLING"/>
+    </logger>
+
+    <root level="error">
+        <appender-ref ref="FILE-ROLLING"/>
+    </root>
+
+    <logger name="movieDataService" level="debug" additivity="false">
+        <appender-ref ref="CONSOLE"/>
+    </logger>
+
+    <root level="info">
+        <appender-ref ref="CONSOLE"/>
+    </root>
+
+</configuration>

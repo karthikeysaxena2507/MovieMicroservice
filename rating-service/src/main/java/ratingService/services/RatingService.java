@@ -39,6 +39,18 @@ public class RatingService {
 
     }
 
+    public int add(int a, int b) {
+        return a + b;
+    }
+
+    public double area(int r) {
+        return 3.14 * r * r;
+    }
+
+    public int divide(int a, int b) {
+        return a / b;
+    }
+
     public Rating getRatingById(Long ratingId) {
         Rating rating = ratingRepository.findById(ratingId).orElse(null);
         if(rating != null) return rating;
