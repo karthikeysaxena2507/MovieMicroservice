@@ -1,0 +1,53 @@
+server:
+  port: 5004
+
+spring:
+  application:
+    name: API-GATEWAY
+  cloud:
+    gateway:
+      routes:
+        - id: USER-SERVICE
+          uri: lb://USER-SERVICE
+          predicates:
+            - Path=/api/users/**
+          filters:
+            - name: CircuitBreaker
+              args:
+                name: USER-SERVICE
+                fallbackuri: forward:/userServiceFallBack
+        - id: RATING-SERVICE
+          uri: lb://RATING-SERVICE
+          predicates:
+            - Path=/api/ratings/**
+          filters:
+            - name: CircuitBreaker
+              args:
+                name: RATING-SERVICE
+                fallbackuri: forward:/ratingServiceFallback
+        - id: MOVIE-DATA-SERVICE
+          uri: lb://MOVIE-DATA-SERVICE
+          predicates:
+            - Path=/api/movies/**
+          filters:
+            - name: CircuitBreaker
+              args:
+                name: MOVIE-DATA-SERVICE
+                fallbackuri: forward:/movieServiceFallback
+
+
+hystrix:
+  command:
+    fallbackcmd:
+      execution:
+        isolation:
+          thread:
+            timeoutInMilliseconds: 5000
+
+management:
+  endpoints:
+    web:
+      exposure:
+        include: hystrix.stream
+
+
